@@ -1,6 +1,7 @@
 # T.R.E.X (Total Relocation & Employment eXpert) 🦖
 
 [![Status](https://img.shields.io/badge/Status-Early_Beta-orange.svg)]()
+[![Update](https://img.shields.io/badge/Last_Updated-April_2026-green.svg)]()
 [![Tech](https://img.shields.io/badge/Tech-Next.js%20%2B%20FastAPI-blue.svg)]()
 
 **T.R.E.X** is an AI-driven decision-support platform designed to help freshers and professionals navigate the complexities of relocation, career optimization, and modern employment.
