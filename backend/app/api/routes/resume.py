@@ -1,178 +1,133 @@
-import os
-import io
-import json
-import re
 from fastapi import APIRouter, HTTPException, UploadFile, File, Form, status
 from typing import Optional
-from pypdf import PdfReader
-from langchain_groq import ChatGroq
-from langchain_core.messages import HumanMessage, SystemMessage
+
+from app.schemas.resume import ResumeAnalysisResponse, SectionScores, AIFeedback
+from app.services.resume_parser import extract_text_from_pdf, normalize_text
+from app.services.resume_sections import detect_sections
+from app.services.keyword_matcher import match_keywords
+from app.services.ats_checks import run_ats_checks
+from app.services.resume_scoring import calculate_scores
+from app.services.provider_router import route_provider
 
 router = APIRouter()
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
-
-SYSTEM_PROMPT = """You are an expert ATS (Applicant Tracking System) and resume analyst with 15+ years of HR and technical recruiting experience.
-
-Your job is to deeply analyze a resume against a job description and provide GENUINE, ACTIONABLE feedback — not generic advice.
-
-You MUST return a valid JSON object with this exact structure:
-{
-  "ats_score": <integer 0-100>,
-  "summary": "<2-3 sentence honest overall assessment>",
-  "strengths": ["<strength 1>", "<strength 2>", "<strength 3>"],
-  "matched_keywords": ["<keyword>", ...],
-  "missing_keywords": ["<keyword>", ...],
-  "critical_gaps": ["<specific gap with explanation>", ...],
-  "suggestions": [
-    {"priority": "HIGH|MEDIUM|LOW", "action": "<specific what to do>", "reason": "<why this matters>"}
-  ],
-  "section_scores": {
-    "skills_match": <0-100>,
-    "experience_relevance": <0-100>,
-    "education_fit": <0-100>,
-    "keyword_density": <0-100>
-  },
-  "verdict": "STRONG_MATCH|GOOD_MATCH|FAIR_MATCH|WEAK_MATCH"
-}
-
-Rules:
-- Be HONEST. If a resume is weak, say so clearly.
-- matched_keywords should only include words actually present in BOTH resume and job description
-- missing_keywords should be important terms from JD not found in resume
-- suggestions must be SPECIFIC to this resume/JD combo, not generic tips
-- critical_gaps are serious mismatches the candidate must address
-- Return ONLY the JSON object, no markdown, no extra text"""
+# ─── Resource Limits ───────────────────────────────────────────────────
+MAX_FILE_SIZE_BYTES = 2 * 1024 * 1024   # 2 MB max upload (prevents RAM spike)
+MAX_JD_LENGTH       = 3000              # Trim JD so keyword match is fast
 
 
-def extract_text_from_pdf(file_bytes: bytes) -> str:
-    """Extract text from PDF bytes using pypdf"""
-    try:
-        reader = PdfReader(io.BytesIO(file_bytes))
-        text = ""
-        for page in reader.pages:
-            text += page.extract_text() or ""
-        return text.strip()
-    except Exception as e:
-        raise ValueError(f"Failed to parse PDF: {str(e)}")
-
-
-def analyze_with_groq(resume_text: str, job_description: str) -> dict:
-    """Use LangChain + Groq to analyze resume against JD"""
-    if not GROQ_API_KEY:
-        raise ValueError("GROQ_API_KEY not configured. Add it to backend/.env.development")
-
-    llm = ChatGroq(
-        api_key=GROQ_API_KEY,
-        model="llama-3.3-70b-versatile",
-        temperature=0.2,
-        max_tokens=2048,
-    )
-
-    user_message = f"""Analyze this resume against the job description.
-
-=== RESUME ===
-{resume_text[:4000]}
-
-=== JOB DESCRIPTION ===
-{job_description[:2000]}
-
-Return ONLY the JSON analysis object as specified."""
-
-    messages = [
-        SystemMessage(content=SYSTEM_PROMPT),
-        HumanMessage(content=user_message),
-    ]
-
-    response = llm.invoke(messages)
-    raw = response.content.strip()
-
-    # Strip markdown code fences if present
-    raw = re.sub(r"^```(?:json)?\s*", "", raw)
-    raw = re.sub(r"\s*```$", "", raw)
-
-    try:
-        result = json.loads(raw)
-        return result
-    except json.JSONDecodeError:
-        # Try to extract JSON from response
-        match = re.search(r'\{[\s\S]+\}', raw)
-        if match:
-            return json.loads(match.group())
-        raise ValueError(f"AI returned invalid JSON: {raw[:200]}")
-
-
-@router.post("/analyze")
+@router.post("/analyze", response_model=ResumeAnalysisResponse)
 async def analyze_resume(
     job_description: str = Form(...),
-    resume_text: Optional[str] = Form(None),
+    use_ai: bool = Form(False),
+    provider: str = Form("groq"),
     resume_file: Optional[UploadFile] = File(None),
 ):
     """
-    Analyze a resume against a job description using AI.
-    Accepts either:
-    - resume_text (plain text paste)
-    - resume_file (PDF upload)
+    Analyze a resume against a job description using the structured ATS pipeline.
+    Optionally returns AI feedback if use_ai is True.
+
+    Resource guardrails:
+    - Max file size: 2 MB
+    - Max JD length: 3000 chars
+    - AI calls: max 1 at a time with 25 s timeout (see llm_feedback.py)
     """
-    # Validate inputs
+    print(f"[RECV] Analyzing resume: {resume_file.filename if resume_file else 'NO FILE'} | AI: {use_ai}")
+    # 1. Validate inputs
     if not job_description.strip():
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="Job description is required"
         )
 
-    # Get resume content
-    final_resume_text = ""
-
-    if resume_file:
-        if not resume_file.filename.endswith(".pdf"):
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Only PDF files are supported"
-            )
-        file_bytes = await resume_file.read()
-        if len(file_bytes) > 5 * 1024 * 1024:  # 5MB limit
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="File too large. Maximum size is 5MB"
-            )
-        try:
-            final_resume_text = extract_text_from_pdf(file_bytes)
-        except ValueError as e:
-            raise HTTPException(
-                status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
-                detail=str(e)
-            )
-    elif resume_text:
-        final_resume_text = resume_text.strip()
-    else:
+    if not resume_file:
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
-            detail="Provide either a resume PDF file or resume text"
+            detail="Resume PDF file is required"
         )
 
-    if len(final_resume_text) < 50:
+    if not resume_file.filename.lower().endswith(".pdf"):
         raise HTTPException(
-            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
-            detail="Resume content too short. Please provide a complete resume."
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Only PDF files are supported"
         )
 
-    # Run AI analysis
+    # 2. Read file with size guard (prevents huge file from killing RAM/disk)
+    file_bytes = await resume_file.read()
+    if len(file_bytes) > MAX_FILE_SIZE_BYTES:
+        raise HTTPException(
+            status_code=status.HTTP_413_REQUEST_ENTITY_TOO_LARGE,
+            detail=f"File too large. Max allowed size is 2 MB. Your file: {len(file_bytes)//1024} KB"
+        )
+
+    # 3. Extract Text
     try:
-        analysis = analyze_with_groq(final_resume_text, job_description)
-        return {
-            "success": True,
-            "analysis": analysis,
-            "resume_chars": len(final_resume_text),
-            "input_method": "pdf" if resume_file else "text"
-        }
+        raw_text = extract_text_from_pdf(file_bytes)
     except ValueError as e:
         raise HTTPException(
-            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
             detail=str(e)
         )
-    except Exception as e:
+
+    if len(raw_text) < 50:
         raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Analysis failed: {str(e)}"
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            detail="Resume content too short or text extraction failed."
         )
+
+    # 4. Clean Text
+    processed_text = normalize_text(raw_text)
+
+    # 5. Trim JD to avoid long keyword scan loops
+    trimmed_jd = job_description[:MAX_JD_LENGTH]
+
+    # 6. Pipeline Execution
+    # A. Sections
+    detected, missing_sections = detect_sections(processed_text)
+
+    # B. Keywords
+    matched_kws, missing_kws, match_pct = match_keywords(processed_text, trimmed_jd)
+
+    # C. ATS Checks
+    warnings = run_ats_checks(processed_text, detected)
+    has_quantified = "Low quantified impact" not in str(warnings)
+
+    # D. Scoring System
+    score_data = calculate_scores(
+        match_percentage=match_pct,
+        missing_sections=missing_sections,
+        warnings=warnings,
+        has_quantified=has_quantified
+    )
+
+    # 7. AI Feedback (Optional – resource-limited inside provider_router)
+    ai_response = None
+    if use_ai:
+        ai_data = route_provider(processed_text, trimmed_jd, provider=provider)
+        if ai_data:
+            ai_response = AIFeedback(
+                provider=provider,
+                summary=ai_data.get("summary", "")
+            )
+            warnings.extend(ai_data.get("suggestions", []))
+
+    # 8. Default fallback suggestions
+    improvement_suggestions = []
+    if match_pct < 50:
+        improvement_suggestions.append("Incorporate more keywords from the job description.")
+    if missing_sections:
+        improvement_suggestions.append(f"Add missing critical sections: {', '.join(missing_sections)}.")
+    improvement_suggestions.extend(warnings)
+
+    # 9. Response Construction
+    return ResumeAnalysisResponse(
+        overall_score=score_data["overall_score"],
+        section_scores=SectionScores(**score_data["section_scores"]),
+        matched_keywords=matched_kws,
+        missing_keywords=missing_kws,
+        detected_sections=detected,
+        missing_sections=missing_sections,
+        ats_warnings=warnings,
+        improvement_suggestions=improvement_suggestions,
+        ai_feedback=ai_response
+    )
