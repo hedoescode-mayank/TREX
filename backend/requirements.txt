@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+SQLAlchemy
+asyncpg
+databases
+greenlet
+python-jose[cryptography]
+passlib[bcrypt]
+langgraph
+langchain
+openai # Base client for openrouter
+httpx
+pypdf
+langchain-groq
+python-multipart
