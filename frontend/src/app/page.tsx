@@ -1,31 +1,23 @@
 import React from "react";
 import Link from "next/link";
+import HexGridBackground from "@/components/HexGridBackground";
 
 export default function Home() {
   return (
     <div className="relative min-h-screen flex flex-col font-sans text-gray-900 selection:bg-blue-200">
-      {/* Dynamic Background Gradients */}
-      <div className="fixed inset-0 z-[-1] overflow-hidden pointer-events-none bg-[#fdfdfd]">
-        <div className="absolute top-[-10%] left-[10%] w-[50%] h-[600px] bg-gradient-to-br from-orange-100/80 to-amber-50/40 rounded-full blur-[120px]" />
-        <div className="absolute bottom-[-10%] right-[10%] w-[60%] h-[700px] bg-blue-100/60 rounded-full blur-[140px]" />
-        <div className="absolute top-[20%] right-[-5%] w-[40%] h-[500px] bg-purple-100/50 rounded-full blur-[130px]" />
-      </div>
+      <HexGridBackground />
 
       {/* Navigation Bar */}
       <nav className="fixed top-0 w-full z-50 glass-nav px-6 md:px-12 py-4 flex justify-between items-center transition-all duration-300">
         <div className="text-2xl font-bold tracking-tighter text-black">
           trex<span className="text-blue-500">.ai</span>
         </div>
-        <div className="hidden md:flex items-center gap-10 text-[13px] font-semibold text-gray-600 tracking-wide">
-          <a href="#" className="hover:text-black transition">PLATFORM</a>
-          <a href="#" className="hover:text-black transition">AGENTS</a>
-          <a href="#" className="hover:text-black transition">RESOURCES</a>
-          <a href="#" className="hover:text-black transition">COMPANY</a>
+        <div className="hidden md:flex items-center gap-12 text-[12px] font-bold text-gray-800 drop-shadow-sm tracking-[0.2em]">
+          <a href="#why" className="hover:text-black transition">WHY WE EXIST</a>
+          <a href="#goal" className="hover:text-black transition">GOAL</a>
         </div>
         <div className="flex gap-4">
-          <button className="hidden md:block px-6 py-2.5 rounded-full text-sm font-medium border border-gray-200 bg-white/50 hover:bg-white transition drop-shadow-sm">
-            Talk to Sales
-          </button>
+
           <button className="btn-premium px-6 py-2.5 rounded-full text-sm font-medium">
             Experience T.R.E.X
           </button>
@@ -39,12 +31,12 @@ export default function Home() {
           <span className="text-sm font-semibold text-blue-600">India's Premier Career Intelligence</span>
         </div>
 
-        <h1 className="text-5xl md:text-7xl lg:text-[5.5rem] font-medium tracking-tight text-center max-w-5xl leading-[1.05] text-gray-900">
+        <h1 className="text-5xl md:text-7xl lg:text-[5.5rem] font-bold tracking-tight text-center max-w-5xl leading-[1.05] text-black drop-shadow-md">
           <span className="font-light">AI for your professional</span><br />
           future from India
         </h1>
 
-        <p className="mt-8 text-xl md:text-2xl text-gray-500 text-center max-w-3xl font-light leading-relaxed">
+        <p className="mt-8 text-xl md:text-2xl text-gray-800 drop-shadow-sm text-center max-w-3xl font-medium leading-relaxed">
           Built on sovereign compute. Powered by frontier-class models.<br className="hidden md:block" />
           Delivering perfect context for your life decisions.
         </p>
@@ -106,6 +98,25 @@ export default function Home() {
             </Link>
           ))}
         </div>
+
+        {/* Why We Exist Section */}
+        <section id="why" className="mt-48 w-full max-w-4xl text-center px-6 scroll-mt-32">
+          <p className="text-[11px] font-bold tracking-[0.3em] text-emerald-600 drop-shadow-sm uppercase mb-6">Discovery</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-10 tracking-tight text-black drop-shadow-md">Why We Exist</h2>
+          <p className="text-xl md:text-2xl text-gray-800 drop-shadow-sm font-medium leading-relaxed">
+            Every year, millions of Indian freshers enter the workforce without a clear compass. High relocation costs, misleading job descriptions, and ATS-driven screening create a wall. <br/><br/>
+            <span className="text-orange-600 font-semibold italic drop-shadow-md">T.R.E.X was built to tear that wall down.</span> We provide the intelligence needed to make life-changing decisions with data, not just intuition.
+          </p>
+        </section>
+
+        {/* Goal Section */}
+        <section id="goal" className="mt-48 w-full max-w-4xl text-center px-6 pb-40 scroll-mt-32">
+          <p className="text-[11px] font-bold tracking-[0.3em] text-orange-600 drop-shadow-sm uppercase mb-6">Mission</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-10 tracking-tight text-black drop-shadow-md">Our Goal</h2>
+          <p className="text-xl md:text-2xl text-gray-800 drop-shadow-sm font-medium leading-relaxed">
+            To become the sovereign career operating system for India. By integrating frontier AI models with localized financial data, we aim to eliminate <span className="text-emerald-600 font-semibold italic">"salary blindness"</span> and empower every professional to own their growth trajectory with absolute clarity.
+          </p>
+        </section>
       </main>
     </div>
   );
