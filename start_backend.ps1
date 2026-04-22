@@ -29,7 +29,7 @@ Write-Host ""
 Write-Host "[1/3] Environment loaded." -ForegroundColor Green
 
 # --- Step 4: Activate venv ---
-$venvActivate = "$backendPath\.venv\Scripts\Activate.ps1"
+$venvActivate = "$PSScriptRoot\venv\Scripts\Activate.ps1"
 if (Test-Path $venvActivate) {
     & $venvActivate
     Write-Host "[2/3] Virtual environment activated." -ForegroundColor Green

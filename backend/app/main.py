@@ -1,4 +1,5 @@
 import os
+from contextlib import asynccontextmanager
 from dotenv import load_dotenv
 
 # Load environment variables from .env.development
@@ -7,8 +8,21 @@ load_dotenv(".env.development")
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes import city, resume
+from app.services.city_data import get_city_data
 
-app = FastAPI(title="T.R.E.X API", version="1.0.0")
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Pre-load city data into cache during startup
+    print("[STARTUP] Pre-loading city data...")
+    get_city_data()
+    yield
+    print("[SHUTDOWN] Cleaning up...")
+
+app = FastAPI(
+    title="T.R.E.X API", 
+    version="1.0.0",
+    lifespan=lifespan
+)
 
 # CORS setup
 app.add_middleware(

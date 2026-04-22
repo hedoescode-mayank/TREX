@@ -1,11 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #f8f9fc;
+  --bg: #eff1f5;
   --card: rgba(255, 255, 255, 0.7);
   --border: rgba(255, 255, 255, 0.5);
   --text-main: #111111;
   --text-muted: #52525b;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -35,12 +39,46 @@ body {
 .btn-premium {
   background: linear-gradient(180deg, #27272a 0%, #09090b 100%);
   color: white;
-  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease;
+  box-shadow: 
+    0 4px 14px 0 rgba(0, 0, 0, 0.15),
+    inset 0 1px 1px rgba(255, 255, 255, 0.1);
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-premium::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.05),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.btn-premium:hover::before {
+  left: 100%;
 }
 
 .btn-premium:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 
+    0 12px 24px 0 rgba(0, 0, 0, 0.2),
+    0 0 15px rgba(59, 130, 246, 0.3);
   background: linear-gradient(180deg, #3f3f46 0%, #18181b 100%);
+}
+
+.btn-premium:active {
+  transform: translateY(0px) scale(0.98);
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
 }
