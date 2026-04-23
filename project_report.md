@@ -15,7 +15,10 @@ TREX-AI is a premium, AI-driven career intelligence platform designed to help us
 1. **Full Authentication Suite**: Complete user authorization system supporting both social (Google) and manual (Email/Password) sign-ups.
 2. **Premium Auth Interface**: A custom-built, animated `AuthModal` using Framer Motion for a seamless login/signup experience.
 3. **Global Session Management**: `AuthContext` implementation providing real-time user state across the entire application.
-4. **City Intelligence**: Analysis of cost of living, career opportunities, and growth indices for specific cities.
+4. **City Intelligence & Analyzer Workflow**:
+    - **54-City Grid**: A detailed cost of living index grid across 54 Indian cities with quick stats.
+    - **Deep Dive Pages**: Detailed local cost items spanning 9 categories with normalized price schemas.
+    - **AI-Powered Side-by-Side Comparison**: Complete breakdown using the Groq `llama-3.3-70b-versatile` model, presenting verdicts, salary-based affordability analysis, broker contacts, area recommendations, and dynamic moving checklists.
 5. **Resume Optimizer**: AI-powered resume parsing and scoring against industry standards.
 
 ## UI/UX Enhancements
@@ -35,26 +38,26 @@ TREX-dev/
 ├── backend/                # FastAPI Backend
 │   ├── app/                # Application logic
 │   │   ├── main.py         # Entry point
-│   │   └── services/       # AI & Business logic
+│   │   ├── api/routes/     # REST endpoints (city, resume)
+│   │   └── services/       # AI & Business logic (Groq AI comparisons, normalization)
 ├── frontend/               # Next.js Frontend
 │   ├── src/
 │   │   ├── app/            # Next.js App Router
 │   │   │   ├── layout.tsx  # Root Layout (with AuthProvider)
-│   │   │   └── page.tsx    # Landing Page with Auth Integration
+│   │   │   ├── page.tsx    # Landing Page with Auth Integration
+│   │   │   └── city/       # City grid and /compare logic
 │   │   ├── components/     # UI Components
 │   │   │   ├── AuthContext.tsx       # Global Auth State
 │   │   │   ├── AuthModal.tsx         # Login/Signup UI
-│   │   │   ├── HexGridBackground.tsx # 3D Honeycomb
-│   │   │   ├── AmbientEffects.tsx
-│   │   │   └── FloatingAnalytics.tsx
+│   │   │   └── ProtectedRoute.tsx    # Auth Guards
 │   │   └── lib/            # Utilities
 │   │       └── firebase.ts # Firebase SDK Initialization
 └── start_backend.ps1       # Automated backend startup script
 ```
 
 ## Setup & Execution
-- **Backend**: Start via `.\start_backend.ps1` (runs on `http://localhost:8000`)
-- **Frontend**: Run `npm run dev` in the `/frontend` directory (runs on `http://localhost:3000`)
+- **Backend**: Start via `.\start_backend.ps1` (runs on `http://localhost:8000`). Requires `GROQ_API_KEY` in `.env.development`.
+- **Frontend**: Run `npm run dev` in the `/frontend` directory (runs on `http://localhost:3000`). Make sure to use Node.js compatible with Next.js 15.
 
 ---
-*Last Updated: April 21, 2026*
+*Last Updated: April 22, 2026*

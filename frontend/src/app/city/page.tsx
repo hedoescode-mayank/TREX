@@ -155,38 +155,58 @@ export default function CityPage() {
                 <div
                   key={city.city_key}
                   onClick={() => router.push(`/city/${encodeURIComponent(city.city)}`)}
-                  className="group rounded-2xl overflow-hidden bg-white shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-pointer"
+                  className="premium-card w-full cursor-pointer"
                 >
-                  {/* Hero gradient banner */}
-                  <div className={`relative h-28 bg-gradient-to-br ${getGradient(city.city)} flex items-end p-4`}>
-                    <div>
-                      <p className="text-white font-bold text-lg leading-tight">{city.city}</p>
+                  <div className="premium-content">
+                    {/* Default Front facing (dark side with animation) */}
+                    <div className="premium-back shadow-xl">
+                      <div className="premium-back-content">
+                        <svg className="w-12 h-12 text-[#ff9966]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                        </svg>
+                        <strong className="text-2xl font-bold tracking-wide">{city.city}</strong>
+                        <span className="text-sm font-medium text-[#ff9966]">Hover for Insights</span>
+                        <div className="absolute top-4 right-4">
+                          <IndexBadge index={city.index} />
+                        </div>
+                      </div>
                     </div>
-                    <div className="absolute top-3 right-3">
-                      <IndexBadge index={city.index} />
-                    </div>
-                  </div>
-
-                  {/* Stats */}
-                  <div className="p-4 space-y-2.5">
-                    <div className="flex justify-between text-sm">
-                      <span className="text-gray-500 flex items-center gap-1.5">🍽️ Veg Thali</span>
-                      <span className="font-semibold text-gray-800">{city.veg_thali}</span>
-                    </div>
-                    <div className="flex justify-between text-sm">
-                      <span className="text-gray-500 flex items-center gap-1.5">🏠 1BHK Rent</span>
-                      <span className="font-semibold text-gray-800">{city.rent_1bhk_centre}</span>
-                    </div>
-                    <div className="flex justify-between text-sm">
-                      <span className="text-gray-500 flex items-center gap-1.5">🏘️ PG Double</span>
-                      <span className="font-semibold text-gray-800">{city.pg_double}</span>
-                    </div>
-
-                    <div className="pt-2 border-t border-gray-100 flex justify-between items-center">
-                      <span className="text-xs text-gray-400">Mumbai = 100</span>
-                      <button className="text-xs text-blue-600 font-medium group-hover:underline">
-                        View prices →
-                      </button>
+                    {/* Revealed Details Side */}
+                    <div className="premium-front shadow-xl">
+                      <div className="premium-img">
+                        <div className="premium-circle premium-circle-1" />
+                        <div className="premium-circle premium-circle-2" />
+                        <div className="premium-circle premium-circle-3" />
+                      </div>
+                      <div className="premium-front-content">
+                        <div className="flex justify-between items-start">
+                          <small className="premium-badge text-white">Index {city.index}</small>
+                        </div>
+                        <div className="premium-description text-white">
+                          <div className="premium-title items-center">
+                            <strong className="tracking-wide text-[16px]">{city.city}</strong>
+                            <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                          </div>
+                          <div className="premium-card-footer flex flex-col gap-2 mt-2 text-[13px]">
+                            <div className="flex justify-between">
+                              <span className="text-gray-300">🍽️ Veg Thali</span>
+                              <span className="font-semibold text-white">{city.veg_thali}</span>
+                            </div>
+                            <div className="flex justify-between">
+                              <span className="text-gray-300">🏠 1BHK Rent</span>
+                              <span className="font-semibold text-white">{city.rent_1bhk_centre}</span>
+                            </div>
+                            <div className="flex justify-between border-b border-gray-600 pb-2">
+                              <span className="text-gray-300">🏘️ PG Double</span>
+                              <span className="font-semibold text-white">{city.pg_double}</span>
+                            </div>
+                            <div className="flex justify-between items-center pt-1">
+                               <span className="text-xs text-gray-400">Mumbai = 100</span>
+                               <span className="text-xs text-blue-400 font-medium hover:underline">View prices →</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
