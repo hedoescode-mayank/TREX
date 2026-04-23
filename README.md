@@ -267,7 +267,7 @@ A: Ensure Safari version is 15+ for full support of `backdrop-filter: blur`.
 ### **Next: Milestone 0.2**
 - [ ] Integration with External Career APIs.
 - [ ] OCR for scanned resumes.
-- [ ] Multi-user Authentication.
+- [x] Client-side Authentication & Login Flow (Beta).
 
 ---
 

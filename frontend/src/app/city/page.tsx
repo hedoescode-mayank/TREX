@@ -1,224 +1,220 @@
 "use client";
 
-import { useState } from "react";
-import Link from "next/link";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
+import { useEffect, useState, useRef } from "react";
+import { useRouter } from "next/navigation";
+import ProtectedRoute from "@/components/ProtectedRoute";
 
-type CityResult = {
+const API = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000";
+
+interface CityCard {
   city: string;
-  total_expense: number;
-  savings: number;
-  savings_percentage: number;
-  comfort_score: number;
-  final_city_score: number;
-  stress_score: number;
+  city_key: string;
+  index: number;
+  veg_thali: string;
+  rent_1bhk_centre: string;
+  pg_double: string;
+  petrol: string;
+}
+
+// Gradient palettes per city — falls back to a default
+const CITY_GRADIENTS: Record<string, string> = {
+  Mumbai: "from-orange-900 via-amber-800 to-yellow-700",
+  Delhi: "from-red-900 via-rose-800 to-orange-700",
+  Bangalore: "from-emerald-900 via-teal-800 to-cyan-700",
+  Chennai: "from-blue-900 via-cyan-800 to-teal-700",
+  Hyderabad: "from-violet-900 via-purple-800 to-fuchsia-700",
+  Pune: "from-sky-900 via-blue-800 to-indigo-700",
+  Kolkata: "from-yellow-900 via-amber-800 to-orange-700",
+  Ahmedabad: "from-orange-800 via-amber-700 to-yellow-600",
+  Jaipur: "from-pink-900 via-rose-800 to-red-700",
+  Lucknow: "from-lime-900 via-green-800 to-emerald-700",
+  Gurgaon: "from-slate-800 via-gray-700 to-zinc-600",
+  Noida: "from-indigo-900 via-blue-800 to-sky-700",
+  Goa: "from-teal-800 via-cyan-700 to-sky-600",
+  Chandigarh: "from-purple-900 via-violet-800 to-indigo-700",
 };
 
-export default function CityAnalyzer() {
-  const [salary, setSalary] = useState<number>(50000);
-  const [sharing, setSharing] = useState<boolean>(true);
-  const [bhk, setBhk] = useState<string>("1BHK");
-  const [results, setResults] = useState<CityResult[]>([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string>("");
+function getGradient(city: string) {
+  return CITY_GRADIENTS[city] || "from-gray-800 via-slate-700 to-gray-600";
+}
 
-  const analyze = async () => {
-    setLoading(true);
-    setError("");
-    try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000";
-      const res = await fetch(`${apiUrl}/api/analyze`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          salary_monthly: salary,
-          sharing,
-          bhk,
-        }),
-      });
-      
-      if (!res.ok) {
-        const errorData = await res.json();
-        throw new Error(errorData.detail || `API Error: ${res.status}`);
-      }
-      
-      const data = await res.json();
-      if (data && data.results) {
-        setResults(data.results);
-      } else {
-        throw new Error("No results returned from API");
-      }
-    } catch (e) {
-      const errorMsg = e instanceof Error ? e.message : "An error occurred while analyzing cities";
-      setError(errorMsg);
-      setResults([]);
-      alert(`Error: ${errorMsg}`);
-    } finally {
-      setLoading(false);
+function IndexBadge({ index }: { index: number }) {
+  const color =
+    index >= 80 ? "bg-red-100 text-red-700" :
+    index >= 50 ? "bg-amber-100 text-amber-700" :
+    "bg-emerald-100 text-emerald-700";
+  return (
+    <span className={`px-2.5 py-0.5 rounded-full text-xs font-bold ${color}`}>
+      Index {index}
+    </span>
+  );
+}
+
+export default function CityPage() {
+  const router = useRouter();
+  const [cities, setCities] = useState<CityCard[]>([]);
+  const [filtered, setFiltered] = useState<CityCard[]>([]);
+  const [search, setSearch] = useState("");
+  const [loading, setLoading] = useState(true);
+  const [sortBy, setSortBy] = useState<"index" | "city">("index");
+
+  useEffect(() => {
+    fetch(`${API}/api/cities`)
+      .then((r) => r.json())
+      .then((d) => {
+        setCities(d.cities || []);
+        setFiltered(d.cities || []);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, []);
+
+  useEffect(() => {
+    let result = [...cities];
+    if (search.trim()) {
+      result = result.filter((c) =>
+        c.city.toLowerCase().includes(search.toLowerCase())
+      );
     }
-  };
+    if (sortBy === "city") result.sort((a, b) => a.city.localeCompare(b.city));
+    else result.sort((a, b) => b.index - a.index);
+    setFiltered(result);
+  }, [search, sortBy, cities]);
 
   return (
-    <div className="relative min-h-screen flex flex-col font-sans text-gray-900 selection:bg-blue-200">
-      {/* Background */}
-      <div className="fixed inset-0 z-[-1] overflow-hidden pointer-events-none bg-[#fdfdfd]">
-        <div className="absolute top-[-10%] left-[10%] w-[50%] h-[600px] bg-gradient-to-br from-orange-100/80 to-amber-50/40 rounded-full blur-[120px]" />
-        <div className="absolute bottom-[-10%] right-[10%] w-[60%] h-[700px] bg-blue-100/60 rounded-full blur-[140px]" />
-        <div className="absolute top-[20%] right-[-5%] w-[40%] h-[500px] bg-purple-100/50 rounded-full blur-[130px]" />
-      </div>
+    <ProtectedRoute>
+      <div className="min-h-screen bg-gray-50 font-sans">
+        {/* Nav */}
+        <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-200 px-6 py-3 flex items-center justify-between">
+          <span
+            className="text-xl font-bold tracking-tight cursor-pointer"
+            onClick={() => router.push("/")}
+          >
+            trex<span className="text-blue-500">.ai</span>
+          </span>
+          <div className="flex gap-6 text-sm font-medium text-gray-600">
+            <button onClick={() => router.push("/city")} className="text-blue-600 font-semibold">City Costs</button>
+            <button onClick={() => router.push("/resume")} className="hover:text-gray-900 transition-colors">Resume</button>
+          </div>
+        </nav>
 
-      {/* Nav */}
-      <nav className="fixed top-0 w-full z-50 glass-nav px-6 md:px-12 py-4 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold tracking-tighter text-black">
-          trex<span className="text-blue-500">.ai</span>
-        </Link>
-        <div className="hidden md:flex items-center gap-10 text-[13px] font-semibold text-gray-600 tracking-wide">
-          <Link href="/" className="hover:text-black transition">HOME</Link>
-          <span className="text-black border-b-2 border-blue-500 pb-0.5">CITY ANALYZER</span>
-        </div>
-        <Link href="/">
-          <button className="btn-premium px-6 py-2.5 rounded-full text-sm font-medium">
-            Back to Home
-          </button>
-        </Link>
-      </nav>
-
-      {/* Page Content */}
-      <main className="flex-1 max-w-6xl mx-auto w-full pt-36 px-6 pb-20 space-y-8">
-        <div>
-          <h1 className="text-4xl font-bold tracking-tight mb-3 text-gray-900">City Cost Analyzer</h1>
-          <p className="text-gray-500 text-lg">Compare real savings and stress across top Indian cities.</p>
-        </div>
-
-        <Card className="glass shadow-xl shadow-gray-200/50">
-          <CardHeader>
-            <CardTitle>Your Profile</CardTitle>
-          </CardHeader>
-          <CardContent className="flex flex-col md:flex-row gap-4 items-end">
-            <div className="space-y-2 flex-1 w-full">
-              <label htmlFor="salary-input" className="text-sm font-medium text-gray-500">Monthly Salary (₹)</label>
-              <input
-                id="salary-input"
-                aria-label="Monthly Salary in INR"
-                type="number"
-                value={salary}
-                onChange={(e) => {
-                  setSalary(Number(e.target.value));
-                  setResults([]);
-                }}
-                className="w-full bg-white border border-gray-200 rounded-md h-10 px-3 text-gray-900 focus:ring-2 focus:ring-blue-500 outline-none shadow-sm transition-all hover:border-gray-300"
-              />
-            </div>
-            <div className="space-y-2 flex-1 w-full">
-              <label htmlFor="bhk-select" className="text-sm font-medium text-gray-500">Accommodation</label>
-              <select
-                id="bhk-select"
-                aria-label="Accommodation type"
-                value={bhk}
-                onChange={(e) => {
-                  setBhk(e.target.value);
-                  setResults([]);
-                }}
-                className="w-full bg-white border border-gray-200 rounded-md h-10 px-3 text-gray-900 focus:ring-2 focus:ring-blue-500 outline-none shadow-sm transition-all hover:border-gray-300"
-              >
-                <option value="1BHK">1 BHK</option>
-                <option value="2BHK">2 BHK</option>
-              </select>
-            </div>
-            <div className="space-y-2 flex-1 w-full">
-              <label htmlFor="living-style" className="text-sm font-medium text-gray-500">Living Style</label>
-              <select
-                id="living-style"
-                aria-label="Living style preference"
-                value={sharing ? "shared" : "solo"}
-                onChange={(e) => {
-                  setSharing(e.target.value === "shared");
-                  setResults([]);
-                }}
-                className="w-full bg-white border border-gray-200 rounded-md h-10 px-3 text-gray-900 focus:ring-2 focus:ring-blue-500 outline-none shadow-sm transition-all hover:border-gray-300"
-              >
-                <option value="shared">Sharing</option>
-                <option value="solo">Solo</option>
-              </select>
-            </div>
-            <Button onClick={analyze} disabled={loading} className="w-full md:w-auto h-10 md:mb-0 flex items-center bg-gray-900 hover:bg-gray-800 text-white shadow-md">
-              {loading ? "Analyzing..." : "Analyze Cities"}
-            </Button>
-          </CardContent>
-        </Card>
-
-        {!results.length && !loading && (
-          <div className="flex items-center justify-center py-16">
-            <div className="text-center">
-              <p className="text-gray-500 text-lg mb-4">Click "Analyze Cities" to compare costs and find your ideal city.</p>
-              <p className="text-gray-400 text-sm">Enter your salary, choose accommodation type and living style to begin.</p>
+        {/* Header */}
+        <div className="bg-white border-b border-gray-200 px-6 py-8">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex items-start justify-between flex-wrap gap-4">
+              <div>
+                <h1 className="text-3xl font-bold text-gray-900">India Cost of Living</h1>
+                <p className="text-gray-500 mt-1">
+                  Compare prices for {cities.length} cities — rent, food, transport &amp; more.
+                </p>
+              </div>
+              <div className="flex gap-3 items-center">
+                <input
+                  type="text"
+                  placeholder="Search city..."
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                  className="px-4 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 w-48"
+                />
+                <select
+                  value={sortBy}
+                  onChange={(e) => setSortBy(e.target.value as "index" | "city")}
+                  className="px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none bg-white"
+                >
+                  <option value="index">Sort: Cost Index</option>
+                  <option value="city">Sort: A–Z</option>
+                </select>
+              </div>
             </div>
           </div>
-        )}
+        </div>
 
-        {loading && (
-          <div className="flex items-center justify-center py-16">
-            <div className="text-center">
-              <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mb-4"></div>
-              <p className="text-gray-500 text-lg">Analyzing cities...</p>
-            </div>
-          </div>
-        )}
-
-        {results.length > 0 && (
-          <>
-            <Card className="h-[400px] glass shadow-xl shadow-gray-200/50">
-              <CardHeader>
-                <CardTitle>Savings vs Expenses Overview</CardTitle>
-              </CardHeader>
-              <CardContent className="h-[300px]">
-                <ResponsiveContainer width="100%" height="100%">
-                  <BarChart data={results}>
-                    <XAxis dataKey="city" stroke="#94a3b8" />
-                    <YAxis stroke="#94a3b8" />
-                    <Tooltip contentStyle={{ backgroundColor: "#ffffff", borderColor: "#f1f5f9", color: "#111", borderRadius: "12px", boxShadow: "0 4px 6px -1px rgb(0 0 0 / 0.1)" }} />
-                    <Bar dataKey="savings" stackId="a" fill="#10b981" name="Monthly Savings (₹)" radius={[0, 0, 4, 4]} />
-                    <Bar dataKey="total_expense" stackId="a" fill="#3b82f6" name="Total Expenses (₹)" radius={[4, 4, 0, 0]} />
-                  </BarChart>
-                </ResponsiveContainer>
-              </CardContent>
-            </Card>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {results.map((r, i) => (
-                <Card key={r.city} className={`glass shadow-xl shadow-gray-200/40 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 ${i === 0 ? "border-emerald-200 bg-emerald-50/40" : ""}`}>
-                  <CardHeader>
-                    <CardTitle className="flex justify-between items-center text-xl">
-                      {r.city}
-                      {i === 0 && <span className="px-3 py-1 text-[11px] uppercase tracking-wider font-bold bg-emerald-100 text-emerald-700 rounded-full border border-emerald-200">Top Pick</span>}
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <div className="flex justify-between items-center pb-3 border-b border-gray-100">
-                      <span className="text-gray-500 text-sm font-medium">Final Score</span>
-                      <span className="font-bold text-xl text-blue-600">{r.final_city_score.toFixed(1)} <span className="text-xs font-normal text-gray-400">/ 100</span></span>
-                    </div>
-                    <div className="flex justify-between items-center text-[15px]">
-                      <span className="text-gray-500 font-medium">Monthly Savings</span>
-                      <span className="font-bold text-emerald-600">₹{r.savings.toLocaleString()}</span>
-                    </div>
-                    <div className="flex justify-between items-center text-[15px]">
-                      <span className="text-gray-500 font-medium">Savings Return</span>
-                      <span className="font-semibold text-gray-900">{r.savings_percentage.toFixed(1)}%</span>
-                    </div>
-                    <div className="flex justify-between items-center text-[15px]">
-                      <span className="text-gray-500 font-medium">Stress Level</span>
-                      <span className="font-semibold text-orange-500">{r.stress_score} / 10</span>
-                    </div>
-                  </CardContent>
-                </Card>
+        {/* City Grid */}
+        <div className="max-w-6xl mx-auto px-6 py-8">
+          {loading ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {Array.from({ length: 9 }).map((_, i) => (
+                <div key={i} className="rounded-2xl overflow-hidden bg-white shadow-sm animate-pulse">
+                  <div className="h-28 bg-gray-200" />
+                  <div className="p-4 space-y-3">
+                    <div className="h-4 bg-gray-200 rounded w-3/4" />
+                    <div className="h-3 bg-gray-100 rounded w-1/2" />
+                    <div className="h-3 bg-gray-100 rounded w-full" />
+                    <div className="h-3 bg-gray-100 rounded w-full" />
+                  </div>
+                </div>
               ))}
             </div>
-          </>
-        )}
-      </main>
-    </div>
+          ) : filtered.length === 0 ? (
+            <div className="text-center py-20 text-gray-400">
+              <p className="text-lg">No cities found for "{search}"</p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {filtered.map((city) => (
+                <div
+                  key={city.city_key}
+                  onClick={() => router.push(`/city/${encodeURIComponent(city.city)}`)}
+                  className="premium-card w-full cursor-pointer"
+                >
+                  <div className="premium-content">
+                    {/* Default Front facing (dark side with animation) */}
+                    <div className="premium-back shadow-xl">
+                      <div className="premium-back-content">
+                        <svg className="w-12 h-12 text-[#ff9966]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                        </svg>
+                        <strong className="text-2xl font-bold tracking-wide">{city.city}</strong>
+                        <span className="text-sm font-medium text-[#ff9966]">Hover for Insights</span>
+                        <div className="absolute top-4 right-4">
+                          <IndexBadge index={city.index} />
+                        </div>
+                      </div>
+                    </div>
+                    {/* Revealed Details Side */}
+                    <div className="premium-front shadow-xl">
+                      <div className="premium-img">
+                        <div className="premium-circle premium-circle-1" />
+                        <div className="premium-circle premium-circle-2" />
+                        <div className="premium-circle premium-circle-3" />
+                      </div>
+                      <div className="premium-front-content">
+                        <div className="flex justify-between items-start">
+                          <small className="premium-badge text-white">Index {city.index}</small>
+                        </div>
+                        <div className="premium-description text-white">
+                          <div className="premium-title items-center">
+                            <strong className="tracking-wide text-[16px]">{city.city}</strong>
+                            <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                          </div>
+                          <div className="premium-card-footer flex flex-col gap-2 mt-2 text-[13px]">
+                            <div className="flex justify-between">
+                              <span className="text-gray-300">🍽️ Veg Thali</span>
+                              <span className="font-semibold text-white">{city.veg_thali}</span>
+                            </div>
+                            <div className="flex justify-between">
+                              <span className="text-gray-300">🏠 1BHK Rent</span>
+                              <span className="font-semibold text-white">{city.rent_1bhk_centre}</span>
+                            </div>
+                            <div className="flex justify-between border-b border-gray-600 pb-2">
+                              <span className="text-gray-300">🏘️ PG Double</span>
+                              <span className="font-semibold text-white">{city.pg_double}</span>
+                            </div>
+                            <div className="flex justify-between items-center pt-1">
+                               <span className="text-xs text-gray-400">Mumbai = 100</span>
+                               <span className="text-xs text-blue-400 font-medium hover:underline">View prices →</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    </ProtectedRoute>
   );
 }

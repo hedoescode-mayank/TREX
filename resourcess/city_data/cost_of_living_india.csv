@@ -1,0 +1,3833 @@
+City,Item,Price
+Mumbai,Veg Thali (local restaurant)per plate,₹150
+Mumbai,Non-Veg Thali (local restaurant)per plate,₹220
+Mumbai,Meal for Two (high-end restaurant)per meal,"₹1,800"
+Mumbai,Chai (regular cup)per cup,₹15
+Mumbai,Coffee (Cappuccino)per cup,₹200
+Mumbai,Specialty Coffee (Third Wave)per cup,₹300
+Mumbai,Street Food (Vada Pav / Samosa)per piece,₹20
+Mumbai,Biryani (chicken)per plate,₹250
+Mumbai,Dosa (plain)per plate,₹80
+Mumbai,Fast Food Combo (McDonald's)per meal,₹250
+Mumbai,"Soft Drink (Coca-Cola, 300ml)per bottle",₹40
+Mumbai,Bottled Water (1 litre)per bottle,₹20
+Mumbai,Rice (Basmati)1 kg,₹110
+Mumbai,Wheat Flour (Atta)1 kg,₹55
+Mumbai,Toor Dal1 kg,₹160
+Mumbai,Milk (Full Cream)1 litre,₹62
+Mumbai,Eggs12 pcs,₹84
+Mumbai,Chicken1 kg,₹280
+Mumbai,Paneer1 kg,₹400
+Mumbai,Onions1 kg,₹40
+Mumbai,Tomatoes1 kg,₹50
+Mumbai,Potatoes1 kg,₹35
+Mumbai,Cooking Oil (Sunflower)1 litre,₹160
+Mumbai,Sugar1 kg,₹48
+Mumbai,Apples (Shimla)1 kg,₹200
+Mumbai,Bananas1 dozen,₹60
+Mumbai,"Bread (White, Sliced)1 loaf",₹50
+Mumbai,Whey Protein (1 kg)per kg,"₹3,000"
+Mumbai,Auto Rickshaw (minimum fare)per ride,₹23
+Mumbai,Auto Rickshaw (per km after min)per km,₹16
+Mumbai,Metro / Local Train (monthly pass)per month,"₹1,500"
+Mumbai,Bus (monthly pass)per month,₹900
+Mumbai,Ola/Uber (avg ride)per ride,₹200
+Mumbai,Petrol1 litre,₹105
+Mumbai,Diesel1 litre,₹92
+Mumbai,Two Wheeler EMI (avg)per month,"₹3,500"
+Mumbai,Car EMI (avg)per month,"₹15,000"
+Mumbai,Electricityper month,"₹2,500"
+Mumbai,Water Billper month,₹500
+Mumbai,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Mumbai,Broadband Internetper month,₹850
+Mumbai,Mobile Plan (Jio/Airtel)per month,₹349
+Mumbai,1 BHK in City Centreper month,"₹65,000"
+Mumbai,1 BHK Outside City Centreper month,"₹35,000"
+Mumbai,2 BHK in City Centreper month,₹1.1L
+Mumbai,2 BHK Outside City Centreper month,"₹55,000"
+Mumbai,3 BHK in City Centreper month,₹1.6L
+Mumbai,3 BHK Outside City Centreper month,"₹75,000"
+Mumbai,Home Loan EMI (2BHK avg)per month,"₹83,000"
+Mumbai,PG - Private Room (with meals)per month,"₹18,000"
+Mumbai,PG - Private Room (without meals)per month,"₹14,000"
+Mumbai,PG - Double Sharing (with meals)per month,"₹12,000"
+Mumbai,PG - Double Sharing (without meals)per month,"₹9,000"
+Mumbai,PG - Triple Sharing (with meals)per month,"₹9,000"
+Mumbai,PG - Triple Sharing (without meals)per month,"₹7,000"
+Mumbai,"Cook (part-time, 2 meals/day)per month","₹8,000"
+Mumbai,Maid / Cleaning Helpper month,"₹3,000"
+Mumbai,Laundry / Ironing (dhobi)per month,"₹1,500"
+Mumbai,Miscellaneous Monthly Spendper month,"₹3,000"
+Mumbai,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Mumbai,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Mumbai,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Mumbai,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Mumbai,Amazon Prime Membershipper month,₹149
+Mumbai,Gym Membershipper month,"₹2,500"
+Mumbai,Movie Ticket (Multiplex)per ticket,₹300
+Mumbai,Netflix (Standard Plan)per month,₹649
+Mumbai,Spotify Premiumper month,₹119
+Mumbai,"Haircut (Men, basic salon)per cut",₹200
+Mumbai,"Domestic Beer (pint, restaurant)per pint",₹250
+Mumbai,"Imported Beer (bottle, restaurant)per bottle",₹450
+Delhi,Veg Thali (local restaurant)per plate,₹120
+Delhi,Non-Veg Thali (local restaurant)per plate,₹200
+Delhi,Meal for Two (high-end restaurant)per meal,"₹1,600"
+Delhi,Chai (regular cup)per cup,₹15
+Delhi,Coffee (Cappuccino)per cup,₹190
+Delhi,Specialty Coffee (Third Wave)per cup,₹280
+Delhi,Street Food (Vada Pav / Samosa)per piece,₹15
+Delhi,Biryani (chicken)per plate,₹220
+Delhi,Dosa (plain)per plate,₹70
+Delhi,Fast Food Combo (McDonald's)per meal,₹250
+Delhi,"Soft Drink (Coca-Cola, 300ml)per bottle",₹40
+Delhi,Bottled Water (1 litre)per bottle,₹20
+Delhi,Rice (Basmati)1 kg,₹100
+Delhi,Wheat Flour (Atta)1 kg,₹50
+Delhi,Toor Dal1 kg,₹155
+Delhi,Milk (Full Cream)1 litre,₹60
+Delhi,Eggs12 pcs,₹78
+Delhi,Chicken1 kg,₹250
+Delhi,Paneer1 kg,₹380
+Delhi,Onions1 kg,₹35
+Delhi,Tomatoes1 kg,₹45
+Delhi,Potatoes1 kg,₹30
+Delhi,Cooking Oil (Sunflower)1 litre,₹155
+Delhi,Sugar1 kg,₹46
+Delhi,Apples (Shimla)1 kg,₹180
+Delhi,Bananas1 dozen,₹50
+Delhi,"Bread (White, Sliced)1 loaf",₹45
+Delhi,Whey Protein (1 kg)per kg,"₹3,000"
+Delhi,Auto Rickshaw (minimum fare)per ride,₹25
+Delhi,Auto Rickshaw (per km after min)per km,₹11
+Delhi,Metro / Local Train (monthly pass)per month,"₹1,250"
+Delhi,Bus (monthly pass)per month,₹800
+Delhi,Ola/Uber (avg ride)per ride,₹200
+Delhi,Petrol1 litre,₹95
+Delhi,Diesel1 litre,₹88
+Delhi,Two Wheeler EMI (avg)per month,"₹3,500"
+Delhi,Car EMI (avg)per month,"₹15,000"
+Delhi,Electricityper month,"₹2,200"
+Delhi,Water Billper month,₹400
+Delhi,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Delhi,Broadband Internetper month,₹850
+Delhi,Mobile Plan (Jio/Airtel)per month,₹349
+Delhi,Air Purifier Filters & Masks (NCR)per month,₹800
+Delhi,1 BHK in City Centreper month,"₹22,000"
+Delhi,1 BHK Outside City Centreper month,"₹12,000"
+Delhi,2 BHK in City Centreper month,"₹40,000"
+Delhi,2 BHK Outside City Centreper month,"₹22,000"
+Delhi,3 BHK in City Centreper month,"₹70,000"
+Delhi,3 BHK Outside City Centreper month,"₹35,000"
+Delhi,Home Loan EMI (2BHK avg)per month,"₹59,000"
+Delhi,PG - Private Room (with meals)per month,"₹15,000"
+Delhi,PG - Private Room (without meals)per month,"₹11,000"
+Delhi,PG - Double Sharing (with meals)per month,"₹10,000"
+Delhi,PG - Double Sharing (without meals)per month,"₹7,500"
+Delhi,PG - Triple Sharing (with meals)per month,"₹7,500"
+Delhi,PG - Triple Sharing (without meals)per month,"₹5,500"
+Delhi,"Cook (part-time, 2 meals/day)per month","₹7,000"
+Delhi,Maid / Cleaning Helpper month,"₹2,500"
+Delhi,Laundry / Ironing (dhobi)per month,"₹1,200"
+Delhi,Miscellaneous Monthly Spendper month,"₹2,500"
+Delhi,Gym Membershipper month,"₹2,000"
+Delhi,Movie Ticket (Multiplex)per ticket,₹280
+Delhi,Netflix (Standard Plan)per month,₹649
+Delhi,Spotify Premiumper month,₹119
+Delhi,"Haircut (Men, basic salon)per cut",₹150
+Delhi,"Domestic Beer (pint, restaurant)per pint",₹220
+Delhi,"Imported Beer (bottle, restaurant)per bottle",₹400
+Bangalore,Veg Thali (local restaurant)per plate,₹130
+Bangalore,Non-Veg Thali (local restaurant)per plate,₹200
+Bangalore,Meal for Two (high-end restaurant)per meal,"₹1,500"
+Bangalore,Chai (regular cup)per cup,₹15
+Bangalore,Coffee (Cappuccino)per cup,₹200
+Bangalore,Specialty Coffee (Third Wave)per cup,₹300
+Bangalore,Street Food (Vada Pav / Samosa)per piece,₹20
+Bangalore,Biryani (chicken)per plate,₹220
+Bangalore,Dosa (plain)per plate,₹60
+Bangalore,Fast Food Combo (McDonald's)per meal,₹250
+Bangalore,"Soft Drink (Coca-Cola, 300ml)per bottle",₹40
+Bangalore,Bottled Water (1 litre)per bottle,₹20
+Bangalore,Rice (Basmati)1 kg,₹105
+Bangalore,Wheat Flour (Atta)1 kg,₹52
+Bangalore,Toor Dal1 kg,₹155
+Bangalore,Milk (Full Cream)1 litre,₹56
+Bangalore,Eggs12 pcs,₹78
+Bangalore,Chicken1 kg,₹240
+Bangalore,Paneer1 kg,₹380
+Bangalore,Onions1 kg,₹38
+Bangalore,Tomatoes1 kg,₹45
+Bangalore,Potatoes1 kg,₹35
+Bangalore,Cooking Oil (Sunflower)1 litre,₹155
+Bangalore,Sugar1 kg,₹46
+Bangalore,Apples (Shimla)1 kg,₹200
+Bangalore,Bananas1 dozen,₹50
+Bangalore,"Bread (White, Sliced)1 loaf",₹45
+Bangalore,Whey Protein (1 kg)per kg,"₹3,000"
+Bangalore,Auto Rickshaw (minimum fare)per ride,₹30
+Bangalore,Auto Rickshaw (per km after min)per km,₹15
+Bangalore,Metro / Local Train (monthly pass)per month,"₹1,400"
+Bangalore,Bus (monthly pass)per month,"₹1,350"
+Bangalore,Ola/Uber (avg ride)per ride,₹200
+Bangalore,Petrol1 litre,₹103
+Bangalore,Diesel1 litre,₹88
+Bangalore,Two Wheeler EMI (avg)per month,"₹3,500"
+Bangalore,Car EMI (avg)per month,"₹15,000"
+Bangalore,Electricityper month,"₹2,000"
+Bangalore,Water Billper month,₹350
+Bangalore,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Bangalore,Broadband Internetper month,₹850
+Bangalore,Mobile Plan (Jio/Airtel)per month,₹349
+Bangalore,1 BHK in City Centreper month,"₹28,000"
+Bangalore,1 BHK Outside City Centreper month,"₹18,000"
+Bangalore,2 BHK in City Centreper month,"₹50,000"
+Bangalore,2 BHK Outside City Centreper month,"₹30,000"
+Bangalore,3 BHK in City Centreper month,"₹80,000"
+Bangalore,3 BHK Outside City Centreper month,"₹45,000"
+Bangalore,Home Loan EMI (2BHK avg)per month,"₹95,000"
+Bangalore,PG - Private Room (with meals)per month,"₹16,000"
+Bangalore,PG - Private Room (without meals)per month,"₹12,000"
+Bangalore,PG - Double Sharing (with meals)per month,"₹11,000"
+Bangalore,PG - Double Sharing (without meals)per month,"₹8,000"
+Bangalore,PG - Triple Sharing (with meals)per month,"₹8,000"
+Bangalore,PG - Triple Sharing (without meals)per month,"₹6,000"
+Bangalore,"Cook (part-time, 2 meals/day)per month","₹6,500"
+Bangalore,Maid / Cleaning Helpper month,"₹2,500"
+Bangalore,Laundry / Ironing (dhobi)per month,"₹1,200"
+Bangalore,Miscellaneous Monthly Spendper month,"₹2,500"
+Bangalore,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Bangalore,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Bangalore,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Bangalore,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Bangalore,Amazon Prime Membershipper month,₹149
+Bangalore,Gym Membershipper month,"₹2,200"
+Bangalore,Movie Ticket (Multiplex)per ticket,₹250
+Bangalore,Netflix (Standard Plan)per month,₹649
+Bangalore,Spotify Premiumper month,₹119
+Bangalore,"Haircut (Men, basic salon)per cut",₹150
+Bangalore,"Domestic Beer (pint, restaurant)per pint",₹230
+Bangalore,"Imported Beer (bottle, restaurant)per bottle",₹420
+Chennai,Veg Thali (local restaurant)per plate,₹100
+Chennai,Non-Veg Thali (local restaurant)per plate,₹170
+Chennai,Meal for Two (high-end restaurant)per meal,"₹1,300"
+Chennai,Chai (regular cup)per cup,₹12
+Chennai,Coffee (Cappuccino)per cup,₹180
+Chennai,Specialty Coffee (Third Wave)per cup,₹250
+Chennai,Street Food (Vada Pav / Samosa)per piece,₹15
+Chennai,Biryani (chicken)per plate,₹200
+Chennai,Dosa (plain)per plate,₹50
+Chennai,Fast Food Combo (McDonald's)per meal,₹250
+Chennai,"Soft Drink (Coca-Cola, 300ml)per bottle",₹40
+Chennai,Bottled Water (1 litre)per bottle,₹20
+Chennai,Rice (Basmati)1 kg,₹95
+Chennai,Wheat Flour (Atta)1 kg,₹50
+Chennai,Toor Dal1 kg,₹150
+Chennai,Milk (Full Cream)1 litre,₹52
+Chennai,Eggs12 pcs,₹72
+Chennai,Chicken1 kg,₹220
+Chennai,Paneer1 kg,₹360
+Chennai,Onions1 kg,₹35
+Chennai,Tomatoes1 kg,₹40
+Chennai,Potatoes1 kg,₹32
+Chennai,Cooking Oil (Sunflower)1 litre,₹150
+Chennai,Sugar1 kg,₹44
+Chennai,Apples (Shimla)1 kg,₹220
+Chennai,Bananas1 dozen,₹45
+Chennai,"Bread (White, Sliced)1 loaf",₹42
+Chennai,Whey Protein (1 kg)per kg,"₹3,000"
+Chennai,Auto Rickshaw (minimum fare)per ride,₹25
+Chennai,Auto Rickshaw (per km after min)per km,₹12
+Chennai,Metro / Local Train (monthly pass)per month,"₹1,200"
+Chennai,Bus (monthly pass)per month,₹750
+Chennai,Ola/Uber (avg ride)per ride,₹200
+Chennai,Petrol1 litre,₹103
+Chennai,Diesel1 litre,₹90
+Chennai,Two Wheeler EMI (avg)per month,"₹3,500"
+Chennai,Car EMI (avg)per month,"₹15,000"
+Chennai,Electricityper month,"₹1,800"
+Chennai,Water Billper month,₹300
+Chennai,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Chennai,Broadband Internetper month,₹850
+Chennai,Mobile Plan (Jio/Airtel)per month,₹349
+Chennai,1 BHK in City Centreper month,"₹18,000"
+Chennai,1 BHK Outside City Centreper month,"₹10,000"
+Chennai,2 BHK in City Centreper month,"₹32,000"
+Chennai,2 BHK Outside City Centreper month,"₹18,000"
+Chennai,3 BHK in City Centreper month,"₹55,000"
+Chennai,3 BHK Outside City Centreper month,"₹28,000"
+Chennai,Home Loan EMI (2BHK avg)per month,"₹51,000"
+Chennai,PG - Private Room (with meals)per month,"₹12,000"
+Chennai,PG - Private Room (without meals)per month,"₹9,000"
+Chennai,PG - Double Sharing (with meals)per month,"₹8,500"
+Chennai,PG - Double Sharing (without meals)per month,"₹6,500"
+Chennai,PG - Triple Sharing (with meals)per month,"₹6,500"
+Chennai,PG - Triple Sharing (without meals)per month,"₹5,000"
+Chennai,"Cook (part-time, 2 meals/day)per month","₹5,500"
+Chennai,Maid / Cleaning Helpper month,"₹2,000"
+Chennai,Laundry / Ironing (dhobi)per month,"₹1,000"
+Chennai,Miscellaneous Monthly Spendper month,"₹2,000"
+Chennai,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Chennai,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Chennai,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Chennai,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Chennai,Amazon Prime Membershipper month,₹149
+Chennai,Gym Membershipper month,"₹1,800"
+Chennai,Movie Ticket (Multiplex)per ticket,₹200
+Chennai,Netflix (Standard Plan)per month,₹649
+Chennai,Spotify Premiumper month,₹119
+Chennai,"Haircut (Men, basic salon)per cut",₹120
+Chennai,"Domestic Beer (pint, restaurant)per pint",₹200
+Chennai,"Imported Beer (bottle, restaurant)per bottle",₹380
+Hyderabad,Veg Thali (local restaurant)per plate,₹100
+Hyderabad,Non-Veg Thali (local restaurant)per plate,₹170
+Hyderabad,Meal for Two (high-end restaurant)per meal,"₹1,200"
+Hyderabad,Chai (regular cup)per cup,₹12
+Hyderabad,Coffee (Cappuccino)per cup,₹175
+Hyderabad,Specialty Coffee (Third Wave)per cup,₹250
+Hyderabad,Street Food (Vada Pav / Samosa)per piece,₹15
+Hyderabad,Biryani (chicken)per plate,₹180
+Hyderabad,Dosa (plain)per plate,₹55
+Hyderabad,Fast Food Combo (McDonald's)per meal,₹250
+Hyderabad,"Soft Drink (Coca-Cola, 300ml)per bottle",₹40
+Hyderabad,Bottled Water (1 litre)per bottle,₹20
+Hyderabad,Rice (Basmati)1 kg,₹95
+Hyderabad,Wheat Flour (Atta)1 kg,₹48
+Hyderabad,Toor Dal1 kg,₹148
+Hyderabad,Milk (Full Cream)1 litre,₹54
+Hyderabad,Eggs12 pcs,₹72
+Hyderabad,Chicken1 kg,₹220
+Hyderabad,Paneer1 kg,₹360
+Hyderabad,Onions1 kg,₹32
+Hyderabad,Tomatoes1 kg,₹38
+Hyderabad,Potatoes1 kg,₹30
+Hyderabad,Cooking Oil (Sunflower)1 litre,₹150
+Hyderabad,Sugar1 kg,₹44
+Hyderabad,Apples (Shimla)1 kg,₹210
+Hyderabad,Bananas1 dozen,₹45
+Hyderabad,"Bread (White, Sliced)1 loaf",₹42
+Hyderabad,Whey Protein (1 kg)per kg,"₹3,000"
+Hyderabad,Auto Rickshaw (minimum fare)per ride,₹25
+Hyderabad,Auto Rickshaw (per km after min)per km,₹12
+Hyderabad,Metro / Local Train (monthly pass)per month,"₹1,100"
+Hyderabad,Bus (monthly pass)per month,₹700
+Hyderabad,Ola/Uber (avg ride)per ride,₹200
+Hyderabad,Petrol1 litre,₹109
+Hyderabad,Diesel1 litre,₹97
+Hyderabad,Two Wheeler EMI (avg)per month,"₹3,500"
+Hyderabad,Car EMI (avg)per month,"₹15,000"
+Hyderabad,Electricityper month,"₹1,700"
+Hyderabad,Water Billper month,₹300
+Hyderabad,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Hyderabad,Broadband Internetper month,₹850
+Hyderabad,Mobile Plan (Jio/Airtel)per month,₹349
+Hyderabad,1 BHK in City Centreper month,"₹16,000"
+Hyderabad,1 BHK Outside City Centreper month,"₹9,000"
+Hyderabad,2 BHK in City Centreper month,"₹28,000"
+Hyderabad,2 BHK Outside City Centreper month,"₹16,000"
+Hyderabad,3 BHK in City Centreper month,"₹50,000"
+Hyderabad,3 BHK Outside City Centreper month,"₹26,000"
+Hyderabad,Home Loan EMI (2BHK avg)per month,"₹42,000"
+Hyderabad,PG - Private Room (with meals)per month,"₹12,000"
+Hyderabad,PG - Private Room (without meals)per month,"₹9,000"
+Hyderabad,PG - Double Sharing (with meals)per month,"₹8,000"
+Hyderabad,PG - Double Sharing (without meals)per month,"₹6,000"
+Hyderabad,PG - Triple Sharing (with meals)per month,"₹6,000"
+Hyderabad,PG - Triple Sharing (without meals)per month,"₹4,500"
+Hyderabad,"Cook (part-time, 2 meals/day)per month","₹5,000"
+Hyderabad,Maid / Cleaning Helpper month,"₹2,000"
+Hyderabad,Laundry / Ironing (dhobi)per month,"₹1,000"
+Hyderabad,Miscellaneous Monthly Spendper month,"₹2,000"
+Hyderabad,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Hyderabad,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Hyderabad,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Hyderabad,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Hyderabad,Amazon Prime Membershipper month,₹149
+Hyderabad,Gym Membershipper month,"₹1,500"
+Hyderabad,Movie Ticket (Multiplex)per ticket,₹200
+Hyderabad,Netflix (Standard Plan)per month,₹649
+Hyderabad,Spotify Premiumper month,₹119
+Hyderabad,"Haircut (Men, basic salon)per cut",₹120
+Hyderabad,"Domestic Beer (pint, restaurant)per pint",₹200
+Hyderabad,"Imported Beer (bottle, restaurant)per bottle",₹380
+Pune,Veg Thali (local restaurant)per plate,₹120
+Pune,Non-Veg Thali (local restaurant)per plate,₹180
+Pune,Meal for Two (high-end restaurant)per meal,"₹1,400"
+Pune,Chai (regular cup)per cup,₹15
+Pune,Coffee (Cappuccino)per cup,₹180
+Pune,Specialty Coffee (Third Wave)per cup,₹280
+Pune,Street Food (Vada Pav / Samosa)per piece,₹15
+Pune,Biryani (chicken)per plate,₹200
+Pune,Dosa (plain)per plate,₹65
+Pune,Fast Food Combo (McDonald's)per meal,₹250
+Pune,"Soft Drink (Coca-Cola, 300ml)per bottle",₹40
+Pune,Bottled Water (1 litre)per bottle,₹20
+Pune,Rice (Basmati)1 kg,₹100
+Pune,Wheat Flour (Atta)1 kg,₹50
+Pune,Toor Dal1 kg,₹155
+Pune,Milk (Full Cream)1 litre,₹56
+Pune,Eggs12 pcs,₹78
+Pune,Chicken1 kg,₹240
+Pune,Paneer1 kg,₹370
+Pune,Onions1 kg,₹35
+Pune,Tomatoes1 kg,₹42
+Pune,Potatoes1 kg,₹32
+Pune,Cooking Oil (Sunflower)1 litre,₹155
+Pune,Sugar1 kg,₹46
+Pune,Apples (Shimla)1 kg,₹190
+Pune,Bananas1 dozen,₹50
+Pune,"Bread (White, Sliced)1 loaf",₹45
+Pune,Whey Protein (1 kg)per kg,"₹3,000"
+Pune,Auto Rickshaw (minimum fare)per ride,₹23
+Pune,Auto Rickshaw (per km after min)per km,₹14
+Pune,Metro / Local Train (monthly pass)per month,"₹1,100"
+Pune,Bus (monthly pass)per month,₹700
+Pune,Ola/Uber (avg ride)per ride,₹200
+Pune,Petrol1 litre,₹105
+Pune,Diesel1 litre,₹90
+Pune,Two Wheeler EMI (avg)per month,"₹3,500"
+Pune,Car EMI (avg)per month,"₹15,000"
+Pune,Electricityper month,"₹1,800"
+Pune,Water Billper month,₹350
+Pune,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Pune,Broadband Internetper month,₹850
+Pune,Mobile Plan (Jio/Airtel)per month,₹349
+Pune,1 BHK in City Centreper month,"₹20,000"
+Pune,1 BHK Outside City Centreper month,"₹12,000"
+Pune,2 BHK in City Centreper month,"₹35,000"
+Pune,2 BHK Outside City Centreper month,"₹20,000"
+Pune,3 BHK in City Centreper month,"₹55,000"
+Pune,3 BHK Outside City Centreper month,"₹30,000"
+Pune,Home Loan EMI (2BHK avg)per month,"₹66,000"
+Pune,PG - Private Room (with meals)per month,"₹14,000"
+Pune,PG - Private Room (without meals)per month,"₹10,000"
+Pune,PG - Double Sharing (with meals)per month,"₹9,500"
+Pune,PG - Double Sharing (without meals)per month,"₹7,000"
+Pune,PG - Triple Sharing (with meals)per month,"₹7,000"
+Pune,PG - Triple Sharing (without meals)per month,"₹5,000"
+Pune,"Cook (part-time, 2 meals/day)per month","₹5,500"
+Pune,Maid / Cleaning Helpper month,"₹2,200"
+Pune,Laundry / Ironing (dhobi)per month,"₹1,100"
+Pune,Miscellaneous Monthly Spendper month,"₹2,200"
+Pune,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Pune,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Pune,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Pune,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Pune,Amazon Prime Membershipper month,₹149
+Pune,Gym Membershipper month,"₹1,800"
+Pune,Movie Ticket (Multiplex)per ticket,₹250
+Pune,Netflix (Standard Plan)per month,₹649
+Pune,Spotify Premiumper month,₹119
+Pune,"Haircut (Men, basic salon)per cut",₹130
+Pune,"Domestic Beer (pint, restaurant)per pint",₹200
+Pune,"Imported Beer (bottle, restaurant)per bottle",₹380
+Kolkata,Veg Thali (local restaurant)per plate,₹90
+Kolkata,Non-Veg Thali (local restaurant)per plate,₹150
+Kolkata,Meal for Two (high-end restaurant)per meal,"₹1,100"
+Kolkata,Chai (regular cup)per cup,₹10
+Kolkata,Coffee (Cappuccino)per cup,₹170
+Kolkata,Specialty Coffee (Third Wave)per cup,₹220
+Kolkata,Street Food (Vada Pav / Samosa)per piece,₹12
+Kolkata,Biryani (chicken)per plate,₹180
+Kolkata,Dosa (plain)per plate,₹55
+Kolkata,Fast Food Combo (McDonald's)per meal,₹240
+Kolkata,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Kolkata,Bottled Water (1 litre)per bottle,₹20
+Kolkata,Rice (Basmati)1 kg,₹90
+Kolkata,Wheat Flour (Atta)1 kg,₹45
+Kolkata,Toor Dal1 kg,₹145
+Kolkata,Milk (Full Cream)1 litre,₹52
+Kolkata,Eggs12 pcs,₹72
+Kolkata,Chicken1 kg,₹220
+Kolkata,Paneer1 kg,₹340
+Kolkata,Onions1 kg,₹30
+Kolkata,Tomatoes1 kg,₹38
+Kolkata,Potatoes1 kg,₹25
+Kolkata,Cooking Oil (Sunflower)1 litre,₹148
+Kolkata,Sugar1 kg,₹43
+Kolkata,Apples (Shimla)1 kg,₹200
+Kolkata,Bananas1 dozen,₹45
+Kolkata,"Bread (White, Sliced)1 loaf",₹40
+Kolkata,Whey Protein (1 kg)per kg,"₹3,000"
+Kolkata,Auto Rickshaw (minimum fare)per ride,₹25
+Kolkata,Auto Rickshaw (per km after min)per km,₹12
+Kolkata,Metro / Local Train (monthly pass)per month,₹800
+Kolkata,Bus (monthly pass)per month,₹600
+Kolkata,Ola/Uber (avg ride)per ride,₹200
+Kolkata,Petrol1 litre,₹105
+Kolkata,Diesel1 litre,₹90
+Kolkata,Two Wheeler EMI (avg)per month,"₹3,500"
+Kolkata,Car EMI (avg)per month,"₹15,000"
+Kolkata,Electricityper month,"₹1,500"
+Kolkata,Water Billper month,₹250
+Kolkata,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Kolkata,Broadband Internetper month,₹850
+Kolkata,Mobile Plan (Jio/Airtel)per month,₹349
+Kolkata,1 BHK in City Centreper month,"₹14,000"
+Kolkata,1 BHK Outside City Centreper month,"₹7,500"
+Kolkata,2 BHK in City Centreper month,"₹25,000"
+Kolkata,2 BHK Outside City Centreper month,"₹13,000"
+Kolkata,3 BHK in City Centreper month,"₹42,000"
+Kolkata,3 BHK Outside City Centreper month,"₹22,000"
+Kolkata,Home Loan EMI (2BHK avg)per month,"₹31,000"
+Kolkata,PG - Private Room (with meals)per month,"₹10,000"
+Kolkata,PG - Private Room (without meals)per month,"₹7,500"
+Kolkata,PG - Double Sharing (with meals)per month,"₹7,000"
+Kolkata,PG - Double Sharing (without meals)per month,"₹5,000"
+Kolkata,PG - Triple Sharing (with meals)per month,"₹5,500"
+Kolkata,PG - Triple Sharing (without meals)per month,"₹4,000"
+Kolkata,"Cook (part-time, 2 meals/day)per month","₹4,500"
+Kolkata,Maid / Cleaning Helpper month,"₹1,500"
+Kolkata,Laundry / Ironing (dhobi)per month,₹800
+Kolkata,Miscellaneous Monthly Spendper month,"₹1,800"
+Kolkata,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Kolkata,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Kolkata,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Kolkata,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Kolkata,Amazon Prime Membershipper month,₹149
+Kolkata,Gym Membershipper month,"₹1,200"
+Kolkata,Movie Ticket (Multiplex)per ticket,₹200
+Kolkata,Netflix (Standard Plan)per month,₹649
+Kolkata,Spotify Premiumper month,₹119
+Kolkata,"Haircut (Men, basic salon)per cut",₹100
+Kolkata,"Domestic Beer (pint, restaurant)per pint",₹180
+Kolkata,"Imported Beer (bottle, restaurant)per bottle",₹350
+Ahmedabad,Veg Thali (local restaurant)per plate,₹90
+Ahmedabad,Non-Veg Thali (local restaurant)per plate,₹160
+Ahmedabad,Meal for Two (high-end restaurant)per meal,"₹1,100"
+Ahmedabad,Chai (regular cup)per cup,₹12
+Ahmedabad,Coffee (Cappuccino)per cup,₹170
+Ahmedabad,Specialty Coffee (Third Wave)per cup,₹230
+Ahmedabad,Street Food (Vada Pav / Samosa)per piece,₹15
+Ahmedabad,Biryani (chicken)per plate,₹180
+Ahmedabad,Dosa (plain)per plate,₹60
+Ahmedabad,Fast Food Combo (McDonald's)per meal,₹240
+Ahmedabad,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Ahmedabad,Bottled Water (1 litre)per bottle,₹20
+Ahmedabad,Rice (Basmati)1 kg,₹95
+Ahmedabad,Wheat Flour (Atta)1 kg,₹48
+Ahmedabad,Toor Dal1 kg,₹148
+Ahmedabad,Milk (Full Cream)1 litre,₹56
+Ahmedabad,Eggs12 pcs,₹75
+Ahmedabad,Chicken1 kg,₹230
+Ahmedabad,Paneer1 kg,₹350
+Ahmedabad,Onions1 kg,₹30
+Ahmedabad,Tomatoes1 kg,₹38
+Ahmedabad,Potatoes1 kg,₹28
+Ahmedabad,Cooking Oil (Sunflower)1 litre,₹148
+Ahmedabad,Sugar1 kg,₹44
+Ahmedabad,Apples (Shimla)1 kg,₹195
+Ahmedabad,Bananas1 dozen,₹45
+Ahmedabad,"Bread (White, Sliced)1 loaf",₹42
+Ahmedabad,Whey Protein (1 kg)per kg,"₹3,000"
+Ahmedabad,Auto Rickshaw (minimum fare)per ride,₹20
+Ahmedabad,Auto Rickshaw (per km after min)per km,₹12
+Ahmedabad,Metro / Local Train (monthly pass)per month,"₹1,000"
+Ahmedabad,Bus (monthly pass)per month,₹600
+Ahmedabad,Ola/Uber (avg ride)per ride,₹200
+Ahmedabad,Petrol1 litre,₹95
+Ahmedabad,Diesel1 litre,₹88
+Ahmedabad,Two Wheeler EMI (avg)per month,"₹3,500"
+Ahmedabad,Car EMI (avg)per month,"₹15,000"
+Ahmedabad,Electricityper month,"₹1,600"
+Ahmedabad,Water Billper month,₹250
+Ahmedabad,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Ahmedabad,Broadband Internetper month,₹850
+Ahmedabad,Mobile Plan (Jio/Airtel)per month,₹349
+Ahmedabad,1 BHK in City Centreper month,"₹14,000"
+Ahmedabad,1 BHK Outside City Centreper month,"₹8,000"
+Ahmedabad,2 BHK in City Centreper month,"₹24,000"
+Ahmedabad,2 BHK Outside City Centreper month,"₹14,000"
+Ahmedabad,3 BHK in City Centreper month,"₹40,000"
+Ahmedabad,3 BHK Outside City Centreper month,"₹22,000"
+Ahmedabad,Home Loan EMI (2BHK avg)per month,"₹35,000"
+Ahmedabad,PG - Private Room (with meals)per month,"₹10,000"
+Ahmedabad,PG - Private Room (without meals)per month,"₹7,500"
+Ahmedabad,PG - Double Sharing (with meals)per month,"₹7,000"
+Ahmedabad,PG - Double Sharing (without meals)per month,"₹5,000"
+Ahmedabad,PG - Triple Sharing (with meals)per month,"₹5,500"
+Ahmedabad,PG - Triple Sharing (without meals)per month,"₹3,800"
+Ahmedabad,"Cook (part-time, 2 meals/day)per month","₹4,000"
+Ahmedabad,Maid / Cleaning Helpper month,"₹1,500"
+Ahmedabad,Laundry / Ironing (dhobi)per month,₹800
+Ahmedabad,Miscellaneous Monthly Spendper month,"₹1,500"
+Ahmedabad,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Ahmedabad,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Ahmedabad,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Ahmedabad,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Ahmedabad,Amazon Prime Membershipper month,₹149
+Ahmedabad,Gym Membershipper month,"₹1,200"
+Ahmedabad,Movie Ticket (Multiplex)per ticket,₹200
+Ahmedabad,Netflix (Standard Plan)per month,₹649
+Ahmedabad,Spotify Premiumper month,₹119
+Ahmedabad,"Haircut (Men, basic salon)per cut",₹100
+Ahmedabad,"Domestic Beer (pint, restaurant)per pint",₹180
+Ahmedabad,"Imported Beer (bottle, restaurant)per bottle",₹350
+Jaipur,Veg Thali (local restaurant)per plate,₹80
+Jaipur,Non-Veg Thali (local restaurant)per plate,₹150
+Jaipur,Meal for Two (high-end restaurant)per meal,"₹1,000"
+Jaipur,Chai (regular cup)per cup,₹10
+Jaipur,Coffee (Cappuccino)per cup,₹160
+Jaipur,Specialty Coffee (Third Wave)per cup,₹200
+Jaipur,Street Food (Vada Pav / Samosa)per piece,₹12
+Jaipur,Biryani (chicken)per plate,₹170
+Jaipur,Dosa (plain)per plate,₹55
+Jaipur,Fast Food Combo (McDonald's)per meal,₹240
+Jaipur,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Jaipur,Bottled Water (1 litre)per bottle,₹20
+Jaipur,Rice (Basmati)1 kg,₹90
+Jaipur,Wheat Flour (Atta)1 kg,₹45
+Jaipur,Toor Dal1 kg,₹145
+Jaipur,Milk (Full Cream)1 litre,₹54
+Jaipur,Eggs12 pcs,₹72
+Jaipur,Chicken1 kg,₹220
+Jaipur,Paneer1 kg,₹340
+Jaipur,Onions1 kg,₹28
+Jaipur,Tomatoes1 kg,₹35
+Jaipur,Potatoes1 kg,₹25
+Jaipur,Cooking Oil (Sunflower)1 litre,₹145
+Jaipur,Sugar1 kg,₹42
+Jaipur,Apples (Shimla)1 kg,₹180
+Jaipur,Bananas1 dozen,₹40
+Jaipur,"Bread (White, Sliced)1 loaf",₹40
+Jaipur,Whey Protein (1 kg)per kg,"₹3,000"
+Jaipur,Auto Rickshaw (minimum fare)per ride,₹20
+Jaipur,Auto Rickshaw (per km after min)per km,₹10
+Jaipur,Metro / Local Train (monthly pass)per month,₹900
+Jaipur,Bus (monthly pass)per month,₹550
+Jaipur,Ola/Uber (avg ride)per ride,₹200
+Jaipur,Petrol1 litre,₹100
+Jaipur,Diesel1 litre,₹90
+Jaipur,Two Wheeler EMI (avg)per month,"₹3,500"
+Jaipur,Car EMI (avg)per month,"₹15,000"
+Jaipur,Electricityper month,"₹1,500"
+Jaipur,Water Billper month,₹200
+Jaipur,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Jaipur,Broadband Internetper month,₹850
+Jaipur,Mobile Plan (Jio/Airtel)per month,₹349
+Jaipur,1 BHK in City Centreper month,"₹12,000"
+Jaipur,1 BHK Outside City Centreper month,"₹7,000"
+Jaipur,2 BHK in City Centreper month,"₹20,000"
+Jaipur,2 BHK Outside City Centreper month,"₹12,000"
+Jaipur,3 BHK in City Centreper month,"₹35,000"
+Jaipur,3 BHK Outside City Centreper month,"₹18,000"
+Jaipur,Home Loan EMI (2BHK avg)per month,"₹24,000"
+Jaipur,PG - Private Room (with meals)per month,"₹9,000"
+Jaipur,PG - Private Room (without meals)per month,"₹6,500"
+Jaipur,PG - Double Sharing (with meals)per month,"₹6,500"
+Jaipur,PG - Double Sharing (without meals)per month,"₹4,500"
+Jaipur,PG - Triple Sharing (with meals)per month,"₹5,000"
+Jaipur,PG - Triple Sharing (without meals)per month,"₹3,500"
+Jaipur,"Cook (part-time, 2 meals/day)per month","₹3,500"
+Jaipur,Maid / Cleaning Helpper month,"₹1,200"
+Jaipur,Laundry / Ironing (dhobi)per month,₹700
+Jaipur,Miscellaneous Monthly Spendper month,"₹1,500"
+Jaipur,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Jaipur,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Jaipur,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Jaipur,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Jaipur,Amazon Prime Membershipper month,₹149
+Jaipur,Gym Membershipper month,"₹1,000"
+Jaipur,Movie Ticket (Multiplex)per ticket,₹180
+Jaipur,Netflix (Standard Plan)per month,₹649
+Jaipur,Spotify Premiumper month,₹119
+Jaipur,"Haircut (Men, basic salon)per cut",₹80
+Jaipur,"Domestic Beer (pint, restaurant)per pint",₹170
+Jaipur,"Imported Beer (bottle, restaurant)per bottle",₹350
+Lucknow,Veg Thali (local restaurant)per plate,₹80
+Lucknow,Non-Veg Thali (local restaurant)per plate,₹140
+Lucknow,Meal for Two (high-end restaurant)per meal,"₹1,000"
+Lucknow,Chai (regular cup)per cup,₹10
+Lucknow,Coffee (Cappuccino)per cup,₹150
+Lucknow,Specialty Coffee (Third Wave)per cup,₹200
+Lucknow,Street Food (Vada Pav / Samosa)per piece,₹10
+Lucknow,Biryani (chicken)per plate,₹160
+Lucknow,Dosa (plain)per plate,₹55
+Lucknow,Fast Food Combo (McDonald's)per meal,₹230
+Lucknow,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Lucknow,Bottled Water (1 litre)per bottle,₹20
+Lucknow,Rice (Basmati)1 kg,₹85
+Lucknow,Wheat Flour (Atta)1 kg,₹42
+Lucknow,Toor Dal1 kg,₹140
+Lucknow,Milk (Full Cream)1 litre,₹52
+Lucknow,Eggs12 pcs,₹70
+Lucknow,Chicken1 kg,₹200
+Lucknow,Paneer1 kg,₹330
+Lucknow,Onions1 kg,₹28
+Lucknow,Tomatoes1 kg,₹32
+Lucknow,Potatoes1 kg,₹22
+Lucknow,Cooking Oil (Sunflower)1 litre,₹142
+Lucknow,Sugar1 kg,₹42
+Lucknow,Apples (Shimla)1 kg,₹180
+Lucknow,Bananas1 dozen,₹40
+Lucknow,"Bread (White, Sliced)1 loaf",₹38
+Lucknow,Whey Protein (1 kg)per kg,"₹3,000"
+Lucknow,Auto Rickshaw (minimum fare)per ride,₹20
+Lucknow,Auto Rickshaw (per km after min)per km,₹10
+Lucknow,Metro / Local Train (monthly pass)per month,₹850
+Lucknow,Bus (monthly pass)per month,₹500
+Lucknow,Ola/Uber (avg ride)per ride,₹9
+Lucknow,Petrol1 litre,₹95
+Lucknow,Diesel1 litre,₹88
+Lucknow,Two Wheeler EMI (avg)per month,"₹3,500"
+Lucknow,Car EMI (avg)per month,"₹15,000"
+Lucknow,Electricityper month,"₹1,400"
+Lucknow,Water Billper month,₹200
+Lucknow,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Lucknow,Broadband Internetper month,₹850
+Lucknow,Mobile Plan (Jio/Airtel)per month,₹349
+Lucknow,1 BHK in City Centreper month,"₹10,000"
+Lucknow,1 BHK Outside City Centreper month,"₹6,000"
+Lucknow,2 BHK in City Centreper month,"₹18,000"
+Lucknow,2 BHK Outside City Centreper month,"₹10,000"
+Lucknow,3 BHK in City Centreper month,"₹30,000"
+Lucknow,3 BHK Outside City Centreper month,"₹16,000"
+Lucknow,Home Loan EMI (2BHK avg)per month,"₹18,000"
+Lucknow,PG - Private Room (with meals)per month,"₹8,000"
+Lucknow,PG - Private Room (without meals)per month,"₹6,000"
+Lucknow,PG - Double Sharing (with meals)per month,"₹5,500"
+Lucknow,PG - Double Sharing (without meals)per month,"₹4,000"
+Lucknow,PG - Triple Sharing (with meals)per month,"₹4,500"
+Lucknow,PG - Triple Sharing (without meals)per month,"₹3,000"
+Lucknow,"Cook (part-time, 2 meals/day)per month","₹3,000"
+Lucknow,Maid / Cleaning Helpper month,"₹1,000"
+Lucknow,Laundry / Ironing (dhobi)per month,₹600
+Lucknow,Miscellaneous Monthly Spendper month,"₹1,200"
+Lucknow,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Lucknow,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Lucknow,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Lucknow,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Lucknow,Amazon Prime Membershipper month,₹149
+Lucknow,Gym Membershipper month,₹800
+Lucknow,Movie Ticket (Multiplex)per ticket,₹170
+Lucknow,Netflix (Standard Plan)per month,₹649
+Lucknow,Spotify Premiumper month,₹119
+Lucknow,"Haircut (Men, basic salon)per cut",₹70
+Lucknow,"Domestic Beer (pint, restaurant)per pint",₹160
+Lucknow,"Imported Beer (bottle, restaurant)per bottle",₹320
+Gurgaon,Veg Thali (local restaurant)per plate,₹130
+Gurgaon,Non-Veg Thali (local restaurant)per plate,₹200
+Gurgaon,Meal for Two (high-end restaurant)per meal,"₹2,000"
+Gurgaon,Chai (regular cup)per cup,₹15
+Gurgaon,Coffee (Cappuccino)per cup,₹200
+Gurgaon,Specialty Coffee (Third Wave)per cup,₹347
+Gurgaon,Street Food (Vada Pav / Samosa)per piece,₹20
+Gurgaon,Biryani (chicken)per plate,₹250
+Gurgaon,Dosa (plain)per plate,₹70
+Gurgaon,Fast Food Combo (McDonald's)per meal,₹260
+Gurgaon,"Soft Drink (Coca-Cola, 300ml)per bottle",₹40
+Gurgaon,Bottled Water (1 litre)per bottle,₹20
+Gurgaon,Rice (Basmati)1 kg,₹105
+Gurgaon,Wheat Flour (Atta)1 kg,₹52
+Gurgaon,Toor Dal1 kg,₹155
+Gurgaon,Milk (Full Cream)1 litre,₹62
+Gurgaon,Eggs12 pcs,₹80
+Gurgaon,Chicken1 kg,₹260
+Gurgaon,Paneer1 kg,₹390
+Gurgaon,Onions1 kg,₹35
+Gurgaon,Tomatoes1 kg,₹45
+Gurgaon,Potatoes1 kg,₹30
+Gurgaon,Cooking Oil (Sunflower)1 litre,₹158
+Gurgaon,Sugar1 kg,₹46
+Gurgaon,Apples (Shimla)1 kg,₹190
+Gurgaon,Bananas1 dozen,₹50
+Gurgaon,"Bread (White, Sliced)1 loaf",₹48
+Gurgaon,Whey Protein (1 kg)per kg,"₹3,000"
+Gurgaon,Auto Rickshaw (minimum fare)per ride,₹25
+Gurgaon,Auto Rickshaw (per km after min)per km,₹13
+Gurgaon,Metro / Local Train (monthly pass)per month,"₹1,400"
+Gurgaon,Bus (monthly pass)per month,₹800
+Gurgaon,Ola/Uber (avg ride)per ride,₹210
+Gurgaon,Petrol1 litre,₹95
+Gurgaon,Diesel1 litre,₹88
+Gurgaon,Two Wheeler EMI (avg)per month,"₹3,500"
+Gurgaon,Car EMI (avg)per month,"₹15,000"
+Gurgaon,Electricityper month,"₹2,400"
+Gurgaon,Water Billper month,₹400
+Gurgaon,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Gurgaon,Broadband Internetper month,₹750
+Gurgaon,Mobile Plan (Jio/Airtel)per month,₹299
+Gurgaon,Air Purifier Filters & Masks (NCR)per month,₹800
+Gurgaon,1 BHK in City Centreper month,"₹22,000"
+Gurgaon,1 BHK Outside City Centreper month,"₹13,000"
+Gurgaon,2 BHK in City Centreper month,"₹40,000"
+Gurgaon,2 BHK Outside City Centreper month,"₹24,000"
+Gurgaon,3 BHK in City Centreper month,"₹65,000"
+Gurgaon,3 BHK Outside City Centreper month,"₹38,000"
+Gurgaon,Home Loan EMI (2BHK avg)per month,"₹80,000"
+Gurgaon,PG - Private Room (with meals)per month,"₹16,000"
+Gurgaon,PG - Private Room (without meals)per month,"₹12,000"
+Gurgaon,PG - Double Sharing (with meals)per month,"₹11,000"
+Gurgaon,PG - Double Sharing (without meals)per month,"₹8,000"
+Gurgaon,PG - Triple Sharing (with meals)per month,"₹8,000"
+Gurgaon,PG - Triple Sharing (without meals)per month,"₹6,000"
+Gurgaon,"Cook (part-time, 2 meals/day)per month","₹9,867"
+Gurgaon,Maid / Cleaning Helpper month,"₹3,700"
+Gurgaon,Laundry / Ironing (dhobi)per month,"₹1,827"
+Gurgaon,Miscellaneous Monthly Spendper month,"₹3,700"
+Gurgaon,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Gurgaon,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Gurgaon,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Gurgaon,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Gurgaon,Amazon Prime Membershipper month,₹149
+Gurgaon,Gym Membershipper month,"₹2,500"
+Gurgaon,Movie Ticket (Multiplex)per ticket,₹300
+Gurgaon,Netflix (Standard Plan)per month,₹649
+Gurgaon,Spotify Premiumper month,₹119
+Gurgaon,"Haircut (Men, basic salon)per cut",₹200
+Gurgaon,"Domestic Beer (pint, restaurant)per pint",₹250
+Gurgaon,"Imported Beer (bottle, restaurant)per bottle",₹430
+Noida,Veg Thali (local restaurant)per plate,₹120
+Noida,Non-Veg Thali (local restaurant)per plate,₹190
+Noida,Meal for Two (high-end restaurant)per meal,"₹1,600"
+Noida,Chai (regular cup)per cup,₹12
+Noida,Coffee (Cappuccino)per cup,₹180
+Noida,Specialty Coffee (Third Wave)per cup,₹307
+Noida,Street Food (Vada Pav / Samosa)per piece,₹15
+Noida,Biryani (chicken)per plate,₹220
+Noida,Dosa (plain)per plate,₹65
+Noida,Fast Food Combo (McDonald's)per meal,₹250
+Noida,"Soft Drink (Coca-Cola, 300ml)per bottle",₹40
+Noida,Bottled Water (1 litre)per bottle,₹20
+Noida,Rice (Basmati)1 kg,₹100
+Noida,Wheat Flour (Atta)1 kg,₹50
+Noida,Toor Dal1 kg,₹152
+Noida,Milk (Full Cream)1 litre,₹60
+Noida,Eggs12 pcs,₹78
+Noida,Chicken1 kg,₹250
+Noida,Paneer1 kg,₹380
+Noida,Onions1 kg,₹32
+Noida,Tomatoes1 kg,₹42
+Noida,Potatoes1 kg,₹28
+Noida,Cooking Oil (Sunflower)1 litre,₹155
+Noida,Sugar1 kg,₹45
+Noida,Apples (Shimla)1 kg,₹185
+Noida,Bananas1 dozen,₹48
+Noida,"Bread (White, Sliced)1 loaf",₹45
+Noida,Whey Protein (1 kg)per kg,"₹3,000"
+Noida,Auto Rickshaw (minimum fare)per ride,₹20
+Noida,Auto Rickshaw (per km after min)per km,₹11
+Noida,Metro / Local Train (monthly pass)per month,"₹1,300"
+Noida,Bus (monthly pass)per month,₹750
+Noida,Ola/Uber (avg ride)per ride,₹180
+Noida,Petrol1 litre,₹95
+Noida,Diesel1 litre,₹88
+Noida,Two Wheeler EMI (avg)per month,"₹3,500"
+Noida,Car EMI (avg)per month,"₹15,000"
+Noida,Electricityper month,"₹2,100"
+Noida,Water Billper month,₹350
+Noida,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Noida,Broadband Internetper month,₹700
+Noida,Mobile Plan (Jio/Airtel)per month,₹299
+Noida,Air Purifier Filters & Masks (NCR)per month,₹800
+Noida,1 BHK in City Centreper month,"₹16,000"
+Noida,1 BHK Outside City Centreper month,"₹10,000"
+Noida,2 BHK in City Centreper month,"₹28,000"
+Noida,2 BHK Outside City Centreper month,"₹18,000"
+Noida,3 BHK in City Centreper month,"₹48,000"
+Noida,3 BHK Outside City Centreper month,"₹28,000"
+Noida,Home Loan EMI (2BHK avg)per month,"₹56,000"
+Noida,PG - Private Room (with meals)per month,"₹13,000"
+Noida,PG - Private Room (without meals)per month,"₹10,000"
+Noida,PG - Double Sharing (with meals)per month,"₹9,000"
+Noida,PG - Double Sharing (without meals)per month,"₹7,000"
+Noida,PG - Triple Sharing (with meals)per month,"₹7,000"
+Noida,PG - Triple Sharing (without meals)per month,"₹5,000"
+Noida,"Cook (part-time, 2 meals/day)per month","₹8,267"
+Noida,Maid / Cleaning Helpper month,"₹3,100"
+Noida,Laundry / Ironing (dhobi)per month,"₹1,547"
+Noida,Miscellaneous Monthly Spendper month,"₹3,100"
+Noida,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Noida,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Noida,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Noida,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Noida,Amazon Prime Membershipper month,₹149
+Noida,Gym Membershipper month,"₹1,800"
+Noida,Movie Ticket (Multiplex)per ticket,₹280
+Noida,Netflix (Standard Plan)per month,₹649
+Noida,Spotify Premiumper month,₹119
+Noida,"Haircut (Men, basic salon)per cut",₹150
+Noida,"Domestic Beer (pint, restaurant)per pint",₹220
+Noida,"Imported Beer (bottle, restaurant)per bottle",₹400
+Navi Mumbai,Veg Thali (local restaurant)per plate,₹130
+Navi Mumbai,Non-Veg Thali (local restaurant)per plate,₹200
+Navi Mumbai,Meal for Two (high-end restaurant)per meal,"₹1,500"
+Navi Mumbai,Chai (regular cup)per cup,₹15
+Navi Mumbai,Coffee (Cappuccino)per cup,₹180
+Navi Mumbai,Specialty Coffee (Third Wave)per cup,₹333
+Navi Mumbai,Street Food (Vada Pav / Samosa)per piece,₹18
+Navi Mumbai,Biryani (chicken)per plate,₹220
+Navi Mumbai,Dosa (plain)per plate,₹70
+Navi Mumbai,Fast Food Combo (McDonald's)per meal,₹250
+Navi Mumbai,"Soft Drink (Coca-Cola, 300ml)per bottle",₹40
+Navi Mumbai,Bottled Water (1 litre)per bottle,₹20
+Navi Mumbai,Rice (Basmati)1 kg,₹105
+Navi Mumbai,Wheat Flour (Atta)1 kg,₹52
+Navi Mumbai,Toor Dal1 kg,₹155
+Navi Mumbai,Milk (Full Cream)1 litre,₹60
+Navi Mumbai,Eggs12 pcs,₹80
+Navi Mumbai,Chicken1 kg,₹260
+Navi Mumbai,Paneer1 kg,₹380
+Navi Mumbai,Onions1 kg,₹38
+Navi Mumbai,Tomatoes1 kg,₹48
+Navi Mumbai,Potatoes1 kg,₹32
+Navi Mumbai,Cooking Oil (Sunflower)1 litre,₹158
+Navi Mumbai,Sugar1 kg,₹46
+Navi Mumbai,Apples (Shimla)1 kg,₹195
+Navi Mumbai,Bananas1 dozen,₹55
+Navi Mumbai,"Bread (White, Sliced)1 loaf",₹48
+Navi Mumbai,Whey Protein (1 kg)per kg,"₹3,000"
+Navi Mumbai,Auto Rickshaw (minimum fare)per ride,₹23
+Navi Mumbai,Auto Rickshaw (per km after min)per km,₹15
+Navi Mumbai,Metro / Local Train (monthly pass)per month,"₹1,200"
+Navi Mumbai,Bus (monthly pass)per month,₹800
+Navi Mumbai,Ola/Uber (avg ride)per ride,₹195
+Navi Mumbai,Petrol1 litre,₹105
+Navi Mumbai,Diesel1 litre,₹92
+Navi Mumbai,Two Wheeler EMI (avg)per month,"₹3,500"
+Navi Mumbai,Car EMI (avg)per month,"₹15,000"
+Navi Mumbai,Electricityper month,"₹2,200"
+Navi Mumbai,Water Billper month,₹400
+Navi Mumbai,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Navi Mumbai,Broadband Internetper month,₹750
+Navi Mumbai,Mobile Plan (Jio/Airtel)per month,₹299
+Navi Mumbai,1 BHK in City Centreper month,"₹20,000"
+Navi Mumbai,1 BHK Outside City Centreper month,"₹12,000"
+Navi Mumbai,2 BHK in City Centreper month,"₹35,000"
+Navi Mumbai,2 BHK Outside City Centreper month,"₹20,000"
+Navi Mumbai,3 BHK in City Centreper month,"₹55,000"
+Navi Mumbai,3 BHK Outside City Centreper month,"₹32,000"
+Navi Mumbai,Home Loan EMI (2BHK avg)per month,"₹70,000"
+Navi Mumbai,PG - Private Room (with meals)per month,"₹14,000"
+Navi Mumbai,PG - Private Room (without meals)per month,"₹10,500"
+Navi Mumbai,PG - Double Sharing (with meals)per month,"₹10,000"
+Navi Mumbai,PG - Double Sharing (without meals)per month,"₹7,500"
+Navi Mumbai,PG - Triple Sharing (with meals)per month,"₹7,500"
+Navi Mumbai,PG - Triple Sharing (without meals)per month,"₹5,500"
+Navi Mumbai,"Cook (part-time, 2 meals/day)per month","₹9,333"
+Navi Mumbai,Maid / Cleaning Helpper month,"₹3,500"
+Navi Mumbai,Laundry / Ironing (dhobi)per month,"₹1,733"
+Navi Mumbai,Miscellaneous Monthly Spendper month,"₹3,500"
+Navi Mumbai,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Navi Mumbai,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Navi Mumbai,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Navi Mumbai,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Navi Mumbai,Amazon Prime Membershipper month,₹149
+Navi Mumbai,Gym Membershipper month,"₹2,000"
+Navi Mumbai,Movie Ticket (Multiplex)per ticket,₹280
+Navi Mumbai,Netflix (Standard Plan)per month,₹649
+Navi Mumbai,Spotify Premiumper month,₹119
+Navi Mumbai,"Haircut (Men, basic salon)per cut",₹170
+Navi Mumbai,"Domestic Beer (pint, restaurant)per pint",₹230
+Navi Mumbai,"Imported Beer (bottle, restaurant)per bottle",₹420
+Thane,Veg Thali (local restaurant)per plate,₹130
+Thane,Non-Veg Thali (local restaurant)per plate,₹200
+Thane,Meal for Two (high-end restaurant)per meal,"₹1,400"
+Thane,Chai (regular cup)per cup,₹15
+Thane,Coffee (Cappuccino)per cup,₹175
+Thane,Specialty Coffee (Third Wave)per cup,₹320
+Thane,Street Food (Vada Pav / Samosa)per piece,₹18
+Thane,Biryani (chicken)per plate,₹220
+Thane,Dosa (plain)per plate,₹70
+Thane,Fast Food Combo (McDonald's)per meal,₹250
+Thane,"Soft Drink (Coca-Cola, 300ml)per bottle",₹40
+Thane,Bottled Water (1 litre)per bottle,₹20
+Thane,Rice (Basmati)1 kg,₹105
+Thane,Wheat Flour (Atta)1 kg,₹52
+Thane,Toor Dal1 kg,₹155
+Thane,Milk (Full Cream)1 litre,₹60
+Thane,Eggs12 pcs,₹80
+Thane,Chicken1 kg,₹265
+Thane,Paneer1 kg,₹385
+Thane,Onions1 kg,₹38
+Thane,Tomatoes1 kg,₹48
+Thane,Potatoes1 kg,₹32
+Thane,Cooking Oil (Sunflower)1 litre,₹158
+Thane,Sugar1 kg,₹46
+Thane,Apples (Shimla)1 kg,₹195
+Thane,Bananas1 dozen,₹55
+Thane,"Bread (White, Sliced)1 loaf",₹48
+Thane,Whey Protein (1 kg)per kg,"₹3,000"
+Thane,Auto Rickshaw (minimum fare)per ride,₹23
+Thane,Auto Rickshaw (per km after min)per km,₹14
+Thane,Metro / Local Train (monthly pass)per month,"₹1,300"
+Thane,Bus (monthly pass)per month,₹850
+Thane,Ola/Uber (avg ride)per ride,₹195
+Thane,Petrol1 litre,₹105
+Thane,Diesel1 litre,₹92
+Thane,Two Wheeler EMI (avg)per month,"₹3,500"
+Thane,Car EMI (avg)per month,"₹15,000"
+Thane,Electricityper month,"₹2,200"
+Thane,Water Billper month,₹400
+Thane,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Thane,Broadband Internetper month,₹700
+Thane,Mobile Plan (Jio/Airtel)per month,₹299
+Thane,1 BHK in City Centreper month,"₹18,000"
+Thane,1 BHK Outside City Centreper month,"₹11,000"
+Thane,2 BHK in City Centreper month,"₹30,000"
+Thane,2 BHK Outside City Centreper month,"₹18,000"
+Thane,3 BHK in City Centreper month,"₹50,000"
+Thane,3 BHK Outside City Centreper month,"₹28,000"
+Thane,Home Loan EMI (2BHK avg)per month,"₹60,000"
+Thane,PG - Private Room (with meals)per month,"₹13,000"
+Thane,PG - Private Room (without meals)per month,"₹10,000"
+Thane,PG - Double Sharing (with meals)per month,"₹9,500"
+Thane,PG - Double Sharing (without meals)per month,"₹7,000"
+Thane,PG - Triple Sharing (with meals)per month,"₹7,000"
+Thane,PG - Triple Sharing (without meals)per month,"₹5,000"
+Thane,"Cook (part-time, 2 meals/day)per month","₹8,800"
+Thane,Maid / Cleaning Helpper month,"₹3,300"
+Thane,Laundry / Ironing (dhobi)per month,"₹1,640"
+Thane,Miscellaneous Monthly Spendper month,"₹3,300"
+Thane,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Thane,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Thane,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Thane,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Thane,Amazon Prime Membershipper month,₹149
+Thane,Gym Membershipper month,"₹1,800"
+Thane,Movie Ticket (Multiplex)per ticket,₹270
+Thane,Netflix (Standard Plan)per month,₹649
+Thane,Spotify Premiumper month,₹119
+Thane,"Haircut (Men, basic salon)per cut",₹150
+Thane,"Domestic Beer (pint, restaurant)per pint",₹220
+Thane,"Imported Beer (bottle, restaurant)per bottle",₹400
+Chandigarh,Veg Thali (local restaurant)per plate,₹110
+Chandigarh,Non-Veg Thali (local restaurant)per plate,₹180
+Chandigarh,Meal for Two (high-end restaurant)per meal,"₹1,400"
+Chandigarh,Chai (regular cup)per cup,₹12
+Chandigarh,Coffee (Cappuccino)per cup,₹170
+Chandigarh,Specialty Coffee (Third Wave)per cup,₹300
+Chandigarh,Street Food (Vada Pav / Samosa)per piece,₹15
+Chandigarh,Biryani (chicken)per plate,₹200
+Chandigarh,Dosa (plain)per plate,₹65
+Chandigarh,Fast Food Combo (McDonald's)per meal,₹250
+Chandigarh,"Soft Drink (Coca-Cola, 300ml)per bottle",₹40
+Chandigarh,Bottled Water (1 litre)per bottle,₹20
+Chandigarh,Rice (Basmati)1 kg,₹95
+Chandigarh,Wheat Flour (Atta)1 kg,₹48
+Chandigarh,Toor Dal1 kg,₹150
+Chandigarh,Milk (Full Cream)1 litre,₹65
+Chandigarh,Eggs12 pcs,₹90
+Chandigarh,Chicken1 kg,₹260
+Chandigarh,Paneer1 kg,₹370
+Chandigarh,Onions1 kg,₹32
+Chandigarh,Tomatoes1 kg,₹42
+Chandigarh,Potatoes1 kg,₹28
+Chandigarh,Cooking Oil (Sunflower)1 litre,₹150
+Chandigarh,Sugar1 kg,₹44
+Chandigarh,Apples (Shimla)1 kg,₹170
+Chandigarh,Bananas1 dozen,₹48
+Chandigarh,"Bread (White, Sliced)1 loaf",₹42
+Chandigarh,Whey Protein (1 kg)per kg,"₹3,000"
+Chandigarh,Auto Rickshaw (minimum fare)per ride,₹25
+Chandigarh,Auto Rickshaw (per km after min)per km,₹13
+Chandigarh,Metro / Local Train (monthly pass)per month,₹900
+Chandigarh,Bus (monthly pass)per month,₹650
+Chandigarh,Ola/Uber (avg ride)per ride,₹165
+Chandigarh,Petrol1 litre,₹97
+Chandigarh,Diesel1 litre,₹88
+Chandigarh,Two Wheeler EMI (avg)per month,"₹3,500"
+Chandigarh,Car EMI (avg)per month,"₹15,000"
+Chandigarh,Electricityper month,"₹1,800"
+Chandigarh,Water Billper month,₹300
+Chandigarh,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Chandigarh,Broadband Internetper month,₹650
+Chandigarh,Mobile Plan (Jio/Airtel)per month,₹299
+Chandigarh,1 BHK in City Centreper month,"₹15,000"
+Chandigarh,1 BHK Outside City Centreper month,"₹9,000"
+Chandigarh,2 BHK in City Centreper month,"₹25,000"
+Chandigarh,2 BHK Outside City Centreper month,"₹15,000"
+Chandigarh,3 BHK in City Centreper month,"₹40,000"
+Chandigarh,3 BHK Outside City Centreper month,"₹25,000"
+Chandigarh,Home Loan EMI (2BHK avg)per month,"₹50,000"
+Chandigarh,PG - Private Room (with meals)per month,"₹12,000"
+Chandigarh,PG - Private Room (without meals)per month,"₹9,000"
+Chandigarh,PG - Double Sharing (with meals)per month,"₹8,000"
+Chandigarh,PG - Double Sharing (without meals)per month,"₹6,000"
+Chandigarh,PG - Triple Sharing (with meals)per month,"₹6,000"
+Chandigarh,PG - Triple Sharing (without meals)per month,"₹4,500"
+Chandigarh,"Cook (part-time, 2 meals/day)per month","₹8,000"
+Chandigarh,Maid / Cleaning Helpper month,"₹3,000"
+Chandigarh,Laundry / Ironing (dhobi)per month,"₹1,500"
+Chandigarh,Miscellaneous Monthly Spendper month,"₹3,000"
+Chandigarh,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Chandigarh,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Chandigarh,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Chandigarh,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Chandigarh,Amazon Prime Membershipper month,₹149
+Chandigarh,Gym Membershipper month,"₹1,500"
+Chandigarh,Movie Ticket (Multiplex)per ticket,₹250
+Chandigarh,Netflix (Standard Plan)per month,₹649
+Chandigarh,Spotify Premiumper month,₹119
+Chandigarh,"Haircut (Men, basic salon)per cut",₹120
+Chandigarh,"Domestic Beer (pint, restaurant)per pint",₹200
+Chandigarh,"Imported Beer (bottle, restaurant)per bottle",₹380
+Indore,Veg Thali (local restaurant)per plate,₹80
+Indore,Non-Veg Thali (local restaurant)per plate,₹140
+Indore,Meal for Two (high-end restaurant)per meal,"₹1,100"
+Indore,Chai (regular cup)per cup,₹10
+Indore,Coffee (Cappuccino)per cup,₹125
+Indore,Specialty Coffee (Third Wave)per cup,₹280
+Indore,Street Food (Vada Pav / Samosa)per piece,₹12
+Indore,Biryani (chicken)per plate,₹160
+Indore,Dosa (plain)per plate,₹50
+Indore,Fast Food Combo (McDonald's)per meal,₹250
+Indore,"Soft Drink (Coca-Cola, 300ml)per bottle",₹40
+Indore,Bottled Water (1 litre)per bottle,₹20
+Indore,Rice (Basmati)1 kg,₹85
+Indore,Wheat Flour (Atta)1 kg,₹42
+Indore,Toor Dal1 kg,₹140
+Indore,Milk (Full Cream)1 litre,₹62
+Indore,Eggs12 pcs,₹96
+Indore,Chicken1 kg,₹240
+Indore,Paneer1 kg,₹340
+Indore,Onions1 kg,₹35
+Indore,Tomatoes1 kg,₹40
+Indore,Potatoes1 kg,₹30
+Indore,Cooking Oil (Sunflower)1 litre,₹145
+Indore,Sugar1 kg,₹42
+Indore,Apples (Shimla)1 kg,₹175
+Indore,Bananas1 dozen,₹45
+Indore,"Bread (White, Sliced)1 loaf",₹40
+Indore,Whey Protein (1 kg)per kg,"₹3,000"
+Indore,Auto Rickshaw (minimum fare)per ride,₹20
+Indore,Auto Rickshaw (per km after min)per km,₹10
+Indore,Metro / Local Train (monthly pass)per month,₹700
+Indore,Bus (monthly pass)per month,₹500
+Indore,Ola/Uber (avg ride)per ride,₹135
+Indore,Petrol1 litre,₹105
+Indore,Diesel1 litre,₹92
+Indore,Two Wheeler EMI (avg)per month,"₹3,500"
+Indore,Car EMI (avg)per month,"₹15,000"
+Indore,Electricityper month,"₹1,400"
+Indore,Water Billper month,₹200
+Indore,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Indore,Broadband Internetper month,₹650
+Indore,Mobile Plan (Jio/Airtel)per month,₹299
+Indore,1 BHK in City Centreper month,"₹12,000"
+Indore,1 BHK Outside City Centreper month,"₹7,000"
+Indore,2 BHK in City Centreper month,"₹20,000"
+Indore,2 BHK Outside City Centreper month,"₹12,000"
+Indore,3 BHK in City Centreper month,"₹35,000"
+Indore,3 BHK Outside City Centreper month,"₹20,000"
+Indore,Home Loan EMI (2BHK avg)per month,"₹40,000"
+Indore,PG - Private Room (with meals)per month,"₹9,000"
+Indore,PG - Private Room (without meals)per month,"₹7,000"
+Indore,PG - Double Sharing (with meals)per month,"₹6,500"
+Indore,PG - Double Sharing (without meals)per month,"₹4,500"
+Indore,PG - Triple Sharing (with meals)per month,"₹5,000"
+Indore,PG - Triple Sharing (without meals)per month,"₹3,500"
+Indore,"Cook (part-time, 2 meals/day)per month","₹7,200"
+Indore,Maid / Cleaning Helpper month,"₹2,700"
+Indore,Laundry / Ironing (dhobi)per month,"₹1,360"
+Indore,Miscellaneous Monthly Spendper month,"₹2,700"
+Indore,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Indore,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Indore,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Indore,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Indore,Amazon Prime Membershipper month,₹149
+Indore,Gym Membershipper month,"₹1,000"
+Indore,Movie Ticket (Multiplex)per ticket,₹200
+Indore,Netflix (Standard Plan)per month,₹649
+Indore,Spotify Premiumper month,₹119
+Indore,"Haircut (Men, basic salon)per cut",₹80
+Indore,"Domestic Beer (pint, restaurant)per pint",₹170
+Indore,"Imported Beer (bottle, restaurant)per bottle",₹340
+Bhopal,Veg Thali (local restaurant)per plate,₹80
+Bhopal,Non-Veg Thali (local restaurant)per plate,₹140
+Bhopal,Meal for Two (high-end restaurant)per meal,"₹1,000"
+Bhopal,Chai (regular cup)per cup,₹10
+Bhopal,Coffee (Cappuccino)per cup,₹120
+Bhopal,Specialty Coffee (Third Wave)per cup,₹267
+Bhopal,Street Food (Vada Pav / Samosa)per piece,₹12
+Bhopal,Biryani (chicken)per plate,₹150
+Bhopal,Dosa (plain)per plate,₹50
+Bhopal,Fast Food Combo (McDonald's)per meal,₹240
+Bhopal,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Bhopal,Bottled Water (1 litre)per bottle,₹20
+Bhopal,Rice (Basmati)1 kg,₹82
+Bhopal,Wheat Flour (Atta)1 kg,₹42
+Bhopal,Toor Dal1 kg,₹138
+Bhopal,Milk (Full Cream)1 litre,₹58
+Bhopal,Eggs12 pcs,₹90
+Bhopal,Chicken1 kg,₹230
+Bhopal,Paneer1 kg,₹330
+Bhopal,Onions1 kg,₹30
+Bhopal,Tomatoes1 kg,₹38
+Bhopal,Potatoes1 kg,₹28
+Bhopal,Cooking Oil (Sunflower)1 litre,₹142
+Bhopal,Sugar1 kg,₹42
+Bhopal,Apples (Shimla)1 kg,₹175
+Bhopal,Bananas1 dozen,₹42
+Bhopal,"Bread (White, Sliced)1 loaf",₹38
+Bhopal,Whey Protein (1 kg)per kg,"₹3,000"
+Bhopal,Auto Rickshaw (minimum fare)per ride,₹20
+Bhopal,Auto Rickshaw (per km after min)per km,₹10
+Bhopal,Metro / Local Train (monthly pass)per month,₹650
+Bhopal,Bus (monthly pass)per month,₹450
+Bhopal,Ola/Uber (avg ride)per ride,₹135
+Bhopal,Petrol1 litre,₹104
+Bhopal,Diesel1 litre,₹90
+Bhopal,Two Wheeler EMI (avg)per month,"₹3,500"
+Bhopal,Car EMI (avg)per month,"₹15,000"
+Bhopal,Electricityper month,"₹1,300"
+Bhopal,Water Billper month,₹200
+Bhopal,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Bhopal,Broadband Internetper month,₹600
+Bhopal,Mobile Plan (Jio/Airtel)per month,₹299
+Bhopal,1 BHK in City Centreper month,"₹10,000"
+Bhopal,1 BHK Outside City Centreper month,"₹6,000"
+Bhopal,2 BHK in City Centreper month,"₹18,000"
+Bhopal,2 BHK Outside City Centreper month,"₹10,000"
+Bhopal,3 BHK in City Centreper month,"₹28,000"
+Bhopal,3 BHK Outside City Centreper month,"₹16,000"
+Bhopal,Home Loan EMI (2BHK avg)per month,"₹36,000"
+Bhopal,PG - Private Room (with meals)per month,"₹8,000"
+Bhopal,PG - Private Room (without meals)per month,"₹6,000"
+Bhopal,PG - Double Sharing (with meals)per month,"₹5,500"
+Bhopal,PG - Double Sharing (without meals)per month,"₹4,000"
+Bhopal,PG - Triple Sharing (with meals)per month,"₹4,500"
+Bhopal,PG - Triple Sharing (without meals)per month,"₹3,000"
+Bhopal,"Cook (part-time, 2 meals/day)per month","₹6,667"
+Bhopal,Maid / Cleaning Helpper month,"₹2,500"
+Bhopal,Laundry / Ironing (dhobi)per month,"₹1,267"
+Bhopal,Miscellaneous Monthly Spendper month,"₹2,500"
+Bhopal,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Bhopal,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Bhopal,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Bhopal,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Bhopal,Amazon Prime Membershipper month,₹149
+Bhopal,Gym Membershipper month,₹800
+Bhopal,Movie Ticket (Multiplex)per ticket,₹180
+Bhopal,Netflix (Standard Plan)per month,₹649
+Bhopal,Spotify Premiumper month,₹119
+Bhopal,"Haircut (Men, basic salon)per cut",₹70
+Bhopal,"Domestic Beer (pint, restaurant)per pint",₹160
+Bhopal,"Imported Beer (bottle, restaurant)per bottle",₹320
+Surat,Veg Thali (local restaurant)per plate,₹90
+Surat,Non-Veg Thali (local restaurant)per plate,₹160
+Surat,Meal for Two (high-end restaurant)per meal,"₹1,100"
+Surat,Chai (regular cup)per cup,₹12
+Surat,Coffee (Cappuccino)per cup,₹160
+Surat,Specialty Coffee (Third Wave)per cup,₹287
+Surat,Street Food (Vada Pav / Samosa)per piece,₹15
+Surat,Biryani (chicken)per plate,₹180
+Surat,Dosa (plain)per plate,₹60
+Surat,Fast Food Combo (McDonald's)per meal,₹240
+Surat,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Surat,Bottled Water (1 litre)per bottle,₹20
+Surat,Rice (Basmati)1 kg,₹90
+Surat,Wheat Flour (Atta)1 kg,₹48
+Surat,Toor Dal1 kg,₹148
+Surat,Milk (Full Cream)1 litre,₹58
+Surat,Eggs12 pcs,₹78
+Surat,Chicken1 kg,₹240
+Surat,Paneer1 kg,₹360
+Surat,Onions1 kg,₹32
+Surat,Tomatoes1 kg,₹40
+Surat,Potatoes1 kg,₹30
+Surat,Cooking Oil (Sunflower)1 litre,₹150
+Surat,Sugar1 kg,₹44
+Surat,Apples (Shimla)1 kg,₹195
+Surat,Bananas1 dozen,₹48
+Surat,"Bread (White, Sliced)1 loaf",₹42
+Surat,Whey Protein (1 kg)per kg,"₹3,000"
+Surat,Auto Rickshaw (minimum fare)per ride,₹20
+Surat,Auto Rickshaw (per km after min)per km,₹11
+Surat,Metro / Local Train (monthly pass)per month,₹800
+Surat,Bus (monthly pass)per month,₹550
+Surat,Ola/Uber (avg ride)per ride,₹150
+Surat,Petrol1 litre,₹95
+Surat,Diesel1 litre,₹88
+Surat,Two Wheeler EMI (avg)per month,"₹3,500"
+Surat,Car EMI (avg)per month,"₹15,000"
+Surat,Electricityper month,"₹1,600"
+Surat,Water Billper month,₹250
+Surat,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Surat,Broadband Internetper month,₹650
+Surat,Mobile Plan (Jio/Airtel)per month,₹299
+Surat,1 BHK in City Centreper month,"₹13,000"
+Surat,1 BHK Outside City Centreper month,"₹7,500"
+Surat,2 BHK in City Centreper month,"₹22,000"
+Surat,2 BHK Outside City Centreper month,"₹13,000"
+Surat,3 BHK in City Centreper month,"₹38,000"
+Surat,3 BHK Outside City Centreper month,"₹20,000"
+Surat,Home Loan EMI (2BHK avg)per month,"₹44,000"
+Surat,PG - Private Room (with meals)per month,"₹10,000"
+Surat,PG - Private Room (without meals)per month,"₹7,500"
+Surat,PG - Double Sharing (with meals)per month,"₹7,000"
+Surat,PG - Double Sharing (without meals)per month,"₹5,000"
+Surat,PG - Triple Sharing (with meals)per month,"₹5,500"
+Surat,PG - Triple Sharing (without meals)per month,"₹3,800"
+Surat,"Cook (part-time, 2 meals/day)per month","₹7,467"
+Surat,Maid / Cleaning Helpper month,"₹2,800"
+Surat,Laundry / Ironing (dhobi)per month,"₹1,407"
+Surat,Miscellaneous Monthly Spendper month,"₹2,800"
+Surat,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Surat,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Surat,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Surat,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Surat,Amazon Prime Membershipper month,₹149
+Surat,Gym Membershipper month,"₹1,200"
+Surat,Movie Ticket (Multiplex)per ticket,₹200
+Surat,Netflix (Standard Plan)per month,₹649
+Surat,Spotify Premiumper month,₹119
+Surat,"Haircut (Men, basic salon)per cut",₹100
+Surat,"Domestic Beer (pint, restaurant)per pint",₹180
+Surat,"Imported Beer (bottle, restaurant)per bottle",₹350
+Vadodara,Veg Thali (local restaurant)per plate,₹85
+Vadodara,Non-Veg Thali (local restaurant)per plate,₹150
+Vadodara,Meal for Two (high-end restaurant)per meal,"₹1,000"
+Vadodara,Chai (regular cup)per cup,₹10
+Vadodara,Coffee (Cappuccino)per cup,₹150
+Vadodara,Specialty Coffee (Third Wave)per cup,₹273
+Vadodara,Street Food (Vada Pav / Samosa)per piece,₹12
+Vadodara,Biryani (chicken)per plate,₹170
+Vadodara,Dosa (plain)per plate,₹55
+Vadodara,Fast Food Combo (McDonald's)per meal,₹240
+Vadodara,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Vadodara,Bottled Water (1 litre)per bottle,₹20
+Vadodara,Rice (Basmati)1 kg,₹88
+Vadodara,Wheat Flour (Atta)1 kg,₹45
+Vadodara,Toor Dal1 kg,₹145
+Vadodara,Milk (Full Cream)1 litre,₹60
+Vadodara,Eggs12 pcs,₹80
+Vadodara,Chicken1 kg,₹240
+Vadodara,Paneer1 kg,₹350
+Vadodara,Onions1 kg,₹30
+Vadodara,Tomatoes1 kg,₹38
+Vadodara,Potatoes1 kg,₹28
+Vadodara,Cooking Oil (Sunflower)1 litre,₹148
+Vadodara,Sugar1 kg,₹43
+Vadodara,Apples (Shimla)1 kg,₹190
+Vadodara,Bananas1 dozen,₹45
+Vadodara,"Bread (White, Sliced)1 loaf",₹40
+Vadodara,Whey Protein (1 kg)per kg,"₹3,000"
+Vadodara,Auto Rickshaw (minimum fare)per ride,₹18
+Vadodara,Auto Rickshaw (per km after min)per km,₹10
+Vadodara,Metro / Local Train (monthly pass)per month,₹750
+Vadodara,Bus (monthly pass)per month,₹500
+Vadodara,Ola/Uber (avg ride)per ride,₹135
+Vadodara,Petrol1 litre,₹95
+Vadodara,Diesel1 litre,₹88
+Vadodara,Two Wheeler EMI (avg)per month,"₹3,500"
+Vadodara,Car EMI (avg)per month,"₹15,000"
+Vadodara,Electricityper month,"₹1,500"
+Vadodara,Water Billper month,₹200
+Vadodara,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Vadodara,Broadband Internetper month,₹600
+Vadodara,Mobile Plan (Jio/Airtel)per month,₹299
+Vadodara,1 BHK in City Centreper month,"₹11,000"
+Vadodara,1 BHK Outside City Centreper month,"₹6,500"
+Vadodara,2 BHK in City Centreper month,"₹18,000"
+Vadodara,2 BHK Outside City Centreper month,"₹11,000"
+Vadodara,3 BHK in City Centreper month,"₹30,000"
+Vadodara,3 BHK Outside City Centreper month,"₹18,000"
+Vadodara,Home Loan EMI (2BHK avg)per month,"₹36,000"
+Vadodara,PG - Private Room (with meals)per month,"₹9,000"
+Vadodara,PG - Private Room (without meals)per month,"₹6,500"
+Vadodara,PG - Double Sharing (with meals)per month,"₹6,000"
+Vadodara,PG - Double Sharing (without meals)per month,"₹4,500"
+Vadodara,PG - Triple Sharing (with meals)per month,"₹5,000"
+Vadodara,PG - Triple Sharing (without meals)per month,"₹3,500"
+Vadodara,"Cook (part-time, 2 meals/day)per month","₹6,933"
+Vadodara,Maid / Cleaning Helpper month,"₹2,600"
+Vadodara,Laundry / Ironing (dhobi)per month,"₹1,313"
+Vadodara,Miscellaneous Monthly Spendper month,"₹2,600"
+Vadodara,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Vadodara,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Vadodara,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Vadodara,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Vadodara,Amazon Prime Membershipper month,₹149
+Vadodara,Gym Membershipper month,"₹1,000"
+Vadodara,Movie Ticket (Multiplex)per ticket,₹180
+Vadodara,Netflix (Standard Plan)per month,₹649
+Vadodara,Spotify Premiumper month,₹119
+Vadodara,"Haircut (Men, basic salon)per cut",₹90
+Vadodara,"Domestic Beer (pint, restaurant)per pint",₹170
+Vadodara,"Imported Beer (bottle, restaurant)per bottle",₹340
+Nagpur,Veg Thali (local restaurant)per plate,₹90
+Nagpur,Non-Veg Thali (local restaurant)per plate,₹150
+Nagpur,Meal for Two (high-end restaurant)per meal,"₹1,100"
+Nagpur,Chai (regular cup)per cup,₹10
+Nagpur,Coffee (Cappuccino)per cup,₹150
+Nagpur,Specialty Coffee (Third Wave)per cup,₹280
+Nagpur,Street Food (Vada Pav / Samosa)per piece,₹12
+Nagpur,Biryani (chicken)per plate,₹180
+Nagpur,Dosa (plain)per plate,₹55
+Nagpur,Fast Food Combo (McDonald's)per meal,₹240
+Nagpur,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Nagpur,Bottled Water (1 litre)per bottle,₹20
+Nagpur,Rice (Basmati)1 kg,₹88
+Nagpur,Wheat Flour (Atta)1 kg,₹45
+Nagpur,Toor Dal1 kg,₹148
+Nagpur,Milk (Full Cream)1 litre,₹56
+Nagpur,Eggs12 pcs,₹78
+Nagpur,Chicken1 kg,₹230
+Nagpur,Paneer1 kg,₹350
+Nagpur,Onions1 kg,₹30
+Nagpur,Tomatoes1 kg,₹38
+Nagpur,Potatoes1 kg,₹28
+Nagpur,Cooking Oil (Sunflower)1 litre,₹148
+Nagpur,Sugar1 kg,₹44
+Nagpur,Apples (Shimla)1 kg,₹190
+Nagpur,Bananas1 dozen,₹45
+Nagpur,"Bread (White, Sliced)1 loaf",₹42
+Nagpur,Whey Protein (1 kg)per kg,"₹3,000"
+Nagpur,Auto Rickshaw (minimum fare)per ride,₹20
+Nagpur,Auto Rickshaw (per km after min)per km,₹12
+Nagpur,Metro / Local Train (monthly pass)per month,₹800
+Nagpur,Bus (monthly pass)per month,₹550
+Nagpur,Ola/Uber (avg ride)per ride,₹150
+Nagpur,Petrol1 litre,₹104
+Nagpur,Diesel1 litre,₹90
+Nagpur,Two Wheeler EMI (avg)per month,"₹3,500"
+Nagpur,Car EMI (avg)per month,"₹15,000"
+Nagpur,Electricityper month,"₹1,500"
+Nagpur,Water Billper month,₹250
+Nagpur,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Nagpur,Broadband Internetper month,₹650
+Nagpur,Mobile Plan (Jio/Airtel)per month,₹299
+Nagpur,1 BHK in City Centreper month,"₹12,000"
+Nagpur,1 BHK Outside City Centreper month,"₹7,000"
+Nagpur,2 BHK in City Centreper month,"₹20,000"
+Nagpur,2 BHK Outside City Centreper month,"₹12,000"
+Nagpur,3 BHK in City Centreper month,"₹35,000"
+Nagpur,3 BHK Outside City Centreper month,"₹18,000"
+Nagpur,Home Loan EMI (2BHK avg)per month,"₹40,000"
+Nagpur,PG - Private Room (with meals)per month,"₹9,000"
+Nagpur,PG - Private Room (without meals)per month,"₹7,000"
+Nagpur,PG - Double Sharing (with meals)per month,"₹6,500"
+Nagpur,PG - Double Sharing (without meals)per month,"₹4,500"
+Nagpur,PG - Triple Sharing (with meals)per month,"₹5,000"
+Nagpur,PG - Triple Sharing (without meals)per month,"₹3,500"
+Nagpur,"Cook (part-time, 2 meals/day)per month","₹7,200"
+Nagpur,Maid / Cleaning Helpper month,"₹2,700"
+Nagpur,Laundry / Ironing (dhobi)per month,"₹1,360"
+Nagpur,Miscellaneous Monthly Spendper month,"₹2,700"
+Nagpur,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Nagpur,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Nagpur,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Nagpur,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Nagpur,Amazon Prime Membershipper month,₹149
+Nagpur,Gym Membershipper month,"₹1,200"
+Nagpur,Movie Ticket (Multiplex)per ticket,₹200
+Nagpur,Netflix (Standard Plan)per month,₹649
+Nagpur,Spotify Premiumper month,₹119
+Nagpur,"Haircut (Men, basic salon)per cut",₹100
+Nagpur,"Domestic Beer (pint, restaurant)per pint",₹180
+Nagpur,"Imported Beer (bottle, restaurant)per bottle",₹350
+Nashik,Veg Thali (local restaurant)per plate,₹90
+Nashik,Non-Veg Thali (local restaurant)per plate,₹150
+Nashik,Meal for Two (high-end restaurant)per meal,"₹1,100"
+Nashik,Chai (regular cup)per cup,₹12
+Nashik,Coffee (Cappuccino)per cup,₹150
+Nashik,Specialty Coffee (Third Wave)per cup,₹273
+Nashik,Street Food (Vada Pav / Samosa)per piece,₹12
+Nashik,Biryani (chicken)per plate,₹180
+Nashik,Dosa (plain)per plate,₹55
+Nashik,Fast Food Combo (McDonald's)per meal,₹240
+Nashik,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Nashik,Bottled Water (1 litre)per bottle,₹20
+Nashik,Rice (Basmati)1 kg,₹90
+Nashik,Wheat Flour (Atta)1 kg,₹45
+Nashik,Toor Dal1 kg,₹148
+Nashik,Milk (Full Cream)1 litre,₹56
+Nashik,Eggs12 pcs,₹78
+Nashik,Chicken1 kg,₹235
+Nashik,Paneer1 kg,₹350
+Nashik,Onions1 kg,₹32
+Nashik,Tomatoes1 kg,₹40
+Nashik,Potatoes1 kg,₹30
+Nashik,Cooking Oil (Sunflower)1 litre,₹150
+Nashik,Sugar1 kg,₹44
+Nashik,Apples (Shimla)1 kg,₹185
+Nashik,Bananas1 dozen,₹48
+Nashik,"Bread (White, Sliced)1 loaf",₹42
+Nashik,Whey Protein (1 kg)per kg,"₹3,000"
+Nashik,Auto Rickshaw (minimum fare)per ride,₹20
+Nashik,Auto Rickshaw (per km after min)per km,₹12
+Nashik,Metro / Local Train (monthly pass)per month,₹700
+Nashik,Bus (monthly pass)per month,₹500
+Nashik,Ola/Uber (avg ride)per ride,₹150
+Nashik,Petrol1 litre,₹105
+Nashik,Diesel1 litre,₹92
+Nashik,Two Wheeler EMI (avg)per month,"₹3,500"
+Nashik,Car EMI (avg)per month,"₹15,000"
+Nashik,Electricityper month,"₹1,500"
+Nashik,Water Billper month,₹250
+Nashik,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Nashik,Broadband Internetper month,₹650
+Nashik,Mobile Plan (Jio/Airtel)per month,₹299
+Nashik,1 BHK in City Centreper month,"₹11,000"
+Nashik,1 BHK Outside City Centreper month,"₹6,500"
+Nashik,2 BHK in City Centreper month,"₹18,000"
+Nashik,2 BHK Outside City Centreper month,"₹11,000"
+Nashik,3 BHK in City Centreper month,"₹30,000"
+Nashik,3 BHK Outside City Centreper month,"₹17,000"
+Nashik,Home Loan EMI (2BHK avg)per month,"₹36,000"
+Nashik,PG - Private Room (with meals)per month,"₹9,000"
+Nashik,PG - Private Room (without meals)per month,"₹6,500"
+Nashik,PG - Double Sharing (with meals)per month,"₹6,500"
+Nashik,PG - Double Sharing (without meals)per month,"₹4,500"
+Nashik,PG - Triple Sharing (with meals)per month,"₹5,000"
+Nashik,PG - Triple Sharing (without meals)per month,"₹3,500"
+Nashik,"Cook (part-time, 2 meals/day)per month","₹6,933"
+Nashik,Maid / Cleaning Helpper month,"₹2,600"
+Nashik,Laundry / Ironing (dhobi)per month,"₹1,313"
+Nashik,Miscellaneous Monthly Spendper month,"₹2,600"
+Nashik,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Nashik,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Nashik,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Nashik,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Nashik,Amazon Prime Membershipper month,₹149
+Nashik,Gym Membershipper month,"₹1,000"
+Nashik,Movie Ticket (Multiplex)per ticket,₹200
+Nashik,Netflix (Standard Plan)per month,₹649
+Nashik,Spotify Premiumper month,₹119
+Nashik,"Haircut (Men, basic salon)per cut",₹90
+Nashik,"Domestic Beer (pint, restaurant)per pint",₹180
+Nashik,"Imported Beer (bottle, restaurant)per bottle",₹350
+Coimbatore,Veg Thali (local restaurant)per plate,₹80
+Coimbatore,Non-Veg Thali (local restaurant)per plate,₹140
+Coimbatore,Meal for Two (high-end restaurant)per meal,"₹1,000"
+Coimbatore,Chai (regular cup)per cup,₹10
+Coimbatore,Coffee (Cappuccino)per cup,₹150
+Coimbatore,Specialty Coffee (Third Wave)per cup,₹280
+Coimbatore,Street Food (Vada Pav / Samosa)per piece,₹12
+Coimbatore,Biryani (chicken)per plate,₹170
+Coimbatore,Dosa (plain)per plate,₹45
+Coimbatore,Fast Food Combo (McDonald's)per meal,₹240
+Coimbatore,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Coimbatore,Bottled Water (1 litre)per bottle,₹20
+Coimbatore,Rice (Basmati)1 kg,₹82
+Coimbatore,Wheat Flour (Atta)1 kg,₹48
+Coimbatore,Toor Dal1 kg,₹148
+Coimbatore,Milk (Full Cream)1 litre,₹52
+Coimbatore,Eggs12 pcs,₹72
+Coimbatore,Chicken1 kg,₹240
+Coimbatore,Paneer1 kg,₹360
+Coimbatore,Onions1 kg,₹32
+Coimbatore,Tomatoes1 kg,₹38
+Coimbatore,Potatoes1 kg,₹35
+Coimbatore,Cooking Oil (Sunflower)1 litre,₹148
+Coimbatore,Sugar1 kg,₹43
+Coimbatore,Apples (Shimla)1 kg,₹220
+Coimbatore,Bananas1 dozen,₹42
+Coimbatore,"Bread (White, Sliced)1 loaf",₹40
+Coimbatore,Whey Protein (1 kg)per kg,"₹3,000"
+Coimbatore,Auto Rickshaw (minimum fare)per ride,₹25
+Coimbatore,Auto Rickshaw (per km after min)per km,₹12
+Coimbatore,Metro / Local Train (monthly pass)per month,₹750
+Coimbatore,Bus (monthly pass)per month,₹550
+Coimbatore,Ola/Uber (avg ride)per ride,₹150
+Coimbatore,Petrol1 litre,₹103
+Coimbatore,Diesel1 litre,₹90
+Coimbatore,Two Wheeler EMI (avg)per month,"₹3,500"
+Coimbatore,Car EMI (avg)per month,"₹15,000"
+Coimbatore,Electricityper month,"₹1,500"
+Coimbatore,Water Billper month,₹250
+Coimbatore,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Coimbatore,Broadband Internetper month,₹650
+Coimbatore,Mobile Plan (Jio/Airtel)per month,₹299
+Coimbatore,1 BHK in City Centreper month,"₹12,000"
+Coimbatore,1 BHK Outside City Centreper month,"₹7,000"
+Coimbatore,2 BHK in City Centreper month,"₹20,000"
+Coimbatore,2 BHK Outside City Centreper month,"₹12,000"
+Coimbatore,3 BHK in City Centreper month,"₹35,000"
+Coimbatore,3 BHK Outside City Centreper month,"₹18,000"
+Coimbatore,Home Loan EMI (2BHK avg)per month,"₹40,000"
+Coimbatore,PG - Private Room (with meals)per month,"₹10,000"
+Coimbatore,PG - Private Room (without meals)per month,"₹7,500"
+Coimbatore,PG - Double Sharing (with meals)per month,"₹7,000"
+Coimbatore,PG - Double Sharing (without meals)per month,"₹5,000"
+Coimbatore,PG - Triple Sharing (with meals)per month,"₹5,500"
+Coimbatore,PG - Triple Sharing (without meals)per month,"₹4,000"
+Coimbatore,"Cook (part-time, 2 meals/day)per month","₹7,200"
+Coimbatore,Maid / Cleaning Helpper month,"₹2,700"
+Coimbatore,Laundry / Ironing (dhobi)per month,"₹1,360"
+Coimbatore,Miscellaneous Monthly Spendper month,"₹2,700"
+Coimbatore,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Coimbatore,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Coimbatore,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Coimbatore,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Coimbatore,Amazon Prime Membershipper month,₹149
+Coimbatore,Gym Membershipper month,"₹1,200"
+Coimbatore,Movie Ticket (Multiplex)per ticket,₹180
+Coimbatore,Netflix (Standard Plan)per month,₹649
+Coimbatore,Spotify Premiumper month,₹119
+Coimbatore,"Haircut (Men, basic salon)per cut",₹100
+Coimbatore,"Domestic Beer (pint, restaurant)per pint",₹190
+Coimbatore,"Imported Beer (bottle, restaurant)per bottle",₹370
+Kochi,Veg Thali (local restaurant)per plate,₹100
+Kochi,Non-Veg Thali (local restaurant)per plate,₹170
+Kochi,Meal for Two (high-end restaurant)per meal,"₹1,300"
+Kochi,Chai (regular cup)per cup,₹12
+Kochi,Coffee (Cappuccino)per cup,₹170
+Kochi,Specialty Coffee (Third Wave)per cup,₹300
+Kochi,Street Food (Vada Pav / Samosa)per piece,₹15
+Kochi,Biryani (chicken)per plate,₹200
+Kochi,Dosa (plain)per plate,₹50
+Kochi,Fast Food Combo (McDonald's)per meal,₹250
+Kochi,"Soft Drink (Coca-Cola, 300ml)per bottle",₹40
+Kochi,Bottled Water (1 litre)per bottle,₹20
+Kochi,Rice (Basmati)1 kg,₹90
+Kochi,Wheat Flour (Atta)1 kg,₹50
+Kochi,Toor Dal1 kg,₹150
+Kochi,Milk (Full Cream)1 litre,₹55
+Kochi,Eggs12 pcs,₹78
+Kochi,Chicken1 kg,₹240
+Kochi,Paneer1 kg,₹370
+Kochi,Onions1 kg,₹35
+Kochi,Tomatoes1 kg,₹42
+Kochi,Potatoes1 kg,₹35
+Kochi,Cooking Oil (Sunflower)1 litre,₹152
+Kochi,Sugar1 kg,₹45
+Kochi,Apples (Shimla)1 kg,₹230
+Kochi,Bananas1 dozen,₹45
+Kochi,"Bread (White, Sliced)1 loaf",₹42
+Kochi,Whey Protein (1 kg)per kg,"₹3,000"
+Kochi,Auto Rickshaw (minimum fare)per ride,₹30
+Kochi,Auto Rickshaw (per km after min)per km,₹14
+Kochi,Metro / Local Train (monthly pass)per month,"₹1,100"
+Kochi,Bus (monthly pass)per month,₹700
+Kochi,Ola/Uber (avg ride)per ride,₹180
+Kochi,Petrol1 litre,₹106
+Kochi,Diesel1 litre,₹96
+Kochi,Two Wheeler EMI (avg)per month,"₹3,500"
+Kochi,Car EMI (avg)per month,"₹15,000"
+Kochi,Electricityper month,"₹1,800"
+Kochi,Water Billper month,₹300
+Kochi,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Kochi,Broadband Internetper month,₹700
+Kochi,Mobile Plan (Jio/Airtel)per month,₹299
+Kochi,1 BHK in City Centreper month,"₹15,000"
+Kochi,1 BHK Outside City Centreper month,"₹9,000"
+Kochi,2 BHK in City Centreper month,"₹26,000"
+Kochi,2 BHK Outside City Centreper month,"₹15,000"
+Kochi,3 BHK in City Centreper month,"₹42,000"
+Kochi,3 BHK Outside City Centreper month,"₹24,000"
+Kochi,Home Loan EMI (2BHK avg)per month,"₹52,000"
+Kochi,PG - Private Room (with meals)per month,"₹11,000"
+Kochi,PG - Private Room (without meals)per month,"₹8,000"
+Kochi,PG - Double Sharing (with meals)per month,"₹7,500"
+Kochi,PG - Double Sharing (without meals)per month,"₹5,500"
+Kochi,PG - Triple Sharing (with meals)per month,"₹6,000"
+Kochi,PG - Triple Sharing (without meals)per month,"₹4,500"
+Kochi,"Cook (part-time, 2 meals/day)per month","₹8,000"
+Kochi,Maid / Cleaning Helpper month,"₹3,000"
+Kochi,Laundry / Ironing (dhobi)per month,"₹1,500"
+Kochi,Miscellaneous Monthly Spendper month,"₹3,000"
+Kochi,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Kochi,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Kochi,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Kochi,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Kochi,Amazon Prime Membershipper month,₹149
+Kochi,Gym Membershipper month,"₹1,500"
+Kochi,Movie Ticket (Multiplex)per ticket,₹200
+Kochi,Netflix (Standard Plan)per month,₹649
+Kochi,Spotify Premiumper month,₹119
+Kochi,"Haircut (Men, basic salon)per cut",₹120
+Kochi,"Domestic Beer (pint, restaurant)per pint",₹210
+Kochi,"Imported Beer (bottle, restaurant)per bottle",₹400
+Thiruvananthapuram,Veg Thali (local restaurant)per plate,₹90
+Thiruvananthapuram,Non-Veg Thali (local restaurant)per plate,₹160
+Thiruvananthapuram,Meal for Two (high-end restaurant)per meal,"₹1,200"
+Thiruvananthapuram,Chai (regular cup)per cup,₹12
+Thiruvananthapuram,Coffee (Cappuccino)per cup,₹160
+Thiruvananthapuram,Specialty Coffee (Third Wave)per cup,₹280
+Thiruvananthapuram,Street Food (Vada Pav / Samosa)per piece,₹15
+Thiruvananthapuram,Biryani (chicken)per plate,₹190
+Thiruvananthapuram,Dosa (plain)per plate,₹45
+Thiruvananthapuram,Fast Food Combo (McDonald's)per meal,₹240
+Thiruvananthapuram,"Soft Drink (Coca-Cola, 300ml)per bottle",₹38
+Thiruvananthapuram,Bottled Water (1 litre)per bottle,₹20
+Thiruvananthapuram,Rice (Basmati)1 kg,₹88
+Thiruvananthapuram,Wheat Flour (Atta)1 kg,₹50
+Thiruvananthapuram,Toor Dal1 kg,₹148
+Thiruvananthapuram,Milk (Full Cream)1 litre,₹55
+Thiruvananthapuram,Eggs12 pcs,₹75
+Thiruvananthapuram,Chicken1 kg,₹230
+Thiruvananthapuram,Paneer1 kg,₹360
+Thiruvananthapuram,Onions1 kg,₹35
+Thiruvananthapuram,Tomatoes1 kg,₹40
+Thiruvananthapuram,Potatoes1 kg,₹35
+Thiruvananthapuram,Cooking Oil (Sunflower)1 litre,₹150
+Thiruvananthapuram,Sugar1 kg,₹44
+Thiruvananthapuram,Apples (Shimla)1 kg,₹230
+Thiruvananthapuram,Bananas1 dozen,₹42
+Thiruvananthapuram,"Bread (White, Sliced)1 loaf",₹42
+Thiruvananthapuram,Whey Protein (1 kg)per kg,"₹3,000"
+Thiruvananthapuram,Auto Rickshaw (minimum fare)per ride,₹28
+Thiruvananthapuram,Auto Rickshaw (per km after min)per km,₹13
+Thiruvananthapuram,Metro / Local Train (monthly pass)per month,₹900
+Thiruvananthapuram,Bus (monthly pass)per month,₹600
+Thiruvananthapuram,Ola/Uber (avg ride)per ride,₹165
+Thiruvananthapuram,Petrol1 litre,₹106
+Thiruvananthapuram,Diesel1 litre,₹96
+Thiruvananthapuram,Two Wheeler EMI (avg)per month,"₹3,500"
+Thiruvananthapuram,Car EMI (avg)per month,"₹15,000"
+Thiruvananthapuram,Electricityper month,"₹1,600"
+Thiruvananthapuram,Water Billper month,₹250
+Thiruvananthapuram,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Thiruvananthapuram,Broadband Internetper month,₹650
+Thiruvananthapuram,Mobile Plan (Jio/Airtel)per month,₹299
+Thiruvananthapuram,1 BHK in City Centreper month,"₹12,000"
+Thiruvananthapuram,1 BHK Outside City Centreper month,"₹7,500"
+Thiruvananthapuram,2 BHK in City Centreper month,"₹22,000"
+Thiruvananthapuram,2 BHK Outside City Centreper month,"₹13,000"
+Thiruvananthapuram,3 BHK in City Centreper month,"₹36,000"
+Thiruvananthapuram,3 BHK Outside City Centreper month,"₹20,000"
+Thiruvananthapuram,Home Loan EMI (2BHK avg)per month,"₹44,000"
+Thiruvananthapuram,PG - Private Room (with meals)per month,"₹10,000"
+Thiruvananthapuram,PG - Private Room (without meals)per month,"₹7,500"
+Thiruvananthapuram,PG - Double Sharing (with meals)per month,"₹7,000"
+Thiruvananthapuram,PG - Double Sharing (without meals)per month,"₹5,000"
+Thiruvananthapuram,PG - Triple Sharing (with meals)per month,"₹5,500"
+Thiruvananthapuram,PG - Triple Sharing (without meals)per month,"₹4,000"
+Thiruvananthapuram,"Cook (part-time, 2 meals/day)per month","₹7,200"
+Thiruvananthapuram,Maid / Cleaning Helpper month,"₹2,700"
+Thiruvananthapuram,Laundry / Ironing (dhobi)per month,"₹1,360"
+Thiruvananthapuram,Miscellaneous Monthly Spendper month,"₹2,700"
+Thiruvananthapuram,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Thiruvananthapuram,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Thiruvananthapuram,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Thiruvananthapuram,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Thiruvananthapuram,Amazon Prime Membershipper month,₹149
+Thiruvananthapuram,Gym Membershipper month,"₹1,200"
+Thiruvananthapuram,Movie Ticket (Multiplex)per ticket,₹180
+Thiruvananthapuram,Netflix (Standard Plan)per month,₹649
+Thiruvananthapuram,Spotify Premiumper month,₹119
+Thiruvananthapuram,"Haircut (Men, basic salon)per cut",₹100
+Thiruvananthapuram,"Domestic Beer (pint, restaurant)per pint",₹200
+Thiruvananthapuram,"Imported Beer (bottle, restaurant)per bottle",₹380
+Visakhapatnam,Veg Thali (local restaurant)per plate,₹90
+Visakhapatnam,Non-Veg Thali (local restaurant)per plate,₹150
+Visakhapatnam,Meal for Two (high-end restaurant)per meal,"₹1,100"
+Visakhapatnam,Chai (regular cup)per cup,₹10
+Visakhapatnam,Coffee (Cappuccino)per cup,₹150
+Visakhapatnam,Specialty Coffee (Third Wave)per cup,₹280
+Visakhapatnam,Street Food (Vada Pav / Samosa)per piece,₹12
+Visakhapatnam,Biryani (chicken)per plate,₹170
+Visakhapatnam,Dosa (plain)per plate,₹45
+Visakhapatnam,Fast Food Combo (McDonald's)per meal,₹240
+Visakhapatnam,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Visakhapatnam,Bottled Water (1 litre)per bottle,₹20
+Visakhapatnam,Rice (Basmati)1 kg,₹85
+Visakhapatnam,Wheat Flour (Atta)1 kg,₹48
+Visakhapatnam,Toor Dal1 kg,₹145
+Visakhapatnam,Milk (Full Cream)1 litre,₹54
+Visakhapatnam,Eggs12 pcs,₹72
+Visakhapatnam,Chicken1 kg,₹220
+Visakhapatnam,Paneer1 kg,₹350
+Visakhapatnam,Onions1 kg,₹30
+Visakhapatnam,Tomatoes1 kg,₹38
+Visakhapatnam,Potatoes1 kg,₹30
+Visakhapatnam,Cooking Oil (Sunflower)1 litre,₹148
+Visakhapatnam,Sugar1 kg,₹43
+Visakhapatnam,Apples (Shimla)1 kg,₹210
+Visakhapatnam,Bananas1 dozen,₹42
+Visakhapatnam,"Bread (White, Sliced)1 loaf",₹40
+Visakhapatnam,Whey Protein (1 kg)per kg,"₹3,000"
+Visakhapatnam,Auto Rickshaw (minimum fare)per ride,₹20
+Visakhapatnam,Auto Rickshaw (per km after min)per km,₹11
+Visakhapatnam,Metro / Local Train (monthly pass)per month,₹800
+Visakhapatnam,Bus (monthly pass)per month,₹550
+Visakhapatnam,Ola/Uber (avg ride)per ride,₹150
+Visakhapatnam,Petrol1 litre,₹108
+Visakhapatnam,Diesel1 litre,₹95
+Visakhapatnam,Two Wheeler EMI (avg)per month,"₹3,500"
+Visakhapatnam,Car EMI (avg)per month,"₹15,000"
+Visakhapatnam,Electricityper month,"₹1,500"
+Visakhapatnam,Water Billper month,₹250
+Visakhapatnam,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Visakhapatnam,Broadband Internetper month,₹650
+Visakhapatnam,Mobile Plan (Jio/Airtel)per month,₹299
+Visakhapatnam,1 BHK in City Centreper month,"₹12,000"
+Visakhapatnam,1 BHK Outside City Centreper month,"₹7,000"
+Visakhapatnam,2 BHK in City Centreper month,"₹20,000"
+Visakhapatnam,2 BHK Outside City Centreper month,"₹12,000"
+Visakhapatnam,3 BHK in City Centreper month,"₹35,000"
+Visakhapatnam,3 BHK Outside City Centreper month,"₹18,000"
+Visakhapatnam,Home Loan EMI (2BHK avg)per month,"₹40,000"
+Visakhapatnam,PG - Private Room (with meals)per month,"₹9,500"
+Visakhapatnam,PG - Private Room (without meals)per month,"₹7,000"
+Visakhapatnam,PG - Double Sharing (with meals)per month,"₹6,500"
+Visakhapatnam,PG - Double Sharing (without meals)per month,"₹4,500"
+Visakhapatnam,PG - Triple Sharing (with meals)per month,"₹5,000"
+Visakhapatnam,PG - Triple Sharing (without meals)per month,"₹3,500"
+Visakhapatnam,"Cook (part-time, 2 meals/day)per month","₹7,200"
+Visakhapatnam,Maid / Cleaning Helpper month,"₹2,700"
+Visakhapatnam,Laundry / Ironing (dhobi)per month,"₹1,360"
+Visakhapatnam,Miscellaneous Monthly Spendper month,"₹2,700"
+Visakhapatnam,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Visakhapatnam,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Visakhapatnam,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Visakhapatnam,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Visakhapatnam,Amazon Prime Membershipper month,₹149
+Visakhapatnam,Gym Membershipper month,"₹1,200"
+Visakhapatnam,Movie Ticket (Multiplex)per ticket,₹180
+Visakhapatnam,Netflix (Standard Plan)per month,₹649
+Visakhapatnam,Spotify Premiumper month,₹119
+Visakhapatnam,"Haircut (Men, basic salon)per cut",₹100
+Visakhapatnam,"Domestic Beer (pint, restaurant)per pint",₹190
+Visakhapatnam,"Imported Beer (bottle, restaurant)per bottle",₹370
+Vijayawada,Veg Thali (local restaurant)per plate,₹80
+Vijayawada,Non-Veg Thali (local restaurant)per plate,₹140
+Vijayawada,Meal for Two (high-end restaurant)per meal,"₹1,000"
+Vijayawada,Chai (regular cup)per cup,₹10
+Vijayawada,Coffee (Cappuccino)per cup,₹140
+Vijayawada,Specialty Coffee (Third Wave)per cup,₹267
+Vijayawada,Street Food (Vada Pav / Samosa)per piece,₹10
+Vijayawada,Biryani (chicken)per plate,₹160
+Vijayawada,Dosa (plain)per plate,₹40
+Vijayawada,Fast Food Combo (McDonald's)per meal,₹230
+Vijayawada,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Vijayawada,Bottled Water (1 litre)per bottle,₹20
+Vijayawada,Rice (Basmati)1 kg,₹80
+Vijayawada,Wheat Flour (Atta)1 kg,₹45
+Vijayawada,Toor Dal1 kg,₹142
+Vijayawada,Milk (Full Cream)1 litre,₹52
+Vijayawada,Eggs12 pcs,₹70
+Vijayawada,Chicken1 kg,₹210
+Vijayawada,Paneer1 kg,₹340
+Vijayawada,Onions1 kg,₹28
+Vijayawada,Tomatoes1 kg,₹35
+Vijayawada,Potatoes1 kg,₹28
+Vijayawada,Cooking Oil (Sunflower)1 litre,₹145
+Vijayawada,Sugar1 kg,₹42
+Vijayawada,Apples (Shimla)1 kg,₹210
+Vijayawada,Bananas1 dozen,₹40
+Vijayawada,"Bread (White, Sliced)1 loaf",₹38
+Vijayawada,Whey Protein (1 kg)per kg,"₹3,000"
+Vijayawada,Auto Rickshaw (minimum fare)per ride,₹20
+Vijayawada,Auto Rickshaw (per km after min)per km,₹10
+Vijayawada,Metro / Local Train (monthly pass)per month,₹700
+Vijayawada,Bus (monthly pass)per month,₹500
+Vijayawada,Ola/Uber (avg ride)per ride,₹135
+Vijayawada,Petrol1 litre,₹108
+Vijayawada,Diesel1 litre,₹95
+Vijayawada,Two Wheeler EMI (avg)per month,"₹3,500"
+Vijayawada,Car EMI (avg)per month,"₹15,000"
+Vijayawada,Electricityper month,"₹1,400"
+Vijayawada,Water Billper month,₹200
+Vijayawada,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Vijayawada,Broadband Internetper month,₹600
+Vijayawada,Mobile Plan (Jio/Airtel)per month,₹299
+Vijayawada,1 BHK in City Centreper month,"₹10,000"
+Vijayawada,1 BHK Outside City Centreper month,"₹6,000"
+Vijayawada,2 BHK in City Centreper month,"₹16,000"
+Vijayawada,2 BHK Outside City Centreper month,"₹10,000"
+Vijayawada,3 BHK in City Centreper month,"₹28,000"
+Vijayawada,3 BHK Outside City Centreper month,"₹15,000"
+Vijayawada,Home Loan EMI (2BHK avg)per month,"₹32,000"
+Vijayawada,PG - Private Room (with meals)per month,"₹8,000"
+Vijayawada,PG - Private Room (without meals)per month,"₹6,000"
+Vijayawada,PG - Double Sharing (with meals)per month,"₹5,500"
+Vijayawada,PG - Double Sharing (without meals)per month,"₹4,000"
+Vijayawada,PG - Triple Sharing (with meals)per month,"₹4,500"
+Vijayawada,PG - Triple Sharing (without meals)per month,"₹3,000"
+Vijayawada,"Cook (part-time, 2 meals/day)per month","₹6,667"
+Vijayawada,Maid / Cleaning Helpper month,"₹2,500"
+Vijayawada,Laundry / Ironing (dhobi)per month,"₹1,267"
+Vijayawada,Miscellaneous Monthly Spendper month,"₹2,500"
+Vijayawada,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Vijayawada,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Vijayawada,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Vijayawada,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Vijayawada,Amazon Prime Membershipper month,₹149
+Vijayawada,Gym Membershipper month,"₹1,000"
+Vijayawada,Movie Ticket (Multiplex)per ticket,₹170
+Vijayawada,Netflix (Standard Plan)per month,₹649
+Vijayawada,Spotify Premiumper month,₹119
+Vijayawada,"Haircut (Men, basic salon)per cut",₹80
+Vijayawada,"Domestic Beer (pint, restaurant)per pint",₹180
+Vijayawada,"Imported Beer (bottle, restaurant)per bottle",₹360
+Mysuru,Veg Thali (local restaurant)per plate,₹80
+Mysuru,Non-Veg Thali (local restaurant)per plate,₹140
+Mysuru,Meal for Two (high-end restaurant)per meal,"₹1,000"
+Mysuru,Chai (regular cup)per cup,₹10
+Mysuru,Coffee (Cappuccino)per cup,₹140
+Mysuru,Specialty Coffee (Third Wave)per cup,₹267
+Mysuru,Street Food (Vada Pav / Samosa)per piece,₹12
+Mysuru,Biryani (chicken)per plate,₹170
+Mysuru,Dosa (plain)per plate,₹45
+Mysuru,Fast Food Combo (McDonald's)per meal,₹240
+Mysuru,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Mysuru,Bottled Water (1 litre)per bottle,₹20
+Mysuru,Rice (Basmati)1 kg,₹82
+Mysuru,Wheat Flour (Atta)1 kg,₹46
+Mysuru,Toor Dal1 kg,₹145
+Mysuru,Milk (Full Cream)1 litre,₹52
+Mysuru,Eggs12 pcs,₹72
+Mysuru,Chicken1 kg,₹220
+Mysuru,Paneer1 kg,₹350
+Mysuru,Onions1 kg,₹30
+Mysuru,Tomatoes1 kg,₹38
+Mysuru,Potatoes1 kg,₹30
+Mysuru,Cooking Oil (Sunflower)1 litre,₹148
+Mysuru,Sugar1 kg,₹43
+Mysuru,Apples (Shimla)1 kg,₹200
+Mysuru,Bananas1 dozen,₹42
+Mysuru,"Bread (White, Sliced)1 loaf",₹40
+Mysuru,Whey Protein (1 kg)per kg,"₹3,000"
+Mysuru,Auto Rickshaw (minimum fare)per ride,₹25
+Mysuru,Auto Rickshaw (per km after min)per km,₹12
+Mysuru,Metro / Local Train (monthly pass)per month,₹700
+Mysuru,Bus (monthly pass)per month,₹500
+Mysuru,Ola/Uber (avg ride)per ride,₹150
+Mysuru,Petrol1 litre,₹103
+Mysuru,Diesel1 litre,₹88
+Mysuru,Two Wheeler EMI (avg)per month,"₹3,500"
+Mysuru,Car EMI (avg)per month,"₹15,000"
+Mysuru,Electricityper month,"₹1,400"
+Mysuru,Water Billper month,₹200
+Mysuru,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Mysuru,Broadband Internetper month,₹600
+Mysuru,Mobile Plan (Jio/Airtel)per month,₹299
+Mysuru,1 BHK in City Centreper month,"₹10,000"
+Mysuru,1 BHK Outside City Centreper month,"₹6,000"
+Mysuru,2 BHK in City Centreper month,"₹16,000"
+Mysuru,2 BHK Outside City Centreper month,"₹10,000"
+Mysuru,3 BHK in City Centreper month,"₹28,000"
+Mysuru,3 BHK Outside City Centreper month,"₹16,000"
+Mysuru,Home Loan EMI (2BHK avg)per month,"₹32,000"
+Mysuru,PG - Private Room (with meals)per month,"₹8,500"
+Mysuru,PG - Private Room (without meals)per month,"₹6,500"
+Mysuru,PG - Double Sharing (with meals)per month,"₹6,000"
+Mysuru,PG - Double Sharing (without meals)per month,"₹4,500"
+Mysuru,PG - Triple Sharing (with meals)per month,"₹5,000"
+Mysuru,PG - Triple Sharing (without meals)per month,"₹3,500"
+Mysuru,"Cook (part-time, 2 meals/day)per month","₹6,667"
+Mysuru,Maid / Cleaning Helpper month,"₹2,500"
+Mysuru,Laundry / Ironing (dhobi)per month,"₹1,267"
+Mysuru,Miscellaneous Monthly Spendper month,"₹2,500"
+Mysuru,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Mysuru,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Mysuru,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Mysuru,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Mysuru,Amazon Prime Membershipper month,₹149
+Mysuru,Gym Membershipper month,"₹1,000"
+Mysuru,Movie Ticket (Multiplex)per ticket,₹180
+Mysuru,Netflix (Standard Plan)per month,₹649
+Mysuru,Spotify Premiumper month,₹119
+Mysuru,"Haircut (Men, basic salon)per cut",₹80
+Mysuru,"Domestic Beer (pint, restaurant)per pint",₹180
+Mysuru,"Imported Beer (bottle, restaurant)per bottle",₹360
+Mangalore,Veg Thali (local restaurant)per plate,₹90
+Mangalore,Non-Veg Thali (local restaurant)per plate,₹150
+Mangalore,Meal for Two (high-end restaurant)per meal,"₹1,100"
+Mangalore,Chai (regular cup)per cup,₹12
+Mangalore,Coffee (Cappuccino)per cup,₹150
+Mangalore,Specialty Coffee (Third Wave)per cup,₹280
+Mangalore,Street Food (Vada Pav / Samosa)per piece,₹12
+Mangalore,Biryani (chicken)per plate,₹180
+Mangalore,Dosa (plain)per plate,₹45
+Mangalore,Fast Food Combo (McDonald's)per meal,₹240
+Mangalore,"Soft Drink (Coca-Cola, 300ml)per bottle",₹38
+Mangalore,Bottled Water (1 litre)per bottle,₹20
+Mangalore,Rice (Basmati)1 kg,₹85
+Mangalore,Wheat Flour (Atta)1 kg,₹48
+Mangalore,Toor Dal1 kg,₹148
+Mangalore,Milk (Full Cream)1 litre,₹54
+Mangalore,Eggs12 pcs,₹75
+Mangalore,Chicken1 kg,₹230
+Mangalore,Paneer1 kg,₹360
+Mangalore,Onions1 kg,₹32
+Mangalore,Tomatoes1 kg,₹40
+Mangalore,Potatoes1 kg,₹32
+Mangalore,Cooking Oil (Sunflower)1 litre,₹150
+Mangalore,Sugar1 kg,₹44
+Mangalore,Apples (Shimla)1 kg,₹210
+Mangalore,Bananas1 dozen,₹42
+Mangalore,"Bread (White, Sliced)1 loaf",₹40
+Mangalore,Whey Protein (1 kg)per kg,"₹3,000"
+Mangalore,Auto Rickshaw (minimum fare)per ride,₹25
+Mangalore,Auto Rickshaw (per km after min)per km,₹12
+Mangalore,Metro / Local Train (monthly pass)per month,₹700
+Mangalore,Bus (monthly pass)per month,₹500
+Mangalore,Ola/Uber (avg ride)per ride,₹150
+Mangalore,Petrol1 litre,₹103
+Mangalore,Diesel1 litre,₹88
+Mangalore,Two Wheeler EMI (avg)per month,"₹3,500"
+Mangalore,Car EMI (avg)per month,"₹15,000"
+Mangalore,Electricityper month,"₹1,500"
+Mangalore,Water Billper month,₹250
+Mangalore,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Mangalore,Broadband Internetper month,₹650
+Mangalore,Mobile Plan (Jio/Airtel)per month,₹299
+Mangalore,1 BHK in City Centreper month,"₹12,000"
+Mangalore,1 BHK Outside City Centreper month,"₹7,000"
+Mangalore,2 BHK in City Centreper month,"₹20,000"
+Mangalore,2 BHK Outside City Centreper month,"₹12,000"
+Mangalore,3 BHK in City Centreper month,"₹35,000"
+Mangalore,3 BHK Outside City Centreper month,"₹18,000"
+Mangalore,Home Loan EMI (2BHK avg)per month,"₹40,000"
+Mangalore,PG - Private Room (with meals)per month,"₹10,000"
+Mangalore,PG - Private Room (without meals)per month,"₹7,500"
+Mangalore,PG - Double Sharing (with meals)per month,"₹7,000"
+Mangalore,PG - Double Sharing (without meals)per month,"₹5,000"
+Mangalore,PG - Triple Sharing (with meals)per month,"₹5,500"
+Mangalore,PG - Triple Sharing (without meals)per month,"₹4,000"
+Mangalore,"Cook (part-time, 2 meals/day)per month","₹7,200"
+Mangalore,Maid / Cleaning Helpper month,"₹2,700"
+Mangalore,Laundry / Ironing (dhobi)per month,"₹1,360"
+Mangalore,Miscellaneous Monthly Spendper month,"₹2,700"
+Mangalore,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Mangalore,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Mangalore,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Mangalore,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Mangalore,Amazon Prime Membershipper month,₹149
+Mangalore,Gym Membershipper month,"₹1,200"
+Mangalore,Movie Ticket (Multiplex)per ticket,₹200
+Mangalore,Netflix (Standard Plan)per month,₹649
+Mangalore,Spotify Premiumper month,₹119
+Mangalore,"Haircut (Men, basic salon)per cut",₹100
+Mangalore,"Domestic Beer (pint, restaurant)per pint",₹200
+Mangalore,"Imported Beer (bottle, restaurant)per bottle",₹380
+Madurai,Veg Thali (local restaurant)per plate,₹70
+Madurai,Non-Veg Thali (local restaurant)per plate,₹130
+Madurai,Meal for Two (high-end restaurant)per meal,₹800
+Madurai,Chai (regular cup)per cup,₹10
+Madurai,Coffee (Cappuccino)per cup,₹130
+Madurai,Specialty Coffee (Third Wave)per cup,₹253
+Madurai,Street Food (Vada Pav / Samosa)per piece,₹10
+Madurai,Biryani (chicken)per plate,₹150
+Madurai,Dosa (plain)per plate,₹40
+Madurai,Fast Food Combo (McDonald's)per meal,₹230
+Madurai,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Madurai,Bottled Water (1 litre)per bottle,₹20
+Madurai,Rice (Basmati)1 kg,₹78
+Madurai,Wheat Flour (Atta)1 kg,₹45
+Madurai,Toor Dal1 kg,₹140
+Madurai,Milk (Full Cream)1 litre,₹50
+Madurai,Eggs12 pcs,₹68
+Madurai,Chicken1 kg,₹200
+Madurai,Paneer1 kg,₹340
+Madurai,Onions1 kg,₹28
+Madurai,Tomatoes1 kg,₹35
+Madurai,Potatoes1 kg,₹30
+Madurai,Cooking Oil (Sunflower)1 litre,₹145
+Madurai,Sugar1 kg,₹42
+Madurai,Apples (Shimla)1 kg,₹220
+Madurai,Bananas1 dozen,₹40
+Madurai,"Bread (White, Sliced)1 loaf",₹38
+Madurai,Whey Protein (1 kg)per kg,"₹3,000"
+Madurai,Auto Rickshaw (minimum fare)per ride,₹20
+Madurai,Auto Rickshaw (per km after min)per km,₹10
+Madurai,Metro / Local Train (monthly pass)per month,₹600
+Madurai,Bus (monthly pass)per month,₹400
+Madurai,Ola/Uber (avg ride)per ride,₹135
+Madurai,Petrol1 litre,₹103
+Madurai,Diesel1 litre,₹90
+Madurai,Two Wheeler EMI (avg)per month,"₹3,500"
+Madurai,Car EMI (avg)per month,"₹15,000"
+Madurai,Electricityper month,"₹1,200"
+Madurai,Water Billper month,₹200
+Madurai,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Madurai,Broadband Internetper month,₹550
+Madurai,Mobile Plan (Jio/Airtel)per month,₹299
+Madurai,1 BHK in City Centreper month,"₹8,000"
+Madurai,1 BHK Outside City Centreper month,"₹5,000"
+Madurai,2 BHK in City Centreper month,"₹14,000"
+Madurai,2 BHK Outside City Centreper month,"₹8,000"
+Madurai,3 BHK in City Centreper month,"₹22,000"
+Madurai,3 BHK Outside City Centreper month,"₹13,000"
+Madurai,Home Loan EMI (2BHK avg)per month,"₹28,000"
+Madurai,PG - Private Room (with meals)per month,"₹7,000"
+Madurai,PG - Private Room (without meals)per month,"₹5,000"
+Madurai,PG - Double Sharing (with meals)per month,"₹5,000"
+Madurai,PG - Double Sharing (without meals)per month,"₹3,500"
+Madurai,PG - Triple Sharing (with meals)per month,"₹4,000"
+Madurai,PG - Triple Sharing (without meals)per month,"₹2,800"
+Madurai,"Cook (part-time, 2 meals/day)per month","₹6,133"
+Madurai,Maid / Cleaning Helpper month,"₹2,300"
+Madurai,Laundry / Ironing (dhobi)per month,"₹1,173"
+Madurai,Miscellaneous Monthly Spendper month,"₹2,300"
+Madurai,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Madurai,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Madurai,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Madurai,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Madurai,Amazon Prime Membershipper month,₹149
+Madurai,Gym Membershipper month,₹800
+Madurai,Movie Ticket (Multiplex)per ticket,₹160
+Madurai,Netflix (Standard Plan)per month,₹649
+Madurai,Spotify Premiumper month,₹119
+Madurai,"Haircut (Men, basic salon)per cut",₹70
+Madurai,"Domestic Beer (pint, restaurant)per pint",₹170
+Madurai,"Imported Beer (bottle, restaurant)per bottle",₹340
+Trichy,Veg Thali (local restaurant)per plate,₹70
+Trichy,Non-Veg Thali (local restaurant)per plate,₹130
+Trichy,Meal for Two (high-end restaurant)per meal,₹800
+Trichy,Chai (regular cup)per cup,₹10
+Trichy,Coffee (Cappuccino)per cup,₹130
+Trichy,Specialty Coffee (Third Wave)per cup,₹250
+Trichy,Street Food (Vada Pav / Samosa)per piece,₹10
+Trichy,Biryani (chicken)per plate,₹150
+Trichy,Dosa (plain)per plate,₹35
+Trichy,Fast Food Combo (McDonald's)per meal,₹230
+Trichy,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Trichy,Bottled Water (1 litre)per bottle,₹20
+Trichy,Rice (Basmati)1 kg,₹78
+Trichy,Wheat Flour (Atta)1 kg,₹45
+Trichy,Toor Dal1 kg,₹140
+Trichy,Milk (Full Cream)1 litre,₹50
+Trichy,Eggs12 pcs,₹68
+Trichy,Chicken1 kg,₹200
+Trichy,Paneer1 kg,₹340
+Trichy,Onions1 kg,₹28
+Trichy,Tomatoes1 kg,₹35
+Trichy,Potatoes1 kg,₹30
+Trichy,Cooking Oil (Sunflower)1 litre,₹145
+Trichy,Sugar1 kg,₹42
+Trichy,Apples (Shimla)1 kg,₹220
+Trichy,Bananas1 dozen,₹38
+Trichy,"Bread (White, Sliced)1 loaf",₹38
+Trichy,Whey Protein (1 kg)per kg,"₹3,000"
+Trichy,Auto Rickshaw (minimum fare)per ride,₹20
+Trichy,Auto Rickshaw (per km after min)per km,₹10
+Trichy,Metro / Local Train (monthly pass)per month,₹600
+Trichy,Bus (monthly pass)per month,₹400
+Trichy,Ola/Uber (avg ride)per ride,₹135
+Trichy,Petrol1 litre,₹103
+Trichy,Diesel1 litre,₹90
+Trichy,Two Wheeler EMI (avg)per month,"₹3,500"
+Trichy,Car EMI (avg)per month,"₹15,000"
+Trichy,Electricityper month,"₹1,200"
+Trichy,Water Billper month,₹180
+Trichy,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Trichy,Broadband Internetper month,₹550
+Trichy,Mobile Plan (Jio/Airtel)per month,₹299
+Trichy,1 BHK in City Centreper month,"₹7,500"
+Trichy,1 BHK Outside City Centreper month,"₹4,500"
+Trichy,2 BHK in City Centreper month,"₹13,000"
+Trichy,2 BHK Outside City Centreper month,"₹7,500"
+Trichy,3 BHK in City Centreper month,"₹20,000"
+Trichy,3 BHK Outside City Centreper month,"₹12,000"
+Trichy,Home Loan EMI (2BHK avg)per month,"₹26,000"
+Trichy,PG - Private Room (with meals)per month,"₹6,500"
+Trichy,PG - Private Room (without meals)per month,"₹5,000"
+Trichy,PG - Double Sharing (with meals)per month,"₹4,500"
+Trichy,PG - Double Sharing (without meals)per month,"₹3,200"
+Trichy,PG - Triple Sharing (with meals)per month,"₹3,500"
+Trichy,PG - Triple Sharing (without meals)per month,"₹2,500"
+Trichy,"Cook (part-time, 2 meals/day)per month","₹6,000"
+Trichy,Maid / Cleaning Helpper month,"₹2,250"
+Trichy,Laundry / Ironing (dhobi)per month,"₹1,150"
+Trichy,Miscellaneous Monthly Spendper month,"₹2,250"
+Trichy,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Trichy,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Trichy,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Trichy,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Trichy,Amazon Prime Membershipper month,₹149
+Trichy,Gym Membershipper month,₹800
+Trichy,Movie Ticket (Multiplex)per ticket,₹150
+Trichy,Netflix (Standard Plan)per month,₹649
+Trichy,Spotify Premiumper month,₹119
+Trichy,"Haircut (Men, basic salon)per cut",₹70
+Trichy,"Domestic Beer (pint, restaurant)per pint",₹170
+Trichy,"Imported Beer (bottle, restaurant)per bottle",₹340
+Varanasi,Veg Thali (local restaurant)per plate,₹70
+Varanasi,Non-Veg Thali (local restaurant)per plate,₹130
+Varanasi,Meal for Two (high-end restaurant)per meal,₹900
+Varanasi,Chai (regular cup)per cup,₹10
+Varanasi,Coffee (Cappuccino)per cup,₹130
+Varanasi,Specialty Coffee (Third Wave)per cup,₹253
+Varanasi,Street Food (Vada Pav / Samosa)per piece,₹10
+Varanasi,Biryani (chicken)per plate,₹150
+Varanasi,Dosa (plain)per plate,₹50
+Varanasi,Fast Food Combo (McDonald's)per meal,₹230
+Varanasi,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Varanasi,Bottled Water (1 litre)per bottle,₹20
+Varanasi,Rice (Basmati)1 kg,₹82
+Varanasi,Wheat Flour (Atta)1 kg,₹42
+Varanasi,Toor Dal1 kg,₹138
+Varanasi,Milk (Full Cream)1 litre,₹52
+Varanasi,Eggs12 pcs,₹70
+Varanasi,Chicken1 kg,₹200
+Varanasi,Paneer1 kg,₹330
+Varanasi,Onions1 kg,₹28
+Varanasi,Tomatoes1 kg,₹32
+Varanasi,Potatoes1 kg,₹22
+Varanasi,Cooking Oil (Sunflower)1 litre,₹142
+Varanasi,Sugar1 kg,₹42
+Varanasi,Apples (Shimla)1 kg,₹180
+Varanasi,Bananas1 dozen,₹40
+Varanasi,"Bread (White, Sliced)1 loaf",₹38
+Varanasi,Whey Protein (1 kg)per kg,"₹3,000"
+Varanasi,Auto Rickshaw (minimum fare)per ride,₹18
+Varanasi,Auto Rickshaw (per km after min)per km,₹10
+Varanasi,Metro / Local Train (monthly pass)per month,₹700
+Varanasi,Bus (monthly pass)per month,₹450
+Varanasi,Ola/Uber (avg ride)per ride,₹135
+Varanasi,Petrol1 litre,₹95
+Varanasi,Diesel1 litre,₹88
+Varanasi,Two Wheeler EMI (avg)per month,"₹3,500"
+Varanasi,Car EMI (avg)per month,"₹15,000"
+Varanasi,Electricityper month,"₹1,300"
+Varanasi,Water Billper month,₹180
+Varanasi,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Varanasi,Broadband Internetper month,₹550
+Varanasi,Mobile Plan (Jio/Airtel)per month,₹299
+Varanasi,1 BHK in City Centreper month,"₹8,000"
+Varanasi,1 BHK Outside City Centreper month,"₹5,000"
+Varanasi,2 BHK in City Centreper month,"₹14,000"
+Varanasi,2 BHK Outside City Centreper month,"₹8,500"
+Varanasi,3 BHK in City Centreper month,"₹22,000"
+Varanasi,3 BHK Outside City Centreper month,"₹14,000"
+Varanasi,Home Loan EMI (2BHK avg)per month,"₹28,000"
+Varanasi,PG - Private Room (with meals)per month,"₹7,000"
+Varanasi,PG - Private Room (without meals)per month,"₹5,500"
+Varanasi,PG - Double Sharing (with meals)per month,"₹5,000"
+Varanasi,PG - Double Sharing (without meals)per month,"₹3,500"
+Varanasi,PG - Triple Sharing (with meals)per month,"₹4,000"
+Varanasi,PG - Triple Sharing (without meals)per month,"₹2,800"
+Varanasi,"Cook (part-time, 2 meals/day)per month","₹6,133"
+Varanasi,Maid / Cleaning Helpper month,"₹2,300"
+Varanasi,Laundry / Ironing (dhobi)per month,"₹1,173"
+Varanasi,Miscellaneous Monthly Spendper month,"₹2,300"
+Varanasi,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Varanasi,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Varanasi,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Varanasi,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Varanasi,Amazon Prime Membershipper month,₹149
+Varanasi,Gym Membershipper month,₹700
+Varanasi,Movie Ticket (Multiplex)per ticket,₹160
+Varanasi,Netflix (Standard Plan)per month,₹649
+Varanasi,Spotify Premiumper month,₹119
+Varanasi,"Haircut (Men, basic salon)per cut",₹60
+Varanasi,"Domestic Beer (pint, restaurant)per pint",₹150
+Varanasi,"Imported Beer (bottle, restaurant)per bottle",₹300
+Agra,Veg Thali (local restaurant)per plate,₹75
+Agra,Non-Veg Thali (local restaurant)per plate,₹130
+Agra,Meal for Two (high-end restaurant)per meal,₹900
+Agra,Chai (regular cup)per cup,₹10
+Agra,Coffee (Cappuccino)per cup,₹130
+Agra,Specialty Coffee (Third Wave)per cup,₹257
+Agra,Street Food (Vada Pav / Samosa)per piece,₹10
+Agra,Biryani (chicken)per plate,₹150
+Agra,Dosa (plain)per plate,₹50
+Agra,Fast Food Combo (McDonald's)per meal,₹230
+Agra,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Agra,Bottled Water (1 litre)per bottle,₹20
+Agra,Rice (Basmati)1 kg,₹82
+Agra,Wheat Flour (Atta)1 kg,₹42
+Agra,Toor Dal1 kg,₹140
+Agra,Milk (Full Cream)1 litre,₹54
+Agra,Eggs12 pcs,₹72
+Agra,Chicken1 kg,₹210
+Agra,Paneer1 kg,₹330
+Agra,Onions1 kg,₹28
+Agra,Tomatoes1 kg,₹32
+Agra,Potatoes1 kg,₹22
+Agra,Cooking Oil (Sunflower)1 litre,₹142
+Agra,Sugar1 kg,₹42
+Agra,Apples (Shimla)1 kg,₹175
+Agra,Bananas1 dozen,₹40
+Agra,"Bread (White, Sliced)1 loaf",₹38
+Agra,Whey Protein (1 kg)per kg,"₹3,000"
+Agra,Auto Rickshaw (minimum fare)per ride,₹18
+Agra,Auto Rickshaw (per km after min)per km,₹10
+Agra,Metro / Local Train (monthly pass)per month,₹650
+Agra,Bus (monthly pass)per month,₹450
+Agra,Ola/Uber (avg ride)per ride,₹135
+Agra,Petrol1 litre,₹95
+Agra,Diesel1 litre,₹88
+Agra,Two Wheeler EMI (avg)per month,"₹3,500"
+Agra,Car EMI (avg)per month,"₹15,000"
+Agra,Electricityper month,"₹1,300"
+Agra,Water Billper month,₹200
+Agra,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Agra,Broadband Internetper month,₹550
+Agra,Mobile Plan (Jio/Airtel)per month,₹299
+Agra,1 BHK in City Centreper month,"₹8,500"
+Agra,1 BHK Outside City Centreper month,"₹5,000"
+Agra,2 BHK in City Centreper month,"₹14,000"
+Agra,2 BHK Outside City Centreper month,"₹8,500"
+Agra,3 BHK in City Centreper month,"₹24,000"
+Agra,3 BHK Outside City Centreper month,"₹14,000"
+Agra,Home Loan EMI (2BHK avg)per month,"₹28,000"
+Agra,PG - Private Room (with meals)per month,"₹7,000"
+Agra,PG - Private Room (without meals)per month,"₹5,500"
+Agra,PG - Double Sharing (with meals)per month,"₹5,000"
+Agra,PG - Double Sharing (without meals)per month,"₹3,500"
+Agra,PG - Triple Sharing (with meals)per month,"₹4,000"
+Agra,PG - Triple Sharing (without meals)per month,"₹2,800"
+Agra,"Cook (part-time, 2 meals/day)per month","₹6,267"
+Agra,Maid / Cleaning Helpper month,"₹2,350"
+Agra,Laundry / Ironing (dhobi)per month,"₹1,197"
+Agra,Miscellaneous Monthly Spendper month,"₹2,350"
+Agra,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Agra,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Agra,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Agra,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Agra,Amazon Prime Membershipper month,₹149
+Agra,Gym Membershipper month,₹700
+Agra,Movie Ticket (Multiplex)per ticket,₹160
+Agra,Netflix (Standard Plan)per month,₹649
+Agra,Spotify Premiumper month,₹119
+Agra,"Haircut (Men, basic salon)per cut",₹60
+Agra,"Domestic Beer (pint, restaurant)per pint",₹150
+Agra,"Imported Beer (bottle, restaurant)per bottle",₹300
+Kanpur,Veg Thali (local restaurant)per plate,₹70
+Kanpur,Non-Veg Thali (local restaurant)per plate,₹130
+Kanpur,Meal for Two (high-end restaurant)per meal,₹900
+Kanpur,Chai (regular cup)per cup,₹10
+Kanpur,Coffee (Cappuccino)per cup,₹120
+Kanpur,Specialty Coffee (Third Wave)per cup,₹253
+Kanpur,Street Food (Vada Pav / Samosa)per piece,₹10
+Kanpur,Biryani (chicken)per plate,₹150
+Kanpur,Dosa (plain)per plate,₹50
+Kanpur,Fast Food Combo (McDonald's)per meal,₹230
+Kanpur,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Kanpur,Bottled Water (1 litre)per bottle,₹20
+Kanpur,Rice (Basmati)1 kg,₹80
+Kanpur,Wheat Flour (Atta)1 kg,₹40
+Kanpur,Toor Dal1 kg,₹138
+Kanpur,Milk (Full Cream)1 litre,₹52
+Kanpur,Eggs12 pcs,₹68
+Kanpur,Chicken1 kg,₹200
+Kanpur,Paneer1 kg,₹320
+Kanpur,Onions1 kg,₹26
+Kanpur,Tomatoes1 kg,₹30
+Kanpur,Potatoes1 kg,₹22
+Kanpur,Cooking Oil (Sunflower)1 litre,₹140
+Kanpur,Sugar1 kg,₹42
+Kanpur,Apples (Shimla)1 kg,₹178
+Kanpur,Bananas1 dozen,₹38
+Kanpur,"Bread (White, Sliced)1 loaf",₹36
+Kanpur,Whey Protein (1 kg)per kg,"₹3,000"
+Kanpur,Auto Rickshaw (minimum fare)per ride,₹18
+Kanpur,Auto Rickshaw (per km after min)per km,₹10
+Kanpur,Metro / Local Train (monthly pass)per month,₹700
+Kanpur,Bus (monthly pass)per month,₹450
+Kanpur,Ola/Uber (avg ride)per ride,₹120
+Kanpur,Petrol1 litre,₹95
+Kanpur,Diesel1 litre,₹88
+Kanpur,Two Wheeler EMI (avg)per month,"₹3,500"
+Kanpur,Car EMI (avg)per month,"₹15,000"
+Kanpur,Electricityper month,"₹1,300"
+Kanpur,Water Billper month,₹180
+Kanpur,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Kanpur,Broadband Internetper month,₹550
+Kanpur,Mobile Plan (Jio/Airtel)per month,₹299
+Kanpur,1 BHK in City Centreper month,"₹8,000"
+Kanpur,1 BHK Outside City Centreper month,"₹5,000"
+Kanpur,2 BHK in City Centreper month,"₹14,000"
+Kanpur,2 BHK Outside City Centreper month,"₹8,000"
+Kanpur,3 BHK in City Centreper month,"₹22,000"
+Kanpur,3 BHK Outside City Centreper month,"₹13,000"
+Kanpur,Home Loan EMI (2BHK avg)per month,"₹28,000"
+Kanpur,PG - Private Room (with meals)per month,"₹7,000"
+Kanpur,PG - Private Room (without meals)per month,"₹5,000"
+Kanpur,PG - Double Sharing (with meals)per month,"₹5,000"
+Kanpur,PG - Double Sharing (without meals)per month,"₹3,500"
+Kanpur,PG - Triple Sharing (with meals)per month,"₹4,000"
+Kanpur,PG - Triple Sharing (without meals)per month,"₹2,800"
+Kanpur,"Cook (part-time, 2 meals/day)per month","₹6,133"
+Kanpur,Maid / Cleaning Helpper month,"₹2,300"
+Kanpur,Laundry / Ironing (dhobi)per month,"₹1,173"
+Kanpur,Miscellaneous Monthly Spendper month,"₹2,300"
+Kanpur,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Kanpur,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Kanpur,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Kanpur,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Kanpur,Amazon Prime Membershipper month,₹149
+Kanpur,Gym Membershipper month,₹700
+Kanpur,Movie Ticket (Multiplex)per ticket,₹160
+Kanpur,Netflix (Standard Plan)per month,₹649
+Kanpur,Spotify Premiumper month,₹119
+Kanpur,"Haircut (Men, basic salon)per cut",₹60
+Kanpur,"Domestic Beer (pint, restaurant)per pint",₹150
+Kanpur,"Imported Beer (bottle, restaurant)per bottle",₹300
+Patna,Veg Thali (local restaurant)per plate,₹70
+Patna,Non-Veg Thali (local restaurant)per plate,₹130
+Patna,Meal for Two (high-end restaurant)per meal,₹900
+Patna,Chai (regular cup)per cup,₹10
+Patna,Coffee (Cappuccino)per cup,₹120
+Patna,Specialty Coffee (Third Wave)per cup,₹260
+Patna,Street Food (Vada Pav / Samosa)per piece,₹10
+Patna,Biryani (chicken)per plate,₹150
+Patna,Dosa (plain)per plate,₹50
+Patna,Fast Food Combo (McDonald's)per meal,₹230
+Patna,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Patna,Bottled Water (1 litre)per bottle,₹20
+Patna,Rice (Basmati)1 kg,₹78
+Patna,Wheat Flour (Atta)1 kg,₹40
+Patna,Toor Dal1 kg,₹135
+Patna,Milk (Full Cream)1 litre,₹52
+Patna,Eggs12 pcs,₹68
+Patna,Chicken1 kg,₹200
+Patna,Paneer1 kg,₹320
+Patna,Onions1 kg,₹25
+Patna,Tomatoes1 kg,₹30
+Patna,Potatoes1 kg,₹20
+Patna,Cooking Oil (Sunflower)1 litre,₹138
+Patna,Sugar1 kg,₹40
+Patna,Apples (Shimla)1 kg,₹180
+Patna,Bananas1 dozen,₹38
+Patna,"Bread (White, Sliced)1 loaf",₹36
+Patna,Whey Protein (1 kg)per kg,"₹3,000"
+Patna,Auto Rickshaw (minimum fare)per ride,₹20
+Patna,Auto Rickshaw (per km after min)per km,₹10
+Patna,Metro / Local Train (monthly pass)per month,₹600
+Patna,Bus (monthly pass)per month,₹400
+Patna,Ola/Uber (avg ride)per ride,₹120
+Patna,Petrol1 litre,₹105
+Patna,Diesel1 litre,₹92
+Patna,Two Wheeler EMI (avg)per month,"₹3,500"
+Patna,Car EMI (avg)per month,"₹15,000"
+Patna,Electricityper month,"₹1,300"
+Patna,Water Billper month,₹180
+Patna,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Patna,Broadband Internetper month,₹550
+Patna,Mobile Plan (Jio/Airtel)per month,₹299
+Patna,1 BHK in City Centreper month,"₹9,000"
+Patna,1 BHK Outside City Centreper month,"₹5,500"
+Patna,2 BHK in City Centreper month,"₹15,000"
+Patna,2 BHK Outside City Centreper month,"₹9,000"
+Patna,3 BHK in City Centreper month,"₹25,000"
+Patna,3 BHK Outside City Centreper month,"₹14,000"
+Patna,Home Loan EMI (2BHK avg)per month,"₹30,000"
+Patna,PG - Private Room (with meals)per month,"₹7,500"
+Patna,PG - Private Room (without meals)per month,"₹5,500"
+Patna,PG - Double Sharing (with meals)per month,"₹5,500"
+Patna,PG - Double Sharing (without meals)per month,"₹3,800"
+Patna,PG - Triple Sharing (with meals)per month,"₹4,000"
+Patna,PG - Triple Sharing (without meals)per month,"₹2,800"
+Patna,"Cook (part-time, 2 meals/day)per month","₹6,400"
+Patna,Maid / Cleaning Helpper month,"₹2,400"
+Patna,Laundry / Ironing (dhobi)per month,"₹1,220"
+Patna,Miscellaneous Monthly Spendper month,"₹2,400"
+Patna,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Patna,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Patna,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Patna,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Patna,Amazon Prime Membershipper month,₹149
+Patna,Gym Membershipper month,₹800
+Patna,Movie Ticket (Multiplex)per ticket,₹160
+Patna,Netflix (Standard Plan)per month,₹649
+Patna,Spotify Premiumper month,₹119
+Patna,"Haircut (Men, basic salon)per cut",₹70
+Patna,"Domestic Beer (pint, restaurant)per pint",₹160
+Patna,"Imported Beer (bottle, restaurant)per bottle",₹320
+Ranchi,Veg Thali (local restaurant)per plate,₹70
+Ranchi,Non-Veg Thali (local restaurant)per plate,₹130
+Ranchi,Meal for Two (high-end restaurant)per meal,₹900
+Ranchi,Chai (regular cup)per cup,₹10
+Ranchi,Coffee (Cappuccino)per cup,₹120
+Ranchi,Specialty Coffee (Third Wave)per cup,₹260
+Ranchi,Street Food (Vada Pav / Samosa)per piece,₹10
+Ranchi,Biryani (chicken)per plate,₹150
+Ranchi,Dosa (plain)per plate,₹50
+Ranchi,Fast Food Combo (McDonald's)per meal,₹230
+Ranchi,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Ranchi,Bottled Water (1 litre)per bottle,₹20
+Ranchi,Rice (Basmati)1 kg,₹80
+Ranchi,Wheat Flour (Atta)1 kg,₹42
+Ranchi,Toor Dal1 kg,₹138
+Ranchi,Milk (Full Cream)1 litre,₹54
+Ranchi,Eggs12 pcs,₹72
+Ranchi,Chicken1 kg,₹210
+Ranchi,Paneer1 kg,₹330
+Ranchi,Onions1 kg,₹28
+Ranchi,Tomatoes1 kg,₹32
+Ranchi,Potatoes1 kg,₹22
+Ranchi,Cooking Oil (Sunflower)1 litre,₹142
+Ranchi,Sugar1 kg,₹42
+Ranchi,Apples (Shimla)1 kg,₹185
+Ranchi,Bananas1 dozen,₹40
+Ranchi,"Bread (White, Sliced)1 loaf",₹38
+Ranchi,Whey Protein (1 kg)per kg,"₹3,000"
+Ranchi,Auto Rickshaw (minimum fare)per ride,₹20
+Ranchi,Auto Rickshaw (per km after min)per km,₹10
+Ranchi,Metro / Local Train (monthly pass)per month,₹600
+Ranchi,Bus (monthly pass)per month,₹400
+Ranchi,Ola/Uber (avg ride)per ride,₹135
+Ranchi,Petrol1 litre,₹102
+Ranchi,Diesel1 litre,₹88
+Ranchi,Two Wheeler EMI (avg)per month,"₹3,500"
+Ranchi,Car EMI (avg)per month,"₹15,000"
+Ranchi,Electricityper month,"₹1,300"
+Ranchi,Water Billper month,₹200
+Ranchi,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Ranchi,Broadband Internetper month,₹550
+Ranchi,Mobile Plan (Jio/Airtel)per month,₹299
+Ranchi,1 BHK in City Centreper month,"₹9,000"
+Ranchi,1 BHK Outside City Centreper month,"₹5,500"
+Ranchi,2 BHK in City Centreper month,"₹15,000"
+Ranchi,2 BHK Outside City Centreper month,"₹9,000"
+Ranchi,3 BHK in City Centreper month,"₹25,000"
+Ranchi,3 BHK Outside City Centreper month,"₹14,000"
+Ranchi,Home Loan EMI (2BHK avg)per month,"₹30,000"
+Ranchi,PG - Private Room (with meals)per month,"₹7,500"
+Ranchi,PG - Private Room (without meals)per month,"₹5,500"
+Ranchi,PG - Double Sharing (with meals)per month,"₹5,500"
+Ranchi,PG - Double Sharing (without meals)per month,"₹3,800"
+Ranchi,PG - Triple Sharing (with meals)per month,"₹4,000"
+Ranchi,PG - Triple Sharing (without meals)per month,"₹2,800"
+Ranchi,"Cook (part-time, 2 meals/day)per month","₹6,400"
+Ranchi,Maid / Cleaning Helpper month,"₹2,400"
+Ranchi,Laundry / Ironing (dhobi)per month,"₹1,220"
+Ranchi,Miscellaneous Monthly Spendper month,"₹2,400"
+Ranchi,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Ranchi,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Ranchi,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Ranchi,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Ranchi,Amazon Prime Membershipper month,₹149
+Ranchi,Gym Membershipper month,₹800
+Ranchi,Movie Ticket (Multiplex)per ticket,₹160
+Ranchi,Netflix (Standard Plan)per month,₹649
+Ranchi,Spotify Premiumper month,₹119
+Ranchi,"Haircut (Men, basic salon)per cut",₹70
+Ranchi,"Domestic Beer (pint, restaurant)per pint",₹160
+Ranchi,"Imported Beer (bottle, restaurant)per bottle",₹320
+Bhubaneswar,Veg Thali (local restaurant)per plate,₹70
+Bhubaneswar,Non-Veg Thali (local restaurant)per plate,₹130
+Bhubaneswar,Meal for Two (high-end restaurant)per meal,₹900
+Bhubaneswar,Chai (regular cup)per cup,₹10
+Bhubaneswar,Coffee (Cappuccino)per cup,₹130
+Bhubaneswar,Specialty Coffee (Third Wave)per cup,₹267
+Bhubaneswar,Street Food (Vada Pav / Samosa)per piece,₹10
+Bhubaneswar,Biryani (chicken)per plate,₹160
+Bhubaneswar,Dosa (plain)per plate,₹45
+Bhubaneswar,Fast Food Combo (McDonald's)per meal,₹230
+Bhubaneswar,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Bhubaneswar,Bottled Water (1 litre)per bottle,₹20
+Bhubaneswar,Rice (Basmati)1 kg,₹78
+Bhubaneswar,Wheat Flour (Atta)1 kg,₹42
+Bhubaneswar,Toor Dal1 kg,₹138
+Bhubaneswar,Milk (Full Cream)1 litre,₹52
+Bhubaneswar,Eggs12 pcs,₹70
+Bhubaneswar,Chicken1 kg,₹200
+Bhubaneswar,Paneer1 kg,₹330
+Bhubaneswar,Onions1 kg,₹26
+Bhubaneswar,Tomatoes1 kg,₹32
+Bhubaneswar,Potatoes1 kg,₹22
+Bhubaneswar,Cooking Oil (Sunflower)1 litre,₹142
+Bhubaneswar,Sugar1 kg,₹42
+Bhubaneswar,Apples (Shimla)1 kg,₹200
+Bhubaneswar,Bananas1 dozen,₹40
+Bhubaneswar,"Bread (White, Sliced)1 loaf",₹38
+Bhubaneswar,Whey Protein (1 kg)per kg,"₹3,000"
+Bhubaneswar,Auto Rickshaw (minimum fare)per ride,₹20
+Bhubaneswar,Auto Rickshaw (per km after min)per km,₹10
+Bhubaneswar,Metro / Local Train (monthly pass)per month,₹600
+Bhubaneswar,Bus (monthly pass)per month,₹400
+Bhubaneswar,Ola/Uber (avg ride)per ride,₹135
+Bhubaneswar,Petrol1 litre,₹105
+Bhubaneswar,Diesel1 litre,₹92
+Bhubaneswar,Two Wheeler EMI (avg)per month,"₹3,500"
+Bhubaneswar,Car EMI (avg)per month,"₹15,000"
+Bhubaneswar,Electricityper month,"₹1,300"
+Bhubaneswar,Water Billper month,₹200
+Bhubaneswar,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Bhubaneswar,Broadband Internetper month,₹550
+Bhubaneswar,Mobile Plan (Jio/Airtel)per month,₹299
+Bhubaneswar,1 BHK in City Centreper month,"₹10,000"
+Bhubaneswar,1 BHK Outside City Centreper month,"₹6,000"
+Bhubaneswar,2 BHK in City Centreper month,"₹16,000"
+Bhubaneswar,2 BHK Outside City Centreper month,"₹10,000"
+Bhubaneswar,3 BHK in City Centreper month,"₹26,000"
+Bhubaneswar,3 BHK Outside City Centreper month,"₹15,000"
+Bhubaneswar,Home Loan EMI (2BHK avg)per month,"₹32,000"
+Bhubaneswar,PG - Private Room (with meals)per month,"₹8,000"
+Bhubaneswar,PG - Private Room (without meals)per month,"₹6,000"
+Bhubaneswar,PG - Double Sharing (with meals)per month,"₹5,500"
+Bhubaneswar,PG - Double Sharing (without meals)per month,"₹4,000"
+Bhubaneswar,PG - Triple Sharing (with meals)per month,"₹4,500"
+Bhubaneswar,PG - Triple Sharing (without meals)per month,"₹3,000"
+Bhubaneswar,"Cook (part-time, 2 meals/day)per month","₹6,667"
+Bhubaneswar,Maid / Cleaning Helpper month,"₹2,500"
+Bhubaneswar,Laundry / Ironing (dhobi)per month,"₹1,267"
+Bhubaneswar,Miscellaneous Monthly Spendper month,"₹2,500"
+Bhubaneswar,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Bhubaneswar,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Bhubaneswar,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Bhubaneswar,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Bhubaneswar,Amazon Prime Membershipper month,₹149
+Bhubaneswar,Gym Membershipper month,₹900
+Bhubaneswar,Movie Ticket (Multiplex)per ticket,₹170
+Bhubaneswar,Netflix (Standard Plan)per month,₹649
+Bhubaneswar,Spotify Premiumper month,₹119
+Bhubaneswar,"Haircut (Men, basic salon)per cut",₹80
+Bhubaneswar,"Domestic Beer (pint, restaurant)per pint",₹170
+Bhubaneswar,"Imported Beer (bottle, restaurant)per bottle",₹340
+Guwahati,Veg Thali (local restaurant)per plate,₹80
+Guwahati,Non-Veg Thali (local restaurant)per plate,₹140
+Guwahati,Meal for Two (high-end restaurant)per meal,"₹1,000"
+Guwahati,Chai (regular cup)per cup,₹10
+Guwahati,Coffee (Cappuccino)per cup,₹130
+Guwahati,Specialty Coffee (Third Wave)per cup,₹273
+Guwahati,Street Food (Vada Pav / Samosa)per piece,₹12
+Guwahati,Biryani (chicken)per plate,₹170
+Guwahati,Dosa (plain)per plate,₹55
+Guwahati,Fast Food Combo (McDonald's)per meal,₹240
+Guwahati,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Guwahati,Bottled Water (1 litre)per bottle,₹20
+Guwahati,Rice (Basmati)1 kg,₹82
+Guwahati,Wheat Flour (Atta)1 kg,₹45
+Guwahati,Toor Dal1 kg,₹142
+Guwahati,Milk (Full Cream)1 litre,₹55
+Guwahati,Eggs12 pcs,₹75
+Guwahati,Chicken1 kg,₹220
+Guwahati,Paneer1 kg,₹350
+Guwahati,Onions1 kg,₹30
+Guwahati,Tomatoes1 kg,₹38
+Guwahati,Potatoes1 kg,₹25
+Guwahati,Cooking Oil (Sunflower)1 litre,₹148
+Guwahati,Sugar1 kg,₹44
+Guwahati,Apples (Shimla)1 kg,₹190
+Guwahati,Bananas1 dozen,₹42
+Guwahati,"Bread (White, Sliced)1 loaf",₹40
+Guwahati,Whey Protein (1 kg)per kg,"₹3,000"
+Guwahati,Auto Rickshaw (minimum fare)per ride,₹20
+Guwahati,Auto Rickshaw (per km after min)per km,₹10
+Guwahati,Metro / Local Train (monthly pass)per month,₹700
+Guwahati,Bus (monthly pass)per month,₹500
+Guwahati,Ola/Uber (avg ride)per ride,₹150
+Guwahati,Petrol1 litre,₹98
+Guwahati,Diesel1 litre,₹88
+Guwahati,Two Wheeler EMI (avg)per month,"₹3,500"
+Guwahati,Car EMI (avg)per month,"₹15,000"
+Guwahati,Electricityper month,"₹1,400"
+Guwahati,Water Billper month,₹200
+Guwahati,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Guwahati,Broadband Internetper month,₹600
+Guwahati,Mobile Plan (Jio/Airtel)per month,₹299
+Guwahati,1 BHK in City Centreper month,"₹11,000"
+Guwahati,1 BHK Outside City Centreper month,"₹6,500"
+Guwahati,2 BHK in City Centreper month,"₹18,000"
+Guwahati,2 BHK Outside City Centreper month,"₹11,000"
+Guwahati,3 BHK in City Centreper month,"₹30,000"
+Guwahati,3 BHK Outside City Centreper month,"₹17,000"
+Guwahati,Home Loan EMI (2BHK avg)per month,"₹36,000"
+Guwahati,PG - Private Room (with meals)per month,"₹9,000"
+Guwahati,PG - Private Room (without meals)per month,"₹7,000"
+Guwahati,PG - Double Sharing (with meals)per month,"₹6,500"
+Guwahati,PG - Double Sharing (without meals)per month,"₹4,500"
+Guwahati,PG - Triple Sharing (with meals)per month,"₹5,000"
+Guwahati,PG - Triple Sharing (without meals)per month,"₹3,500"
+Guwahati,"Cook (part-time, 2 meals/day)per month","₹6,933"
+Guwahati,Maid / Cleaning Helpper month,"₹2,600"
+Guwahati,Laundry / Ironing (dhobi)per month,"₹1,313"
+Guwahati,Miscellaneous Monthly Spendper month,"₹2,600"
+Guwahati,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Guwahati,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Guwahati,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Guwahati,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Guwahati,Amazon Prime Membershipper month,₹149
+Guwahati,Gym Membershipper month,"₹1,000"
+Guwahati,Movie Ticket (Multiplex)per ticket,₹180
+Guwahati,Netflix (Standard Plan)per month,₹649
+Guwahati,Spotify Premiumper month,₹119
+Guwahati,"Haircut (Men, basic salon)per cut",₹80
+Guwahati,"Domestic Beer (pint, restaurant)per pint",₹180
+Guwahati,"Imported Beer (bottle, restaurant)per bottle",₹360
+Dehradun,Veg Thali (local restaurant)per plate,₹90
+Dehradun,Non-Veg Thali (local restaurant)per plate,₹150
+Dehradun,Meal for Two (high-end restaurant)per meal,"₹1,100"
+Dehradun,Chai (regular cup)per cup,₹12
+Dehradun,Coffee (Cappuccino)per cup,₹150
+Dehradun,Specialty Coffee (Third Wave)per cup,₹280
+Dehradun,Street Food (Vada Pav / Samosa)per piece,₹12
+Dehradun,Biryani (chicken)per plate,₹180
+Dehradun,Dosa (plain)per plate,₹55
+Dehradun,Fast Food Combo (McDonald's)per meal,₹240
+Dehradun,"Soft Drink (Coca-Cola, 300ml)per bottle",₹38
+Dehradun,Bottled Water (1 litre)per bottle,₹20
+Dehradun,Rice (Basmati)1 kg,₹88
+Dehradun,Wheat Flour (Atta)1 kg,₹45
+Dehradun,Toor Dal1 kg,₹148
+Dehradun,Milk (Full Cream)1 litre,₹58
+Dehradun,Eggs12 pcs,₹78
+Dehradun,Chicken1 kg,₹230
+Dehradun,Paneer1 kg,₹360
+Dehradun,Onions1 kg,₹30
+Dehradun,Tomatoes1 kg,₹40
+Dehradun,Potatoes1 kg,₹25
+Dehradun,Cooking Oil (Sunflower)1 litre,₹150
+Dehradun,Sugar1 kg,₹44
+Dehradun,Apples (Shimla)1 kg,₹160
+Dehradun,Bananas1 dozen,₹45
+Dehradun,"Bread (White, Sliced)1 loaf",₹42
+Dehradun,Whey Protein (1 kg)per kg,"₹3,000"
+Dehradun,Auto Rickshaw (minimum fare)per ride,₹25
+Dehradun,Auto Rickshaw (per km after min)per km,₹12
+Dehradun,Metro / Local Train (monthly pass)per month,₹700
+Dehradun,Bus (monthly pass)per month,₹500
+Dehradun,Ola/Uber (avg ride)per ride,₹150
+Dehradun,Petrol1 litre,₹95
+Dehradun,Diesel1 litre,₹88
+Dehradun,Two Wheeler EMI (avg)per month,"₹3,500"
+Dehradun,Car EMI (avg)per month,"₹15,000"
+Dehradun,Electricityper month,"₹1,500"
+Dehradun,Water Billper month,₹250
+Dehradun,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Dehradun,Broadband Internetper month,₹650
+Dehradun,Mobile Plan (Jio/Airtel)per month,₹299
+Dehradun,1 BHK in City Centreper month,"₹12,000"
+Dehradun,1 BHK Outside City Centreper month,"₹7,000"
+Dehradun,2 BHK in City Centreper month,"₹20,000"
+Dehradun,2 BHK Outside City Centreper month,"₹12,000"
+Dehradun,3 BHK in City Centreper month,"₹32,000"
+Dehradun,3 BHK Outside City Centreper month,"₹18,000"
+Dehradun,Home Loan EMI (2BHK avg)per month,"₹40,000"
+Dehradun,PG - Private Room (with meals)per month,"₹10,000"
+Dehradun,PG - Private Room (without meals)per month,"₹7,500"
+Dehradun,PG - Double Sharing (with meals)per month,"₹7,000"
+Dehradun,PG - Double Sharing (without meals)per month,"₹5,000"
+Dehradun,PG - Triple Sharing (with meals)per month,"₹5,500"
+Dehradun,PG - Triple Sharing (without meals)per month,"₹4,000"
+Dehradun,"Cook (part-time, 2 meals/day)per month","₹7,200"
+Dehradun,Maid / Cleaning Helpper month,"₹2,700"
+Dehradun,Laundry / Ironing (dhobi)per month,"₹1,360"
+Dehradun,Miscellaneous Monthly Spendper month,"₹2,700"
+Dehradun,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Dehradun,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Dehradun,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Dehradun,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Dehradun,Amazon Prime Membershipper month,₹149
+Dehradun,Gym Membershipper month,"₹1,200"
+Dehradun,Movie Ticket (Multiplex)per ticket,₹200
+Dehradun,Netflix (Standard Plan)per month,₹649
+Dehradun,Spotify Premiumper month,₹119
+Dehradun,"Haircut (Men, basic salon)per cut",₹100
+Dehradun,"Domestic Beer (pint, restaurant)per pint",₹200
+Dehradun,"Imported Beer (bottle, restaurant)per bottle",₹380
+Amritsar,Veg Thali (local restaurant)per plate,₹80
+Amritsar,Non-Veg Thali (local restaurant)per plate,₹150
+Amritsar,Meal for Two (high-end restaurant)per meal,"₹1,000"
+Amritsar,Chai (regular cup)per cup,₹10
+Amritsar,Coffee (Cappuccino)per cup,₹140
+Amritsar,Specialty Coffee (Third Wave)per cup,₹267
+Amritsar,Street Food (Vada Pav / Samosa)per piece,₹12
+Amritsar,Biryani (chicken)per plate,₹180
+Amritsar,Dosa (plain)per plate,₹55
+Amritsar,Fast Food Combo (McDonald's)per meal,₹240
+Amritsar,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Amritsar,Bottled Water (1 litre)per bottle,₹20
+Amritsar,Rice (Basmati)1 kg,₹85
+Amritsar,Wheat Flour (Atta)1 kg,₹42
+Amritsar,Toor Dal1 kg,₹142
+Amritsar,Milk (Full Cream)1 litre,₹60
+Amritsar,Eggs12 pcs,₹80
+Amritsar,Chicken1 kg,₹240
+Amritsar,Paneer1 kg,₹350
+Amritsar,Onions1 kg,₹28
+Amritsar,Tomatoes1 kg,₹38
+Amritsar,Potatoes1 kg,₹25
+Amritsar,Cooking Oil (Sunflower)1 litre,₹148
+Amritsar,Sugar1 kg,₹42
+Amritsar,Apples (Shimla)1 kg,₹160
+Amritsar,Bananas1 dozen,₹42
+Amritsar,"Bread (White, Sliced)1 loaf",₹38
+Amritsar,Whey Protein (1 kg)per kg,"₹3,000"
+Amritsar,Auto Rickshaw (minimum fare)per ride,₹20
+Amritsar,Auto Rickshaw (per km after min)per km,₹10
+Amritsar,Metro / Local Train (monthly pass)per month,₹700
+Amritsar,Bus (monthly pass)per month,₹450
+Amritsar,Ola/Uber (avg ride)per ride,₹135
+Amritsar,Petrol1 litre,₹97
+Amritsar,Diesel1 litre,₹88
+Amritsar,Two Wheeler EMI (avg)per month,"₹3,500"
+Amritsar,Car EMI (avg)per month,"₹15,000"
+Amritsar,Electricityper month,"₹1,500"
+Amritsar,Water Billper month,₹200
+Amritsar,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Amritsar,Broadband Internetper month,₹600
+Amritsar,Mobile Plan (Jio/Airtel)per month,₹299
+Amritsar,1 BHK in City Centreper month,"₹10,000"
+Amritsar,1 BHK Outside City Centreper month,"₹6,000"
+Amritsar,2 BHK in City Centreper month,"₹16,000"
+Amritsar,2 BHK Outside City Centreper month,"₹10,000"
+Amritsar,3 BHK in City Centreper month,"₹26,000"
+Amritsar,3 BHK Outside City Centreper month,"₹15,000"
+Amritsar,Home Loan EMI (2BHK avg)per month,"₹32,000"
+Amritsar,PG - Private Room (with meals)per month,"₹8,000"
+Amritsar,PG - Private Room (without meals)per month,"₹6,000"
+Amritsar,PG - Double Sharing (with meals)per month,"₹5,500"
+Amritsar,PG - Double Sharing (without meals)per month,"₹4,000"
+Amritsar,PG - Triple Sharing (with meals)per month,"₹4,500"
+Amritsar,PG - Triple Sharing (without meals)per month,"₹3,000"
+Amritsar,"Cook (part-time, 2 meals/day)per month","₹6,667"
+Amritsar,Maid / Cleaning Helpper month,"₹2,500"
+Amritsar,Laundry / Ironing (dhobi)per month,"₹1,267"
+Amritsar,Miscellaneous Monthly Spendper month,"₹2,500"
+Amritsar,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Amritsar,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Amritsar,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Amritsar,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Amritsar,Amazon Prime Membershipper month,₹149
+Amritsar,Gym Membershipper month,"₹1,000"
+Amritsar,Movie Ticket (Multiplex)per ticket,₹180
+Amritsar,Netflix (Standard Plan)per month,₹649
+Amritsar,Spotify Premiumper month,₹119
+Amritsar,"Haircut (Men, basic salon)per cut",₹80
+Amritsar,"Domestic Beer (pint, restaurant)per pint",₹180
+Amritsar,"Imported Beer (bottle, restaurant)per bottle",₹360
+Ludhiana,Veg Thali (local restaurant)per plate,₹85
+Ludhiana,Non-Veg Thali (local restaurant)per plate,₹150
+Ludhiana,Meal for Two (high-end restaurant)per meal,"₹1,100"
+Ludhiana,Chai (regular cup)per cup,₹10
+Ludhiana,Coffee (Cappuccino)per cup,₹140
+Ludhiana,Specialty Coffee (Third Wave)per cup,₹273
+Ludhiana,Street Food (Vada Pav / Samosa)per piece,₹12
+Ludhiana,Biryani (chicken)per plate,₹180
+Ludhiana,Dosa (plain)per plate,₹55
+Ludhiana,Fast Food Combo (McDonald's)per meal,₹240
+Ludhiana,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Ludhiana,Bottled Water (1 litre)per bottle,₹20
+Ludhiana,Rice (Basmati)1 kg,₹88
+Ludhiana,Wheat Flour (Atta)1 kg,₹42
+Ludhiana,Toor Dal1 kg,₹145
+Ludhiana,Milk (Full Cream)1 litre,₹60
+Ludhiana,Eggs12 pcs,₹82
+Ludhiana,Chicken1 kg,₹245
+Ludhiana,Paneer1 kg,₹360
+Ludhiana,Onions1 kg,₹30
+Ludhiana,Tomatoes1 kg,₹40
+Ludhiana,Potatoes1 kg,₹25
+Ludhiana,Cooking Oil (Sunflower)1 litre,₹150
+Ludhiana,Sugar1 kg,₹44
+Ludhiana,Apples (Shimla)1 kg,₹165
+Ludhiana,Bananas1 dozen,₹45
+Ludhiana,"Bread (White, Sliced)1 loaf",₹40
+Ludhiana,Whey Protein (1 kg)per kg,"₹3,000"
+Ludhiana,Auto Rickshaw (minimum fare)per ride,₹20
+Ludhiana,Auto Rickshaw (per km after min)per km,₹10
+Ludhiana,Metro / Local Train (monthly pass)per month,₹700
+Ludhiana,Bus (monthly pass)per month,₹500
+Ludhiana,Ola/Uber (avg ride)per ride,₹150
+Ludhiana,Petrol1 litre,₹97
+Ludhiana,Diesel1 litre,₹88
+Ludhiana,Two Wheeler EMI (avg)per month,"₹3,500"
+Ludhiana,Car EMI (avg)per month,"₹15,000"
+Ludhiana,Electricityper month,"₹1,600"
+Ludhiana,Water Billper month,₹250
+Ludhiana,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Ludhiana,Broadband Internetper month,₹650
+Ludhiana,Mobile Plan (Jio/Airtel)per month,₹299
+Ludhiana,1 BHK in City Centreper month,"₹11,000"
+Ludhiana,1 BHK Outside City Centreper month,"₹6,500"
+Ludhiana,2 BHK in City Centreper month,"₹18,000"
+Ludhiana,2 BHK Outside City Centreper month,"₹11,000"
+Ludhiana,3 BHK in City Centreper month,"₹28,000"
+Ludhiana,3 BHK Outside City Centreper month,"₹16,000"
+Ludhiana,Home Loan EMI (2BHK avg)per month,"₹36,000"
+Ludhiana,PG - Private Room (with meals)per month,"₹9,000"
+Ludhiana,PG - Private Room (without meals)per month,"₹6,500"
+Ludhiana,PG - Double Sharing (with meals)per month,"₹6,000"
+Ludhiana,PG - Double Sharing (without meals)per month,"₹4,500"
+Ludhiana,PG - Triple Sharing (with meals)per month,"₹5,000"
+Ludhiana,PG - Triple Sharing (without meals)per month,"₹3,500"
+Ludhiana,"Cook (part-time, 2 meals/day)per month","₹6,933"
+Ludhiana,Maid / Cleaning Helpper month,"₹2,600"
+Ludhiana,Laundry / Ironing (dhobi)per month,"₹1,313"
+Ludhiana,Miscellaneous Monthly Spendper month,"₹2,600"
+Ludhiana,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Ludhiana,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Ludhiana,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Ludhiana,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Ludhiana,Amazon Prime Membershipper month,₹149
+Ludhiana,Gym Membershipper month,"₹1,000"
+Ludhiana,Movie Ticket (Multiplex)per ticket,₹180
+Ludhiana,Netflix (Standard Plan)per month,₹649
+Ludhiana,Spotify Premiumper month,₹119
+Ludhiana,"Haircut (Men, basic salon)per cut",₹80
+Ludhiana,"Domestic Beer (pint, restaurant)per pint",₹180
+Ludhiana,"Imported Beer (bottle, restaurant)per bottle",₹360
+Jodhpur,Veg Thali (local restaurant)per plate,₹75
+Jodhpur,Non-Veg Thali (local restaurant)per plate,₹140
+Jodhpur,Meal for Two (high-end restaurant)per meal,₹900
+Jodhpur,Chai (regular cup)per cup,₹10
+Jodhpur,Coffee (Cappuccino)per cup,₹140
+Jodhpur,Specialty Coffee (Third Wave)per cup,₹260
+Jodhpur,Street Food (Vada Pav / Samosa)per piece,₹10
+Jodhpur,Biryani (chicken)per plate,₹160
+Jodhpur,Dosa (plain)per plate,₹50
+Jodhpur,Fast Food Combo (McDonald's)per meal,₹230
+Jodhpur,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Jodhpur,Bottled Water (1 litre)per bottle,₹20
+Jodhpur,Rice (Basmati)1 kg,₹85
+Jodhpur,Wheat Flour (Atta)1 kg,₹42
+Jodhpur,Toor Dal1 kg,₹142
+Jodhpur,Milk (Full Cream)1 litre,₹54
+Jodhpur,Eggs12 pcs,₹72
+Jodhpur,Chicken1 kg,₹220
+Jodhpur,Paneer1 kg,₹340
+Jodhpur,Onions1 kg,₹26
+Jodhpur,Tomatoes1 kg,₹32
+Jodhpur,Potatoes1 kg,₹22
+Jodhpur,Cooking Oil (Sunflower)1 litre,₹142
+Jodhpur,Sugar1 kg,₹42
+Jodhpur,Apples (Shimla)1 kg,₹175
+Jodhpur,Bananas1 dozen,₹38
+Jodhpur,"Bread (White, Sliced)1 loaf",₹38
+Jodhpur,Whey Protein (1 kg)per kg,"₹3,000"
+Jodhpur,Auto Rickshaw (minimum fare)per ride,₹18
+Jodhpur,Auto Rickshaw (per km after min)per km,₹10
+Jodhpur,Metro / Local Train (monthly pass)per month,₹600
+Jodhpur,Bus (monthly pass)per month,₹400
+Jodhpur,Ola/Uber (avg ride)per ride,₹135
+Jodhpur,Petrol1 litre,₹100
+Jodhpur,Diesel1 litre,₹90
+Jodhpur,Two Wheeler EMI (avg)per month,"₹3,500"
+Jodhpur,Car EMI (avg)per month,"₹15,000"
+Jodhpur,Electricityper month,"₹1,400"
+Jodhpur,Water Billper month,₹180
+Jodhpur,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Jodhpur,Broadband Internetper month,₹550
+Jodhpur,Mobile Plan (Jio/Airtel)per month,₹299
+Jodhpur,1 BHK in City Centreper month,"₹9,000"
+Jodhpur,1 BHK Outside City Centreper month,"₹5,500"
+Jodhpur,2 BHK in City Centreper month,"₹15,000"
+Jodhpur,2 BHK Outside City Centreper month,"₹9,000"
+Jodhpur,3 BHK in City Centreper month,"₹24,000"
+Jodhpur,3 BHK Outside City Centreper month,"₹14,000"
+Jodhpur,Home Loan EMI (2BHK avg)per month,"₹30,000"
+Jodhpur,PG - Private Room (with meals)per month,"₹7,500"
+Jodhpur,PG - Private Room (without meals)per month,"₹5,500"
+Jodhpur,PG - Double Sharing (with meals)per month,"₹5,500"
+Jodhpur,PG - Double Sharing (without meals)per month,"₹3,800"
+Jodhpur,PG - Triple Sharing (with meals)per month,"₹4,500"
+Jodhpur,PG - Triple Sharing (without meals)per month,"₹3,000"
+Jodhpur,"Cook (part-time, 2 meals/day)per month","₹6,400"
+Jodhpur,Maid / Cleaning Helpper month,"₹2,400"
+Jodhpur,Laundry / Ironing (dhobi)per month,"₹1,220"
+Jodhpur,Miscellaneous Monthly Spendper month,"₹2,400"
+Jodhpur,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Jodhpur,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Jodhpur,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Jodhpur,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Jodhpur,Amazon Prime Membershipper month,₹149
+Jodhpur,Gym Membershipper month,₹800
+Jodhpur,Movie Ticket (Multiplex)per ticket,₹170
+Jodhpur,Netflix (Standard Plan)per month,₹649
+Jodhpur,Spotify Premiumper month,₹119
+Jodhpur,"Haircut (Men, basic salon)per cut",₹70
+Jodhpur,"Domestic Beer (pint, restaurant)per pint",₹160
+Jodhpur,"Imported Beer (bottle, restaurant)per bottle",₹340
+Udaipur,Veg Thali (local restaurant)per plate,₹80
+Udaipur,Non-Veg Thali (local restaurant)per plate,₹150
+Udaipur,Meal for Two (high-end restaurant)per meal,"₹1,100"
+Udaipur,Chai (regular cup)per cup,₹10
+Udaipur,Coffee (Cappuccino)per cup,₹150
+Udaipur,Specialty Coffee (Third Wave)per cup,₹267
+Udaipur,Street Food (Vada Pav / Samosa)per piece,₹12
+Udaipur,Biryani (chicken)per plate,₹170
+Udaipur,Dosa (plain)per plate,₹55
+Udaipur,Fast Food Combo (McDonald's)per meal,₹240
+Udaipur,"Soft Drink (Coca-Cola, 300ml)per bottle",₹38
+Udaipur,Bottled Water (1 litre)per bottle,₹20
+Udaipur,Rice (Basmati)1 kg,₹88
+Udaipur,Wheat Flour (Atta)1 kg,₹44
+Udaipur,Toor Dal1 kg,₹145
+Udaipur,Milk (Full Cream)1 litre,₹56
+Udaipur,Eggs12 pcs,₹75
+Udaipur,Chicken1 kg,₹225
+Udaipur,Paneer1 kg,₹350
+Udaipur,Onions1 kg,₹28
+Udaipur,Tomatoes1 kg,₹35
+Udaipur,Potatoes1 kg,₹25
+Udaipur,Cooking Oil (Sunflower)1 litre,₹145
+Udaipur,Sugar1 kg,₹43
+Udaipur,Apples (Shimla)1 kg,₹180
+Udaipur,Bananas1 dozen,₹42
+Udaipur,"Bread (White, Sliced)1 loaf",₹40
+Udaipur,Whey Protein (1 kg)per kg,"₹3,000"
+Udaipur,Auto Rickshaw (minimum fare)per ride,₹20
+Udaipur,Auto Rickshaw (per km after min)per km,₹10
+Udaipur,Metro / Local Train (monthly pass)per month,₹600
+Udaipur,Bus (monthly pass)per month,₹400
+Udaipur,Ola/Uber (avg ride)per ride,₹135
+Udaipur,Petrol1 litre,₹100
+Udaipur,Diesel1 litre,₹90
+Udaipur,Two Wheeler EMI (avg)per month,"₹3,500"
+Udaipur,Car EMI (avg)per month,"₹15,000"
+Udaipur,Electricityper month,"₹1,400"
+Udaipur,Water Billper month,₹200
+Udaipur,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Udaipur,Broadband Internetper month,₹600
+Udaipur,Mobile Plan (Jio/Airtel)per month,₹299
+Udaipur,1 BHK in City Centreper month,"₹10,000"
+Udaipur,1 BHK Outside City Centreper month,"₹6,000"
+Udaipur,2 BHK in City Centreper month,"₹16,000"
+Udaipur,2 BHK Outside City Centreper month,"₹9,500"
+Udaipur,3 BHK in City Centreper month,"₹26,000"
+Udaipur,3 BHK Outside City Centreper month,"₹15,000"
+Udaipur,Home Loan EMI (2BHK avg)per month,"₹32,000"
+Udaipur,PG - Private Room (with meals)per month,"₹8,000"
+Udaipur,PG - Private Room (without meals)per month,"₹6,000"
+Udaipur,PG - Double Sharing (with meals)per month,"₹5,500"
+Udaipur,PG - Double Sharing (without meals)per month,"₹4,000"
+Udaipur,PG - Triple Sharing (with meals)per month,"₹4,500"
+Udaipur,PG - Triple Sharing (without meals)per month,"₹3,000"
+Udaipur,"Cook (part-time, 2 meals/day)per month","₹6,667"
+Udaipur,Maid / Cleaning Helpper month,"₹2,500"
+Udaipur,Laundry / Ironing (dhobi)per month,"₹1,267"
+Udaipur,Miscellaneous Monthly Spendper month,"₹2,500"
+Udaipur,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Udaipur,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Udaipur,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Udaipur,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Udaipur,Amazon Prime Membershipper month,₹149
+Udaipur,Gym Membershipper month,₹900
+Udaipur,Movie Ticket (Multiplex)per ticket,₹180
+Udaipur,Netflix (Standard Plan)per month,₹649
+Udaipur,Spotify Premiumper month,₹119
+Udaipur,"Haircut (Men, basic salon)per cut",₹80
+Udaipur,"Domestic Beer (pint, restaurant)per pint",₹170
+Udaipur,"Imported Beer (bottle, restaurant)per bottle",₹350
+Kota,Veg Thali (local restaurant)per plate,₹70
+Kota,Non-Veg Thali (local restaurant)per plate,₹130
+Kota,Meal for Two (high-end restaurant)per meal,₹800
+Kota,Chai (regular cup)per cup,₹10
+Kota,Coffee (Cappuccino)per cup,₹120
+Kota,Specialty Coffee (Third Wave)per cup,₹253
+Kota,Street Food (Vada Pav / Samosa)per piece,₹10
+Kota,Biryani (chicken)per plate,₹150
+Kota,Dosa (plain)per plate,₹50
+Kota,Fast Food Combo (McDonald's)per meal,₹220
+Kota,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Kota,Bottled Water (1 litre)per bottle,₹20
+Kota,Rice (Basmati)1 kg,₹82
+Kota,Wheat Flour (Atta)1 kg,₹40
+Kota,Toor Dal1 kg,₹138
+Kota,Milk (Full Cream)1 litre,₹52
+Kota,Eggs12 pcs,₹70
+Kota,Chicken1 kg,₹210
+Kota,Paneer1 kg,₹330
+Kota,Onions1 kg,₹25
+Kota,Tomatoes1 kg,₹30
+Kota,Potatoes1 kg,₹22
+Kota,Cooking Oil (Sunflower)1 litre,₹140
+Kota,Sugar1 kg,₹40
+Kota,Apples (Shimla)1 kg,₹175
+Kota,Bananas1 dozen,₹38
+Kota,"Bread (White, Sliced)1 loaf",₹36
+Kota,Whey Protein (1 kg)per kg,"₹3,000"
+Kota,Auto Rickshaw (minimum fare)per ride,₹15
+Kota,Auto Rickshaw (per km after min)per km,₹8
+Kota,Metro / Local Train (monthly pass)per month,₹500
+Kota,Bus (monthly pass)per month,₹350
+Kota,Ola/Uber (avg ride)per ride,₹120
+Kota,Petrol1 litre,₹100
+Kota,Diesel1 litre,₹90
+Kota,Two Wheeler EMI (avg)per month,"₹3,500"
+Kota,Car EMI (avg)per month,"₹15,000"
+Kota,Electricityper month,"₹1,200"
+Kota,Water Billper month,₹150
+Kota,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Kota,Broadband Internetper month,₹500
+Kota,Mobile Plan (Jio/Airtel)per month,₹299
+Kota,1 BHK in City Centreper month,"₹8,000"
+Kota,1 BHK Outside City Centreper month,"₹4,500"
+Kota,2 BHK in City Centreper month,"₹13,000"
+Kota,2 BHK Outside City Centreper month,"₹7,500"
+Kota,3 BHK in City Centreper month,"₹20,000"
+Kota,3 BHK Outside City Centreper month,"₹12,000"
+Kota,Home Loan EMI (2BHK avg)per month,"₹26,000"
+Kota,PG - Private Room (with meals)per month,"₹7,000"
+Kota,PG - Private Room (without meals)per month,"₹5,000"
+Kota,PG - Double Sharing (with meals)per month,"₹5,000"
+Kota,PG - Double Sharing (without meals)per month,"₹3,500"
+Kota,PG - Triple Sharing (with meals)per month,"₹4,000"
+Kota,PG - Triple Sharing (without meals)per month,"₹2,500"
+Kota,"Cook (part-time, 2 meals/day)per month","₹6,133"
+Kota,Maid / Cleaning Helpper month,"₹2,300"
+Kota,Laundry / Ironing (dhobi)per month,"₹1,173"
+Kota,Miscellaneous Monthly Spendper month,"₹2,300"
+Kota,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Kota,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Kota,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Kota,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Kota,Amazon Prime Membershipper month,₹149
+Kota,Gym Membershipper month,₹600
+Kota,Movie Ticket (Multiplex)per ticket,₹150
+Kota,Netflix (Standard Plan)per month,₹649
+Kota,Spotify Premiumper month,₹119
+Kota,"Haircut (Men, basic salon)per cut",₹60
+Kota,"Domestic Beer (pint, restaurant)per pint",₹150
+Kota,"Imported Beer (bottle, restaurant)per bottle",₹320
+Goa,Veg Thali (local restaurant)per plate,₹110
+Goa,Non-Veg Thali (local restaurant)per plate,₹180
+Goa,Meal for Two (high-end restaurant)per meal,"₹1,500"
+Goa,Chai (regular cup)per cup,₹15
+Goa,Coffee (Cappuccino)per cup,₹180
+Goa,Specialty Coffee (Third Wave)per cup,₹320
+Goa,Street Food (Vada Pav / Samosa)per piece,₹15
+Goa,Biryani (chicken)per plate,₹220
+Goa,Dosa (plain)per plate,₹65
+Goa,Fast Food Combo (McDonald's)per meal,₹260
+Goa,"Soft Drink (Coca-Cola, 300ml)per bottle",₹40
+Goa,Bottled Water (1 litre)per bottle,₹20
+Goa,Rice (Basmati)1 kg,₹95
+Goa,Wheat Flour (Atta)1 kg,₹52
+Goa,Toor Dal1 kg,₹155
+Goa,Milk (Full Cream)1 litre,₹58
+Goa,Eggs12 pcs,₹80
+Goa,Chicken1 kg,₹250
+Goa,Paneer1 kg,₹380
+Goa,Onions1 kg,₹35
+Goa,Tomatoes1 kg,₹45
+Goa,Potatoes1 kg,₹35
+Goa,Cooking Oil (Sunflower)1 litre,₹155
+Goa,Sugar1 kg,₹46
+Goa,Apples (Shimla)1 kg,₹220
+Goa,Bananas1 dozen,₹50
+Goa,"Bread (White, Sliced)1 loaf",₹45
+Goa,Whey Protein (1 kg)per kg,"₹3,000"
+Goa,Auto Rickshaw (minimum fare)per ride,₹30
+Goa,Auto Rickshaw (per km after min)per km,₹15
+Goa,Metro / Local Train (monthly pass)per month,₹800
+Goa,Bus (monthly pass)per month,₹600
+Goa,Ola/Uber (avg ride)per ride,₹180
+Goa,Petrol1 litre,₹98
+Goa,Diesel1 litre,₹88
+Goa,Two Wheeler EMI (avg)per month,"₹3,500"
+Goa,Car EMI (avg)per month,"₹15,000"
+Goa,Electricityper month,"₹1,800"
+Goa,Water Billper month,₹300
+Goa,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Goa,Broadband Internetper month,₹700
+Goa,Mobile Plan (Jio/Airtel)per month,₹299
+Goa,1 BHK in City Centreper month,"₹18,000"
+Goa,1 BHK Outside City Centreper month,"₹10,000"
+Goa,2 BHK in City Centreper month,"₹30,000"
+Goa,2 BHK Outside City Centreper month,"₹18,000"
+Goa,3 BHK in City Centreper month,"₹48,000"
+Goa,3 BHK Outside City Centreper month,"₹28,000"
+Goa,Home Loan EMI (2BHK avg)per month,"₹60,000"
+Goa,PG - Private Room (with meals)per month,"₹13,000"
+Goa,PG - Private Room (without meals)per month,"₹10,000"
+Goa,PG - Double Sharing (with meals)per month,"₹9,000"
+Goa,PG - Double Sharing (without meals)per month,"₹7,000"
+Goa,PG - Triple Sharing (with meals)per month,"₹7,000"
+Goa,PG - Triple Sharing (without meals)per month,"₹5,000"
+Goa,"Cook (part-time, 2 meals/day)per month","₹8,800"
+Goa,Maid / Cleaning Helpper month,"₹3,300"
+Goa,Laundry / Ironing (dhobi)per month,"₹1,640"
+Goa,Miscellaneous Monthly Spendper month,"₹3,300"
+Goa,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Goa,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Goa,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Goa,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Goa,Amazon Prime Membershipper month,₹149
+Goa,Gym Membershipper month,"₹2,000"
+Goa,Movie Ticket (Multiplex)per ticket,₹250
+Goa,Netflix (Standard Plan)per month,₹649
+Goa,Spotify Premiumper month,₹119
+Goa,"Haircut (Men, basic salon)per cut",₹150
+Goa,"Domestic Beer (pint, restaurant)per pint",₹150
+Goa,"Imported Beer (bottle, restaurant)per bottle",₹280
+Siliguri,Veg Thali (local restaurant)per plate,₹70
+Siliguri,Non-Veg Thali (local restaurant)per plate,₹130
+Siliguri,Meal for Two (high-end restaurant)per meal,₹800
+Siliguri,Chai (regular cup)per cup,₹10
+Siliguri,Coffee (Cappuccino)per cup,₹120
+Siliguri,Specialty Coffee (Third Wave)per cup,₹247
+Siliguri,Street Food (Vada Pav / Samosa)per piece,₹10
+Siliguri,Biryani (chicken)per plate,₹150
+Siliguri,Dosa (plain)per plate,₹50
+Siliguri,Fast Food Combo (McDonald's)per meal,₹220
+Siliguri,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Siliguri,Bottled Water (1 litre)per bottle,₹20
+Siliguri,Rice (Basmati)1 kg,₹75
+Siliguri,Wheat Flour (Atta)1 kg,₹42
+Siliguri,Toor Dal1 kg,₹138
+Siliguri,Milk (Full Cream)1 litre,₹52
+Siliguri,Eggs12 pcs,₹70
+Siliguri,Chicken1 kg,₹210
+Siliguri,Paneer1 kg,₹330
+Siliguri,Onions1 kg,₹26
+Siliguri,Tomatoes1 kg,₹32
+Siliguri,Potatoes1 kg,₹22
+Siliguri,Cooking Oil (Sunflower)1 litre,₹140
+Siliguri,Sugar1 kg,₹42
+Siliguri,Apples (Shimla)1 kg,₹180
+Siliguri,Bananas1 dozen,₹38
+Siliguri,"Bread (White, Sliced)1 loaf",₹36
+Siliguri,Whey Protein (1 kg)per kg,"₹3,000"
+Siliguri,Auto Rickshaw (minimum fare)per ride,₹15
+Siliguri,Auto Rickshaw (per km after min)per km,₹10
+Siliguri,Metro / Local Train (monthly pass)per month,₹500
+Siliguri,Bus (monthly pass)per month,₹350
+Siliguri,Ola/Uber (avg ride)per ride,₹120
+Siliguri,Petrol1 litre,₹105
+Siliguri,Diesel1 litre,₹92
+Siliguri,Two Wheeler EMI (avg)per month,"₹3,500"
+Siliguri,Car EMI (avg)per month,"₹15,000"
+Siliguri,Electricityper month,"₹1,200"
+Siliguri,Water Billper month,₹150
+Siliguri,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Siliguri,Broadband Internetper month,₹500
+Siliguri,Mobile Plan (Jio/Airtel)per month,₹299
+Siliguri,1 BHK in City Centreper month,"₹7,000"
+Siliguri,1 BHK Outside City Centreper month,"₹4,000"
+Siliguri,2 BHK in City Centreper month,"₹12,000"
+Siliguri,2 BHK Outside City Centreper month,"₹7,000"
+Siliguri,3 BHK in City Centreper month,"₹18,000"
+Siliguri,3 BHK Outside City Centreper month,"₹11,000"
+Siliguri,Home Loan EMI (2BHK avg)per month,"₹24,000"
+Siliguri,PG - Private Room (with meals)per month,"₹6,000"
+Siliguri,PG - Private Room (without meals)per month,"₹4,500"
+Siliguri,PG - Double Sharing (with meals)per month,"₹4,500"
+Siliguri,PG - Double Sharing (without meals)per month,"₹3,000"
+Siliguri,PG - Triple Sharing (with meals)per month,"₹3,500"
+Siliguri,PG - Triple Sharing (without meals)per month,"₹2,500"
+Siliguri,"Cook (part-time, 2 meals/day)per month","₹5,867"
+Siliguri,Maid / Cleaning Helpper month,"₹2,200"
+Siliguri,Laundry / Ironing (dhobi)per month,"₹1,127"
+Siliguri,Miscellaneous Monthly Spendper month,"₹2,200"
+Siliguri,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Siliguri,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Siliguri,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Siliguri,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Siliguri,Amazon Prime Membershipper month,₹149
+Siliguri,Gym Membershipper month,₹700
+Siliguri,Movie Ticket (Multiplex)per ticket,₹150
+Siliguri,Netflix (Standard Plan)per month,₹649
+Siliguri,Spotify Premiumper month,₹119
+Siliguri,"Haircut (Men, basic salon)per cut",₹60
+Siliguri,"Domestic Beer (pint, restaurant)per pint",₹160
+Siliguri,"Imported Beer (bottle, restaurant)per bottle",₹320
+Jamshedpur,Veg Thali (local restaurant)per plate,₹75
+Jamshedpur,Non-Veg Thali (local restaurant)per plate,₹140
+Jamshedpur,Meal for Two (high-end restaurant)per meal,₹900
+Jamshedpur,Chai (regular cup)per cup,₹10
+Jamshedpur,Coffee (Cappuccino)per cup,₹130
+Jamshedpur,Specialty Coffee (Third Wave)per cup,₹260
+Jamshedpur,Street Food (Vada Pav / Samosa)per piece,₹10
+Jamshedpur,Biryani (chicken)per plate,₹160
+Jamshedpur,Dosa (plain)per plate,₹50
+Jamshedpur,Fast Food Combo (McDonald's)per meal,₹230
+Jamshedpur,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Jamshedpur,Bottled Water (1 litre)per bottle,₹20
+Jamshedpur,Rice (Basmati)1 kg,₹80
+Jamshedpur,Wheat Flour (Atta)1 kg,₹42
+Jamshedpur,Toor Dal1 kg,₹140
+Jamshedpur,Milk (Full Cream)1 litre,₹54
+Jamshedpur,Eggs12 pcs,₹72
+Jamshedpur,Chicken1 kg,₹220
+Jamshedpur,Paneer1 kg,₹340
+Jamshedpur,Onions1 kg,₹28
+Jamshedpur,Tomatoes1 kg,₹35
+Jamshedpur,Potatoes1 kg,₹22
+Jamshedpur,Cooking Oil (Sunflower)1 litre,₹142
+Jamshedpur,Sugar1 kg,₹42
+Jamshedpur,Apples (Shimla)1 kg,₹190
+Jamshedpur,Bananas1 dozen,₹40
+Jamshedpur,"Bread (White, Sliced)1 loaf",₹38
+Jamshedpur,Whey Protein (1 kg)per kg,"₹3,000"
+Jamshedpur,Auto Rickshaw (minimum fare)per ride,₹20
+Jamshedpur,Auto Rickshaw (per km after min)per km,₹10
+Jamshedpur,Metro / Local Train (monthly pass)per month,₹600
+Jamshedpur,Bus (monthly pass)per month,₹400
+Jamshedpur,Ola/Uber (avg ride)per ride,₹135
+Jamshedpur,Petrol1 litre,₹102
+Jamshedpur,Diesel1 litre,₹88
+Jamshedpur,Two Wheeler EMI (avg)per month,"₹3,500"
+Jamshedpur,Car EMI (avg)per month,"₹15,000"
+Jamshedpur,Electricityper month,"₹1,300"
+Jamshedpur,Water Billper month,₹200
+Jamshedpur,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Jamshedpur,Broadband Internetper month,₹550
+Jamshedpur,Mobile Plan (Jio/Airtel)per month,₹299
+Jamshedpur,1 BHK in City Centreper month,"₹9,000"
+Jamshedpur,1 BHK Outside City Centreper month,"₹5,500"
+Jamshedpur,2 BHK in City Centreper month,"₹15,000"
+Jamshedpur,2 BHK Outside City Centreper month,"₹9,000"
+Jamshedpur,3 BHK in City Centreper month,"₹24,000"
+Jamshedpur,3 BHK Outside City Centreper month,"₹14,000"
+Jamshedpur,Home Loan EMI (2BHK avg)per month,"₹30,000"
+Jamshedpur,PG - Private Room (with meals)per month,"₹7,500"
+Jamshedpur,PG - Private Room (without meals)per month,"₹5,500"
+Jamshedpur,PG - Double Sharing (with meals)per month,"₹5,500"
+Jamshedpur,PG - Double Sharing (without meals)per month,"₹3,800"
+Jamshedpur,PG - Triple Sharing (with meals)per month,"₹4,000"
+Jamshedpur,PG - Triple Sharing (without meals)per month,"₹2,800"
+Jamshedpur,"Cook (part-time, 2 meals/day)per month","₹6,400"
+Jamshedpur,Maid / Cleaning Helpper month,"₹2,400"
+Jamshedpur,Laundry / Ironing (dhobi)per month,"₹1,220"
+Jamshedpur,Miscellaneous Monthly Spendper month,"₹2,400"
+Jamshedpur,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Jamshedpur,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Jamshedpur,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Jamshedpur,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Jamshedpur,Amazon Prime Membershipper month,₹149
+Jamshedpur,Gym Membershipper month,₹900
+Jamshedpur,Movie Ticket (Multiplex)per ticket,₹170
+Jamshedpur,Netflix (Standard Plan)per month,₹649
+Jamshedpur,Spotify Premiumper month,₹119
+Jamshedpur,"Haircut (Men, basic salon)per cut",₹70
+Jamshedpur,"Domestic Beer (pint, restaurant)per pint",₹170
+Jamshedpur,"Imported Beer (bottle, restaurant)per bottle",₹340
+Aurangabad,Veg Thali (local restaurant)per plate,₹85
+Aurangabad,Non-Veg Thali (local restaurant)per plate,₹150
+Aurangabad,Meal for Two (high-end restaurant)per meal,"₹1,000"
+Aurangabad,Chai (regular cup)per cup,₹12
+Aurangabad,Coffee (Cappuccino)per cup,₹140
+Aurangabad,Specialty Coffee (Third Wave)per cup,₹267
+Aurangabad,Street Food (Vada Pav / Samosa)per piece,₹12
+Aurangabad,Biryani (chicken)per plate,₹170
+Aurangabad,Dosa (plain)per plate,₹55
+Aurangabad,Fast Food Combo (McDonald's)per meal,₹240
+Aurangabad,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Aurangabad,Bottled Water (1 litre)per bottle,₹20
+Aurangabad,Rice (Basmati)1 kg,₹88
+Aurangabad,Wheat Flour (Atta)1 kg,₹45
+Aurangabad,Toor Dal1 kg,₹148
+Aurangabad,Milk (Full Cream)1 litre,₹55
+Aurangabad,Eggs12 pcs,₹75
+Aurangabad,Chicken1 kg,₹230
+Aurangabad,Paneer1 kg,₹350
+Aurangabad,Onions1 kg,₹30
+Aurangabad,Tomatoes1 kg,₹38
+Aurangabad,Potatoes1 kg,₹28
+Aurangabad,Cooking Oil (Sunflower)1 litre,₹148
+Aurangabad,Sugar1 kg,₹44
+Aurangabad,Apples (Shimla)1 kg,₹190
+Aurangabad,Bananas1 dozen,₹45
+Aurangabad,"Bread (White, Sliced)1 loaf",₹40
+Aurangabad,Whey Protein (1 kg)per kg,"₹3,000"
+Aurangabad,Auto Rickshaw (minimum fare)per ride,₹20
+Aurangabad,Auto Rickshaw (per km after min)per km,₹12
+Aurangabad,Metro / Local Train (monthly pass)per month,₹700
+Aurangabad,Bus (monthly pass)per month,₹500
+Aurangabad,Ola/Uber (avg ride)per ride,₹150
+Aurangabad,Petrol1 litre,₹105
+Aurangabad,Diesel1 litre,₹92
+Aurangabad,Two Wheeler EMI (avg)per month,"₹3,500"
+Aurangabad,Car EMI (avg)per month,"₹15,000"
+Aurangabad,Electricityper month,"₹1,500"
+Aurangabad,Water Billper month,₹250
+Aurangabad,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Aurangabad,Broadband Internetper month,₹600
+Aurangabad,Mobile Plan (Jio/Airtel)per month,₹299
+Aurangabad,1 BHK in City Centreper month,"₹10,000"
+Aurangabad,1 BHK Outside City Centreper month,"₹6,000"
+Aurangabad,2 BHK in City Centreper month,"₹16,000"
+Aurangabad,2 BHK Outside City Centreper month,"₹10,000"
+Aurangabad,3 BHK in City Centreper month,"₹28,000"
+Aurangabad,3 BHK Outside City Centreper month,"₹16,000"
+Aurangabad,Home Loan EMI (2BHK avg)per month,"₹32,000"
+Aurangabad,PG - Private Room (with meals)per month,"₹8,000"
+Aurangabad,PG - Private Room (without meals)per month,"₹6,000"
+Aurangabad,PG - Double Sharing (with meals)per month,"₹5,500"
+Aurangabad,PG - Double Sharing (without meals)per month,"₹4,000"
+Aurangabad,PG - Triple Sharing (with meals)per month,"₹4,500"
+Aurangabad,PG - Triple Sharing (without meals)per month,"₹3,000"
+Aurangabad,"Cook (part-time, 2 meals/day)per month","₹6,667"
+Aurangabad,Maid / Cleaning Helpper month,"₹2,500"
+Aurangabad,Laundry / Ironing (dhobi)per month,"₹1,267"
+Aurangabad,Miscellaneous Monthly Spendper month,"₹2,500"
+Aurangabad,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Aurangabad,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Aurangabad,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Aurangabad,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Aurangabad,Amazon Prime Membershipper month,₹149
+Aurangabad,Gym Membershipper month,"₹1,000"
+Aurangabad,Movie Ticket (Multiplex)per ticket,₹180
+Aurangabad,Netflix (Standard Plan)per month,₹649
+Aurangabad,Spotify Premiumper month,₹119
+Aurangabad,"Haircut (Men, basic salon)per cut",₹80
+Aurangabad,"Domestic Beer (pint, restaurant)per pint",₹180
+Aurangabad,"Imported Beer (bottle, restaurant)per bottle",₹350
+Kolhapur,Veg Thali (local restaurant)per plate,₹80
+Kolhapur,Non-Veg Thali (local restaurant)per plate,₹140
+Kolhapur,Meal for Two (high-end restaurant)per meal,₹900
+Kolhapur,Chai (regular cup)per cup,₹10
+Kolhapur,Coffee (Cappuccino)per cup,₹130
+Kolhapur,Specialty Coffee (Third Wave)per cup,₹253
+Kolhapur,Street Food (Vada Pav / Samosa)per piece,₹10
+Kolhapur,Biryani (chicken)per plate,₹160
+Kolhapur,Dosa (plain)per plate,₹50
+Kolhapur,Fast Food Combo (McDonald's)per meal,₹230
+Kolhapur,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Kolhapur,Bottled Water (1 litre)per bottle,₹20
+Kolhapur,Rice (Basmati)1 kg,₹85
+Kolhapur,Wheat Flour (Atta)1 kg,₹42
+Kolhapur,Toor Dal1 kg,₹145
+Kolhapur,Milk (Full Cream)1 litre,₹52
+Kolhapur,Eggs12 pcs,₹72
+Kolhapur,Chicken1 kg,₹220
+Kolhapur,Paneer1 kg,₹340
+Kolhapur,Onions1 kg,₹28
+Kolhapur,Tomatoes1 kg,₹35
+Kolhapur,Potatoes1 kg,₹25
+Kolhapur,Cooking Oil (Sunflower)1 litre,₹145
+Kolhapur,Sugar1 kg,₹42
+Kolhapur,Apples (Shimla)1 kg,₹185
+Kolhapur,Bananas1 dozen,₹42
+Kolhapur,"Bread (White, Sliced)1 loaf",₹38
+Kolhapur,Whey Protein (1 kg)per kg,"₹3,000"
+Kolhapur,Auto Rickshaw (minimum fare)per ride,₹18
+Kolhapur,Auto Rickshaw (per km after min)per km,₹10
+Kolhapur,Metro / Local Train (monthly pass)per month,₹600
+Kolhapur,Bus (monthly pass)per month,₹400
+Kolhapur,Ola/Uber (avg ride)per ride,₹135
+Kolhapur,Petrol1 litre,₹105
+Kolhapur,Diesel1 litre,₹92
+Kolhapur,Two Wheeler EMI (avg)per month,"₹3,500"
+Kolhapur,Car EMI (avg)per month,"₹15,000"
+Kolhapur,Electricityper month,"₹1,300"
+Kolhapur,Water Billper month,₹200
+Kolhapur,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Kolhapur,Broadband Internetper month,₹550
+Kolhapur,Mobile Plan (Jio/Airtel)per month,₹299
+Kolhapur,1 BHK in City Centreper month,"₹8,000"
+Kolhapur,1 BHK Outside City Centreper month,"₹5,000"
+Kolhapur,2 BHK in City Centreper month,"₹14,000"
+Kolhapur,2 BHK Outside City Centreper month,"₹8,000"
+Kolhapur,3 BHK in City Centreper month,"₹22,000"
+Kolhapur,3 BHK Outside City Centreper month,"₹13,000"
+Kolhapur,Home Loan EMI (2BHK avg)per month,"₹28,000"
+Kolhapur,PG - Private Room (with meals)per month,"₹7,000"
+Kolhapur,PG - Private Room (without meals)per month,"₹5,000"
+Kolhapur,PG - Double Sharing (with meals)per month,"₹5,000"
+Kolhapur,PG - Double Sharing (without meals)per month,"₹3,500"
+Kolhapur,PG - Triple Sharing (with meals)per month,"₹4,000"
+Kolhapur,PG - Triple Sharing (without meals)per month,"₹2,800"
+Kolhapur,"Cook (part-time, 2 meals/day)per month","₹6,133"
+Kolhapur,Maid / Cleaning Helpper month,"₹2,300"
+Kolhapur,Laundry / Ironing (dhobi)per month,"₹1,173"
+Kolhapur,Miscellaneous Monthly Spendper month,"₹2,300"
+Kolhapur,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Kolhapur,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Kolhapur,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Kolhapur,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Kolhapur,Amazon Prime Membershipper month,₹149
+Kolhapur,Gym Membershipper month,₹800
+Kolhapur,Movie Ticket (Multiplex)per ticket,₹170
+Kolhapur,Netflix (Standard Plan)per month,₹649
+Kolhapur,Spotify Premiumper month,₹119
+Kolhapur,"Haircut (Men, basic salon)per cut",₹70
+Kolhapur,"Domestic Beer (pint, restaurant)per pint",₹170
+Kolhapur,"Imported Beer (bottle, restaurant)per bottle",₹340
+Hubli Dharwad,Veg Thali (local restaurant)per plate,₹70
+Hubli Dharwad,Non-Veg Thali (local restaurant)per plate,₹130
+Hubli Dharwad,Meal for Two (high-end restaurant)per meal,₹900
+Hubli Dharwad,Chai (regular cup)per cup,₹10
+Hubli Dharwad,Coffee (Cappuccino)per cup,₹120
+Hubli Dharwad,Specialty Coffee (Third Wave)per cup,₹253
+Hubli Dharwad,Street Food (Vada Pav / Samosa)per piece,₹10
+Hubli Dharwad,Biryani (chicken)per plate,₹160
+Hubli Dharwad,Dosa (plain)per plate,₹40
+Hubli Dharwad,Fast Food Combo (McDonald's)per meal,₹230
+Hubli Dharwad,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Hubli Dharwad,Bottled Water (1 litre)per bottle,₹20
+Hubli Dharwad,Rice (Basmati)1 kg,₹78
+Hubli Dharwad,Wheat Flour (Atta)1 kg,₹42
+Hubli Dharwad,Toor Dal1 kg,₹142
+Hubli Dharwad,Milk (Full Cream)1 litre,₹50
+Hubli Dharwad,Eggs12 pcs,₹68
+Hubli Dharwad,Chicken1 kg,₹210
+Hubli Dharwad,Paneer1 kg,₹330
+Hubli Dharwad,Onions1 kg,₹26
+Hubli Dharwad,Tomatoes1 kg,₹32
+Hubli Dharwad,Potatoes1 kg,₹28
+Hubli Dharwad,Cooking Oil (Sunflower)1 litre,₹145
+Hubli Dharwad,Sugar1 kg,₹42
+Hubli Dharwad,Apples (Shimla)1 kg,₹200
+Hubli Dharwad,Bananas1 dozen,₹38
+Hubli Dharwad,"Bread (White, Sliced)1 loaf",₹38
+Hubli Dharwad,Whey Protein (1 kg)per kg,"₹3,000"
+Hubli Dharwad,Auto Rickshaw (minimum fare)per ride,₹20
+Hubli Dharwad,Auto Rickshaw (per km after min)per km,₹10
+Hubli Dharwad,Metro / Local Train (monthly pass)per month,₹600
+Hubli Dharwad,Bus (monthly pass)per month,₹400
+Hubli Dharwad,Ola/Uber (avg ride)per ride,₹135
+Hubli Dharwad,Petrol1 litre,₹103
+Hubli Dharwad,Diesel1 litre,₹88
+Hubli Dharwad,Two Wheeler EMI (avg)per month,"₹3,500"
+Hubli Dharwad,Car EMI (avg)per month,"₹15,000"
+Hubli Dharwad,Electricityper month,"₹1,200"
+Hubli Dharwad,Water Billper month,₹180
+Hubli Dharwad,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Hubli Dharwad,Broadband Internetper month,₹550
+Hubli Dharwad,Mobile Plan (Jio/Airtel)per month,₹299
+Hubli Dharwad,1 BHK in City Centreper month,"₹8,000"
+Hubli Dharwad,1 BHK Outside City Centreper month,"₹5,000"
+Hubli Dharwad,2 BHK in City Centreper month,"₹14,000"
+Hubli Dharwad,2 BHK Outside City Centreper month,"₹8,000"
+Hubli Dharwad,3 BHK in City Centreper month,"₹22,000"
+Hubli Dharwad,3 BHK Outside City Centreper month,"₹13,000"
+Hubli Dharwad,Home Loan EMI (2BHK avg)per month,"₹28,000"
+Hubli Dharwad,PG - Private Room (with meals)per month,"₹7,000"
+Hubli Dharwad,PG - Private Room (without meals)per month,"₹5,000"
+Hubli Dharwad,PG - Double Sharing (with meals)per month,"₹5,000"
+Hubli Dharwad,PG - Double Sharing (without meals)per month,"₹3,500"
+Hubli Dharwad,PG - Triple Sharing (with meals)per month,"₹4,000"
+Hubli Dharwad,PG - Triple Sharing (without meals)per month,"₹2,800"
+Hubli Dharwad,"Cook (part-time, 2 meals/day)per month","₹6,133"
+Hubli Dharwad,Maid / Cleaning Helpper month,"₹2,300"
+Hubli Dharwad,Laundry / Ironing (dhobi)per month,"₹1,173"
+Hubli Dharwad,Miscellaneous Monthly Spendper month,"₹2,300"
+Hubli Dharwad,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Hubli Dharwad,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Hubli Dharwad,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Hubli Dharwad,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Hubli Dharwad,Amazon Prime Membershipper month,₹149
+Hubli Dharwad,Gym Membershipper month,₹800
+Hubli Dharwad,Movie Ticket (Multiplex)per ticket,₹160
+Hubli Dharwad,Netflix (Standard Plan)per month,₹649
+Hubli Dharwad,Spotify Premiumper month,₹119
+Hubli Dharwad,"Haircut (Men, basic salon)per cut",₹70
+Hubli Dharwad,"Domestic Beer (pint, restaurant)per pint",₹170
+Hubli Dharwad,"Imported Beer (bottle, restaurant)per bottle",₹340
+Warangal,Veg Thali (local restaurant)per plate,₹70
+Warangal,Non-Veg Thali (local restaurant)per plate,₹120
+Warangal,Meal for Two (high-end restaurant)per meal,₹800
+Warangal,Chai (regular cup)per cup,₹10
+Warangal,Coffee (Cappuccino)per cup,₹110
+Warangal,Specialty Coffee (Third Wave)per cup,₹247
+Warangal,Street Food (Vada Pav / Samosa)per piece,₹10
+Warangal,Biryani (chicken)per plate,₹140
+Warangal,Dosa (plain)per plate,₹40
+Warangal,Fast Food Combo (McDonald's)per meal,₹220
+Warangal,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Warangal,Bottled Water (1 litre)per bottle,₹20
+Warangal,Rice (Basmati)1 kg,₹75
+Warangal,Wheat Flour (Atta)1 kg,₹42
+Warangal,Toor Dal1 kg,₹138
+Warangal,Milk (Full Cream)1 litre,₹50
+Warangal,Eggs12 pcs,₹65
+Warangal,Chicken1 kg,₹200
+Warangal,Paneer1 kg,₹320
+Warangal,Onions1 kg,₹25
+Warangal,Tomatoes1 kg,₹30
+Warangal,Potatoes1 kg,₹25
+Warangal,Cooking Oil (Sunflower)1 litre,₹140
+Warangal,Sugar1 kg,₹42
+Warangal,Apples (Shimla)1 kg,₹210
+Warangal,Bananas1 dozen,₹38
+Warangal,"Bread (White, Sliced)1 loaf",₹36
+Warangal,Whey Protein (1 kg)per kg,"₹3,000"
+Warangal,Auto Rickshaw (minimum fare)per ride,₹18
+Warangal,Auto Rickshaw (per km after min)per km,₹10
+Warangal,Metro / Local Train (monthly pass)per month,₹500
+Warangal,Bus (monthly pass)per month,₹350
+Warangal,Ola/Uber (avg ride)per ride,₹120
+Warangal,Petrol1 litre,₹109
+Warangal,Diesel1 litre,₹97
+Warangal,Two Wheeler EMI (avg)per month,"₹3,500"
+Warangal,Car EMI (avg)per month,"₹15,000"
+Warangal,Electricityper month,"₹1,200"
+Warangal,Water Billper month,₹150
+Warangal,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Warangal,Broadband Internetper month,₹500
+Warangal,Mobile Plan (Jio/Airtel)per month,₹299
+Warangal,1 BHK in City Centreper month,"₹7,000"
+Warangal,1 BHK Outside City Centreper month,"₹4,500"
+Warangal,2 BHK in City Centreper month,"₹12,000"
+Warangal,2 BHK Outside City Centreper month,"₹7,000"
+Warangal,3 BHK in City Centreper month,"₹18,000"
+Warangal,3 BHK Outside City Centreper month,"₹11,000"
+Warangal,Home Loan EMI (2BHK avg)per month,"₹24,000"
+Warangal,PG - Private Room (with meals)per month,"₹6,500"
+Warangal,PG - Private Room (without meals)per month,"₹5,000"
+Warangal,PG - Double Sharing (with meals)per month,"₹4,500"
+Warangal,PG - Double Sharing (without meals)per month,"₹3,200"
+Warangal,PG - Triple Sharing (with meals)per month,"₹3,500"
+Warangal,PG - Triple Sharing (without meals)per month,"₹2,500"
+Warangal,"Cook (part-time, 2 meals/day)per month","₹5,867"
+Warangal,Maid / Cleaning Helpper month,"₹2,200"
+Warangal,Laundry / Ironing (dhobi)per month,"₹1,127"
+Warangal,Miscellaneous Monthly Spendper month,"₹2,200"
+Warangal,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Warangal,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Warangal,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Warangal,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Warangal,Amazon Prime Membershipper month,₹149
+Warangal,Gym Membershipper month,₹700
+Warangal,Movie Ticket (Multiplex)per ticket,₹150
+Warangal,Netflix (Standard Plan)per month,₹649
+Warangal,Spotify Premiumper month,₹119
+Warangal,"Haircut (Men, basic salon)per cut",₹60
+Warangal,"Domestic Beer (pint, restaurant)per pint",₹160
+Warangal,"Imported Beer (bottle, restaurant)per bottle",₹320
+Raipur,Veg Thali (local restaurant)per plate,₹70
+Raipur,Non-Veg Thali (local restaurant)per plate,₹130
+Raipur,Meal for Two (high-end restaurant)per meal,₹800
+Raipur,Chai (regular cup)per cup,₹10
+Raipur,Coffee (Cappuccino)per cup,₹120
+Raipur,Specialty Coffee (Third Wave)per cup,₹253
+Raipur,Street Food (Vada Pav / Samosa)per piece,₹10
+Raipur,Biryani (chicken)per plate,₹150
+Raipur,Dosa (plain)per plate,₹50
+Raipur,Fast Food Combo (McDonald's)per meal,₹220
+Raipur,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Raipur,Bottled Water (1 litre)per bottle,₹20
+Raipur,Rice (Basmati)1 kg,₹78
+Raipur,Wheat Flour (Atta)1 kg,₹40
+Raipur,Toor Dal1 kg,₹135
+Raipur,Milk (Full Cream)1 litre,₹52
+Raipur,Eggs12 pcs,₹68
+Raipur,Chicken1 kg,₹200
+Raipur,Paneer1 kg,₹320
+Raipur,Onions1 kg,₹25
+Raipur,Tomatoes1 kg,₹30
+Raipur,Potatoes1 kg,₹22
+Raipur,Cooking Oil (Sunflower)1 litre,₹138
+Raipur,Sugar1 kg,₹40
+Raipur,Apples (Shimla)1 kg,₹185
+Raipur,Bananas1 dozen,₹38
+Raipur,"Bread (White, Sliced)1 loaf",₹36
+Raipur,Whey Protein (1 kg)per kg,"₹3,000"
+Raipur,Auto Rickshaw (minimum fare)per ride,₹18
+Raipur,Auto Rickshaw (per km after min)per km,₹10
+Raipur,Metro / Local Train (monthly pass)per month,₹500
+Raipur,Bus (monthly pass)per month,₹350
+Raipur,Ola/Uber (avg ride)per ride,₹120
+Raipur,Petrol1 litre,₹103
+Raipur,Diesel1 litre,₹90
+Raipur,Two Wheeler EMI (avg)per month,"₹3,500"
+Raipur,Car EMI (avg)per month,"₹15,000"
+Raipur,Electricityper month,"₹1,200"
+Raipur,Water Billper month,₹150
+Raipur,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Raipur,Broadband Internetper month,₹500
+Raipur,Mobile Plan (Jio/Airtel)per month,₹299
+Raipur,1 BHK in City Centreper month,"₹8,000"
+Raipur,1 BHK Outside City Centreper month,"₹4,500"
+Raipur,2 BHK in City Centreper month,"₹13,000"
+Raipur,2 BHK Outside City Centreper month,"₹7,500"
+Raipur,3 BHK in City Centreper month,"₹20,000"
+Raipur,3 BHK Outside City Centreper month,"₹12,000"
+Raipur,Home Loan EMI (2BHK avg)per month,"₹26,000"
+Raipur,PG - Private Room (with meals)per month,"₹7,000"
+Raipur,PG - Private Room (without meals)per month,"₹5,000"
+Raipur,PG - Double Sharing (with meals)per month,"₹5,000"
+Raipur,PG - Double Sharing (without meals)per month,"₹3,500"
+Raipur,PG - Triple Sharing (with meals)per month,"₹4,000"
+Raipur,PG - Triple Sharing (without meals)per month,"₹2,500"
+Raipur,"Cook (part-time, 2 meals/day)per month","₹6,133"
+Raipur,Maid / Cleaning Helpper month,"₹2,300"
+Raipur,Laundry / Ironing (dhobi)per month,"₹1,173"
+Raipur,Miscellaneous Monthly Spendper month,"₹2,300"
+Raipur,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Raipur,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Raipur,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Raipur,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Raipur,Amazon Prime Membershipper month,₹149
+Raipur,Gym Membershipper month,₹700
+Raipur,Movie Ticket (Multiplex)per ticket,₹150
+Raipur,Netflix (Standard Plan)per month,₹649
+Raipur,Spotify Premiumper month,₹119
+Raipur,"Haircut (Men, basic salon)per cut",₹60
+Raipur,"Domestic Beer (pint, restaurant)per pint",₹160
+Raipur,"Imported Beer (bottle, restaurant)per bottle",₹320
+Gwalior,Veg Thali (local restaurant)per plate,₹65
+Gwalior,Non-Veg Thali (local restaurant)per plate,₹120
+Gwalior,Meal for Two (high-end restaurant)per meal,₹800
+Gwalior,Chai (regular cup)per cup,₹10
+Gwalior,Coffee (Cappuccino)per cup,₹110
+Gwalior,Specialty Coffee (Third Wave)per cup,₹247
+Gwalior,Street Food (Vada Pav / Samosa)per piece,₹10
+Gwalior,Biryani (chicken)per plate,₹140
+Gwalior,Dosa (plain)per plate,₹45
+Gwalior,Fast Food Combo (McDonald's)per meal,₹220
+Gwalior,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Gwalior,Bottled Water (1 litre)per bottle,₹20
+Gwalior,Rice (Basmati)1 kg,₹78
+Gwalior,Wheat Flour (Atta)1 kg,₹38
+Gwalior,Toor Dal1 kg,₹135
+Gwalior,Milk (Full Cream)1 litre,₹52
+Gwalior,Eggs12 pcs,₹68
+Gwalior,Chicken1 kg,₹200
+Gwalior,Paneer1 kg,₹320
+Gwalior,Onions1 kg,₹25
+Gwalior,Tomatoes1 kg,₹28
+Gwalior,Potatoes1 kg,₹20
+Gwalior,Cooking Oil (Sunflower)1 litre,₹138
+Gwalior,Sugar1 kg,₹40
+Gwalior,Apples (Shimla)1 kg,₹175
+Gwalior,Bananas1 dozen,₹36
+Gwalior,"Bread (White, Sliced)1 loaf",₹35
+Gwalior,Whey Protein (1 kg)per kg,"₹3,000"
+Gwalior,Auto Rickshaw (minimum fare)per ride,₹15
+Gwalior,Auto Rickshaw (per km after min)per km,₹8
+Gwalior,Metro / Local Train (monthly pass)per month,₹500
+Gwalior,Bus (monthly pass)per month,₹350
+Gwalior,Ola/Uber (avg ride)per ride,₹120
+Gwalior,Petrol1 litre,₹104
+Gwalior,Diesel1 litre,₹90
+Gwalior,Two Wheeler EMI (avg)per month,"₹3,500"
+Gwalior,Car EMI (avg)per month,"₹15,000"
+Gwalior,Electricityper month,"₹1,100"
+Gwalior,Water Billper month,₹150
+Gwalior,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Gwalior,Broadband Internetper month,₹500
+Gwalior,Mobile Plan (Jio/Airtel)per month,₹299
+Gwalior,1 BHK in City Centreper month,"₹7,000"
+Gwalior,1 BHK Outside City Centreper month,"₹4,000"
+Gwalior,2 BHK in City Centreper month,"₹12,000"
+Gwalior,2 BHK Outside City Centreper month,"₹7,000"
+Gwalior,3 BHK in City Centreper month,"₹18,000"
+Gwalior,3 BHK Outside City Centreper month,"₹11,000"
+Gwalior,Home Loan EMI (2BHK avg)per month,"₹24,000"
+Gwalior,PG - Private Room (with meals)per month,"₹6,000"
+Gwalior,PG - Private Room (without meals)per month,"₹4,500"
+Gwalior,PG - Double Sharing (with meals)per month,"₹4,500"
+Gwalior,PG - Double Sharing (without meals)per month,"₹3,000"
+Gwalior,PG - Triple Sharing (with meals)per month,"₹3,500"
+Gwalior,PG - Triple Sharing (without meals)per month,"₹2,500"
+Gwalior,"Cook (part-time, 2 meals/day)per month","₹5,867"
+Gwalior,Maid / Cleaning Helpper month,"₹2,200"
+Gwalior,Laundry / Ironing (dhobi)per month,"₹1,127"
+Gwalior,Miscellaneous Monthly Spendper month,"₹2,200"
+Gwalior,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Gwalior,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Gwalior,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Gwalior,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Gwalior,Amazon Prime Membershipper month,₹149
+Gwalior,Gym Membershipper month,₹600
+Gwalior,Movie Ticket (Multiplex)per ticket,₹150
+Gwalior,Netflix (Standard Plan)per month,₹649
+Gwalior,Spotify Premiumper month,₹119
+Gwalior,"Haircut (Men, basic salon)per cut",₹50
+Gwalior,"Domestic Beer (pint, restaurant)per pint",₹150
+Gwalior,"Imported Beer (bottle, restaurant)per bottle",₹310
+Prayagraj,Veg Thali (local restaurant)per plate,₹65
+Prayagraj,Non-Veg Thali (local restaurant)per plate,₹120
+Prayagraj,Meal for Two (high-end restaurant)per meal,₹800
+Prayagraj,Chai (regular cup)per cup,₹10
+Prayagraj,Coffee (Cappuccino)per cup,₹110
+Prayagraj,Specialty Coffee (Third Wave)per cup,₹250
+Prayagraj,Street Food (Vada Pav / Samosa)per piece,₹10
+Prayagraj,Biryani (chicken)per plate,₹140
+Prayagraj,Dosa (plain)per plate,₹50
+Prayagraj,Fast Food Combo (McDonald's)per meal,₹220
+Prayagraj,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Prayagraj,Bottled Water (1 litre)per bottle,₹20
+Prayagraj,Rice (Basmati)1 kg,₹78
+Prayagraj,Wheat Flour (Atta)1 kg,₹40
+Prayagraj,Toor Dal1 kg,₹135
+Prayagraj,Milk (Full Cream)1 litre,₹50
+Prayagraj,Eggs12 pcs,₹68
+Prayagraj,Chicken1 kg,₹200
+Prayagraj,Paneer1 kg,₹320
+Prayagraj,Onions1 kg,₹25
+Prayagraj,Tomatoes1 kg,₹28
+Prayagraj,Potatoes1 kg,₹20
+Prayagraj,Cooking Oil (Sunflower)1 litre,₹138
+Prayagraj,Sugar1 kg,₹40
+Prayagraj,Apples (Shimla)1 kg,₹178
+Prayagraj,Bananas1 dozen,₹38
+Prayagraj,"Bread (White, Sliced)1 loaf",₹35
+Prayagraj,Whey Protein (1 kg)per kg,"₹3,000"
+Prayagraj,Auto Rickshaw (minimum fare)per ride,₹15
+Prayagraj,Auto Rickshaw (per km after min)per km,₹8
+Prayagraj,Metro / Local Train (monthly pass)per month,₹500
+Prayagraj,Bus (monthly pass)per month,₹350
+Prayagraj,Ola/Uber (avg ride)per ride,₹120
+Prayagraj,Petrol1 litre,₹95
+Prayagraj,Diesel1 litre,₹88
+Prayagraj,Two Wheeler EMI (avg)per month,"₹3,500"
+Prayagraj,Car EMI (avg)per month,"₹15,000"
+Prayagraj,Electricityper month,"₹1,200"
+Prayagraj,Water Billper month,₹150
+Prayagraj,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Prayagraj,Broadband Internetper month,₹500
+Prayagraj,Mobile Plan (Jio/Airtel)per month,₹299
+Prayagraj,1 BHK in City Centreper month,"₹7,500"
+Prayagraj,1 BHK Outside City Centreper month,"₹4,500"
+Prayagraj,2 BHK in City Centreper month,"₹12,000"
+Prayagraj,2 BHK Outside City Centreper month,"₹7,500"
+Prayagraj,3 BHK in City Centreper month,"₹20,000"
+Prayagraj,3 BHK Outside City Centreper month,"₹12,000"
+Prayagraj,Home Loan EMI (2BHK avg)per month,"₹24,000"
+Prayagraj,PG - Private Room (with meals)per month,"₹6,500"
+Prayagraj,PG - Private Room (without meals)per month,"₹5,000"
+Prayagraj,PG - Double Sharing (with meals)per month,"₹4,500"
+Prayagraj,PG - Double Sharing (without meals)per month,"₹3,200"
+Prayagraj,PG - Triple Sharing (with meals)per month,"₹3,500"
+Prayagraj,PG - Triple Sharing (without meals)per month,"₹2,500"
+Prayagraj,"Cook (part-time, 2 meals/day)per month","₹6,000"
+Prayagraj,Maid / Cleaning Helpper month,"₹2,250"
+Prayagraj,Laundry / Ironing (dhobi)per month,"₹1,150"
+Prayagraj,Miscellaneous Monthly Spendper month,"₹2,250"
+Prayagraj,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Prayagraj,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Prayagraj,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Prayagraj,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Prayagraj,Amazon Prime Membershipper month,₹149
+Prayagraj,Gym Membershipper month,₹600
+Prayagraj,Movie Ticket (Multiplex)per ticket,₹150
+Prayagraj,Netflix (Standard Plan)per month,₹649
+Prayagraj,Spotify Premiumper month,₹119
+Prayagraj,"Haircut (Men, basic salon)per cut",₹50
+Prayagraj,"Domestic Beer (pint, restaurant)per pint",₹150
+Prayagraj,"Imported Beer (bottle, restaurant)per bottle",₹300
+Meerut,Veg Thali (local restaurant)per plate,₹70
+Meerut,Non-Veg Thali (local restaurant)per plate,₹130
+Meerut,Meal for Two (high-end restaurant)per meal,₹800
+Meerut,Chai (regular cup)per cup,₹10
+Meerut,Coffee (Cappuccino)per cup,₹120
+Meerut,Specialty Coffee (Third Wave)per cup,₹253
+Meerut,Street Food (Vada Pav / Samosa)per piece,₹10
+Meerut,Biryani (chicken)per plate,₹150
+Meerut,Dosa (plain)per plate,₹50
+Meerut,Fast Food Combo (McDonald's)per meal,₹230
+Meerut,"Soft Drink (Coca-Cola, 300ml)per bottle",₹35
+Meerut,Bottled Water (1 litre)per bottle,₹20
+Meerut,Rice (Basmati)1 kg,₹80
+Meerut,Wheat Flour (Atta)1 kg,₹40
+Meerut,Toor Dal1 kg,₹138
+Meerut,Milk (Full Cream)1 litre,₹54
+Meerut,Eggs12 pcs,₹72
+Meerut,Chicken1 kg,₹210
+Meerut,Paneer1 kg,₹330
+Meerut,Onions1 kg,₹26
+Meerut,Tomatoes1 kg,₹30
+Meerut,Potatoes1 kg,₹22
+Meerut,Cooking Oil (Sunflower)1 litre,₹140
+Meerut,Sugar1 kg,₹42
+Meerut,Apples (Shimla)1 kg,₹175
+Meerut,Bananas1 dozen,₹38
+Meerut,"Bread (White, Sliced)1 loaf",₹36
+Meerut,Whey Protein (1 kg)per kg,"₹3,000"
+Meerut,Auto Rickshaw (minimum fare)per ride,₹18
+Meerut,Auto Rickshaw (per km after min)per km,₹10
+Meerut,Metro / Local Train (monthly pass)per month,₹600
+Meerut,Bus (monthly pass)per month,₹400
+Meerut,Ola/Uber (avg ride)per ride,₹135
+Meerut,Petrol1 litre,₹95
+Meerut,Diesel1 litre,₹88
+Meerut,Two Wheeler EMI (avg)per month,"₹3,500"
+Meerut,Car EMI (avg)per month,"₹15,000"
+Meerut,Electricityper month,"₹1,300"
+Meerut,Water Billper month,₹180
+Meerut,Cooking Gas (LPG Cylinder)per cylinder,₹803
+Meerut,Broadband Internetper month,₹550
+Meerut,Mobile Plan (Jio/Airtel)per month,₹299
+Meerut,1 BHK in City Centreper month,"₹8,000"
+Meerut,1 BHK Outside City Centreper month,"₹5,000"
+Meerut,2 BHK in City Centreper month,"₹13,000"
+Meerut,2 BHK Outside City Centreper month,"₹8,000"
+Meerut,3 BHK in City Centreper month,"₹22,000"
+Meerut,3 BHK Outside City Centreper month,"₹13,000"
+Meerut,Home Loan EMI (2BHK avg)per month,"₹26,000"
+Meerut,PG - Private Room (with meals)per month,"₹7,000"
+Meerut,PG - Private Room (without meals)per month,"₹5,000"
+Meerut,PG - Double Sharing (with meals)per month,"₹5,000"
+Meerut,PG - Double Sharing (without meals)per month,"₹3,500"
+Meerut,PG - Triple Sharing (with meals)per month,"₹4,000"
+Meerut,PG - Triple Sharing (without meals)per month,"₹2,800"
+Meerut,"Cook (part-time, 2 meals/day)per month","₹6,133"
+Meerut,Maid / Cleaning Helpper month,"₹2,300"
+Meerut,Laundry / Ironing (dhobi)per month,"₹1,173"
+Meerut,Miscellaneous Monthly Spendper month,"₹2,300"
+Meerut,Men's Casual Shirt (Zara/H&M)per piece,"₹2,500"
+Meerut,Women's Dress (Myntra/Zara)per piece,"₹2,000"
+Meerut,Running Shoes (Nike/Adidas)per pair,"₹5,500"
+Meerut,Skincare Basics (Nykaa avg)per month,"₹1,200"
+Meerut,Amazon Prime Membershipper month,₹149
+Meerut,Gym Membershipper month,₹700
+Meerut,Movie Ticket (Multiplex)per ticket,₹160
+Meerut,Netflix (Standard Plan)per month,₹649
+Meerut,Spotify Premiumper month,₹119
+Meerut,"Haircut (Men, basic salon)per cut",₹60
+Meerut,"Domestic Beer (pint, restaurant)per pint",₹150
+Meerut,"Imported Beer (bottle, restaurant)per bottle",₹300

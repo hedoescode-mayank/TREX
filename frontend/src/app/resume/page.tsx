@@ -1,5 +1,7 @@
 "use client";
 
+import ProtectedRoute from "@/components/ProtectedRoute";
+
 import { useState } from "react";
 import Link from "next/link";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
@@ -96,6 +98,7 @@ export default function ResumeOptimizer() {
   };
 
   return (
+    <ProtectedRoute>
     <div className="relative min-h-screen flex flex-col font-sans text-gray-900 selection:bg-orange-200">
       {/* Background */}
       <div className="fixed inset-0 z-[-1] overflow-hidden pointer-events-none bg-[#fdfdfd]">
@@ -388,5 +391,6 @@ export default function ResumeOptimizer() {
         )}
       </main>
     </div>
+    </ProtectedRoute>
   );
 }

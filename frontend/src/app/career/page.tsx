@@ -1,9 +1,11 @@
 import React from "react";
+import ProtectedRoute from "@/components/ProtectedRoute";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
 
 export default function CareerMatchmaker() {
   return (
+    <ProtectedRoute>
     <div className="relative min-h-screen flex flex-col font-sans text-gray-900 selection:bg-blue-200">
       {/* Dynamic Background Gradients */}
       <div className="fixed inset-0 z-[-1] overflow-hidden pointer-events-none bg-[#fdfdfd]">
@@ -49,5 +51,6 @@ export default function CareerMatchmaker() {
         </Card>
       </main>
     </div>
+    </ProtectedRoute>
   );
 }
