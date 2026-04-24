@@ -8,9 +8,27 @@ class SectionScores(BaseModel):
     ats_format: int
     skills_alignment: int
 
+class ActionItem(BaseModel):
+    label: str
+    impact: str
+
+class AICard(BaseModel):
+    title: str
+    severity: str  # critical, major, moderate, minor
+    details: str
+    action_items: List[ActionItem] = []
+
 class AIFeedback(BaseModel):
     provider: str
-    summary: str
+    overall_match: AICard
+    resume_weaknesses: AICard
+    section_review: AICard
+    role_alignment: AICard
+    project_review: AICard
+    roadmap: AICard
+    application_strategy: AICard
+    final_verdict: AICard
+    suggested_resume_changes: List[str]
 
 class ResumeAnalysisResponse(BaseModel):
     overall_score: int

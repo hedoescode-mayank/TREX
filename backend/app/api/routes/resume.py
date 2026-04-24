@@ -2,7 +2,8 @@ from fastapi import APIRouter, HTTPException, UploadFile, File, Form, status
 from typing import Optional
 
 from app.schemas.resume import ResumeAnalysisResponse, SectionScores, AIFeedback
-from app.services.resume_parser import extract_text_from_pdf, normalize_text
+from app.services.resume_parser import extract_text_from_pdf, normalize_text, extract_entities
+from app.services.role_parser import preprocess_role
 from app.services.resume_sections import detect_sections
 from app.services.keyword_matcher import match_keywords
 from app.services.ats_checks import run_ats_checks
@@ -13,7 +14,7 @@ router = APIRouter()
 
 # ─── Resource Limits ───────────────────────────────────────────────────
 MAX_FILE_SIZE_BYTES = 2 * 1024 * 1024   # 2 MB max upload (prevents RAM spike)
-MAX_JD_LENGTH       = 3000              # Trim JD so keyword match is fast
+MAX_JD_LENGTH       = 5000              # Increased for deeper analysis
 
 
 @router.post("/analyze", response_model=ResumeAnalysisResponse)
@@ -25,12 +26,7 @@ async def analyze_resume(
 ):
     """
     Analyze a resume against a job description using the structured ATS pipeline.
-    Optionally returns AI feedback if use_ai is True.
-
-    Resource guardrails:
-    - Max file size: 2 MB
-    - Max JD length: 3000 chars
-    - AI calls: max 1 at a time with 25 s timeout (see llm_feedback.py)
+    Optionally returns deep AI feedback if use_ai is True.
     """
     print(f"[RECV] Analyzing resume: {resume_file.filename if resume_file else 'NO FILE'} | AI: {use_ai}")
     # 1. Validate inputs
@@ -46,53 +42,33 @@ async def analyze_resume(
             detail="Resume PDF file is required"
         )
 
-    if not resume_file.filename.lower().endswith(".pdf"):
-        raise HTTPException(
-            status_code=status.HTTP_400_BAD_REQUEST,
-            detail="Only PDF files are supported"
-        )
-
-    # 2. Read file with size guard (prevents huge file from killing RAM/disk)
+    # 2. Read file
     file_bytes = await resume_file.read()
     if len(file_bytes) > MAX_FILE_SIZE_BYTES:
         raise HTTPException(
             status_code=status.HTTP_413_REQUEST_ENTITY_TOO_LARGE,
-            detail=f"File too large. Max allowed size is 2 MB. Your file: {len(file_bytes)//1024} KB"
+            detail=f"File too large. Max allowed size is 2 MB."
         )
 
-    # 3. Extract Text
+    # 3. Extract & Preprocess
     try:
         raw_text = extract_text_from_pdf(file_bytes)
+        processed_text = normalize_text(raw_text)
+        entities = extract_entities(processed_text)
+        
+        # Preprocess Role
+        role_data = preprocess_role(job_description)
+        trimmed_jd = role_data["clean_description"]
+        
     except ValueError as e:
-        raise HTTPException(
-            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
-            detail=str(e)
-        )
-
-    if len(raw_text) < 50:
-        raise HTTPException(
-            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
-            detail="Resume content too short or text extraction failed."
-        )
-
-    # 4. Clean Text
-    processed_text = normalize_text(raw_text)
-
-    # 5. Trim JD to avoid long keyword scan loops
-    trimmed_jd = job_description[:MAX_JD_LENGTH]
+        raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, detail=str(e))
 
     # 6. Pipeline Execution
-    # A. Sections
     detected, missing_sections = detect_sections(processed_text)
-
-    # B. Keywords
     matched_kws, missing_kws, match_pct = match_keywords(processed_text, trimmed_jd)
-
-    # C. ATS Checks
     warnings = run_ats_checks(processed_text, detected)
     has_quantified = "Low quantified impact" not in str(warnings)
 
-    # D. Scoring System
     score_data = calculate_scores(
         match_percentage=match_pct,
         missing_sections=missing_sections,
@@ -100,16 +76,15 @@ async def analyze_resume(
         has_quantified=has_quantified
     )
 
-    # 7. AI Feedback (Optional – resource-limited inside provider_router)
+    # 7. AI Feedback (Structured)
     ai_response = None
     if use_ai:
         ai_data = route_provider(processed_text, trimmed_jd, provider=provider)
         if ai_data:
-            ai_response = AIFeedback(
-                provider=provider,
-                summary=ai_data.get("summary", "")
-            )
-            warnings.extend(ai_data.get("suggestions", []))
+            ai_response = AIFeedback(**ai_data)
+            # Add specific suggested resume changes to warnings if present
+            if "suggested_resume_changes" in ai_data:
+                warnings.extend(ai_data["suggested_resume_changes"])
 
     # 8. Default fallback suggestions
     improvement_suggestions = []
