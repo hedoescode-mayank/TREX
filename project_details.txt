@@ -1,0 +1,80 @@
+===========================================
+     PROJECT DEPENDENCY DESCRIPTIONS
+===========================================
+
+1. fastapi: A modern, fast (high-performance) web framework for building APIs with Python, based on standard Python type hints.
+2. uvicorn: A lightning-fast ASGI web server implementation for Python. Used to serve the FastAPI application.
+3. pydantic: A library for data validation and settings management using Python type annotations.
+4. pydantic-settings: An extension of Pydantic for robust settings and environment variable management.
+5. SQLAlchemy: A SQL toolkit and Object-Relational Mapping (ORM) library for interacting with SQL databases using Python objects.
+6. asyncpg: A fast, async database interface library designed specifically for PostgreSQL and Python/asyncio.
+7. databases: Gives async database support for Python (often used alongside SQLAlchemy Core for async queries).
+8. greenlet: Provides lightweight concurrent programming primitives (often needed under the hood by SQLAlchemy's async extensions).
+9. python-jose[cryptography]: A JavaScript Object Signing and Encryption implementation in Python, typically used for JWT (JSON Web Tokens) encoding/decoding during authentication.
+10. passlib[bcrypt]: A password hashing library for Python, used here with the `bcrypt` algorithm for securing user passwords.
+11. langgraph: A library for building stateful, multi-actor applications with Large Language Models (LLMs).
+12. langchain: A framework for developing applications powered by language models, providing tools to chain together prompts, models, and output parsers.
+13. openai (Base client for openrouter): The official Python client library for the OpenAI API. Since OpenRouter is OpenAI-API compatible, this client can be used to interact with OpenRouter.
+14. httpx: A fully-featured HTTP client for Python, providing both sync and async APIs (useful for testing the FastAPI server or making external API calls).
+15. pypdf: A free and open-source pure-python PDF library capable of extracting text, splitting, and merging PDF files (crucial for parsing uploaded resumes).
+16. langchain-groq: Groq integration for LangChain, allowing the project to use Groq's lightning-fast inference models within LangChain workflows.
+17. python-multipart: A streaming multipart parser for Python. This is required by FastAPI for handling form data and file uploads (e.g., uploading your resume PDF via a form).
+
+===========================================
+              PROJECT LAYOUT
+===========================================
+
+TREX-dev/
+    ├── .gitignore
+    ├── ISSUES.md
+    ├── README.md
+    ├── backend/
+    │   ├── .env.development
+    │   ├── .env.example
+    │   ├── requirements.txt
+    │   └── app/
+    │       ├── main.py
+    │       ├── api/
+    │       │   └── routes/
+    │       │       ├── city.py
+    │       │       ├── resume.py
+    │       │       └── __init__.py
+    │       ├── data/
+    │       │   └── cities.json
+    │       ├── schemas/
+    │       │   ├── analysis.py
+    │       │   └── city.py
+    │       └── services/
+    │           ├── city_data.py
+    │           └── scoring.py
+    └── frontend/
+        ├── .gitignore
+        ├── AGENTS.md
+        ├── CLAUDE.md
+        ├── eslint.config.mjs
+        ├── next-env.d.ts
+        ├── next.config.ts
+        ├── package.json
+        ├── postcss.config.mjs
+        ├── README.md
+        ├── tsconfig.json
+        └── src/
+            ├── app/
+            │   ├── favicon.ico
+            │   ├── globals.css
+            │   ├── layout.tsx
+            │   ├── page.tsx
+            │   ├── career/
+            │   │   └── page.tsx
+            │   ├── city/
+            │   │   └── page.tsx
+            │   └── resume/
+            │       └── page.tsx
+            ├── components/
+            │   └── ui/
+            │       ├── button.tsx
+            │       └── card.tsx
+            └── lib/
+                └── utils.ts
+                
+(Note: Generated build/cache directories like node_modules, venv, __pycache__, and .next have been excluded from this visualization for brevity).
