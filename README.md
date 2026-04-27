@@ -14,8 +14,8 @@ The name T.R.E.X stands for **Total Relocation & Employment eXpert**, symbolizin
 
 ## 02. Product Modules & Visuals
 
-### 🏙️ City Intelligence (Dynamic Analysis Engine)
-The City Analyzer is a high-performance dynamic engine that evaluates 50+ Indian tech hubs based on real-time cost vectors. It has been upgraded from static JSON lookups to a dynamic analysis framework that answers the "What is my take-home after expenses?" question with surgical precision.
+###  City Intelligence (Cost Analyzer)
+The City Analyzer is more than a simple calculator. It is a financial forecasting engine that evaluates 10+ Indian tech hubs based on real-world cost vectors. It answers the "What is my take-home after expenses?" question with surgical precision.
 
 ![City Cost Analyzer](./resourcess/citycostanalyzer.png)
 *Figure 1: Comparison of multiple cities based on salary, lifestyle, and sharing preferences.*
@@ -42,20 +42,6 @@ Moving beyond keyword stuffing, our Resume AI acts as a **Senior Technical Recru
 
 ![Resume AI Output](./resourcess/atsreusmeouput.png)
 *Figure 4: AI-generated senior-level report with multi-card structure and severity indicators.*
-
-### 🤖 TREX AI Chatbot (Guided Resume Builder)
-The Chatbot is our newest flagship feature, designed to eliminate the "blank page syndrome" and the frustration of manual resume forms.
-
-**The Workflow:**
-1. **Interactive Intake**: Instead of a long form, you chat with TREX. It asks about your name, experience, and projects step-by-step.
-2. **Raw to Polished**: You provide raw information (e.g., *"I did some Python work at a startup"*). TREX doesn't just copy it—it **analyzes, expands, and polishes** it into high-impact, ATS-optimized bullet points.
-3. **Live Building Canvas**: Once the chat is done, you are redirected to a professional canvas. You can watch as TREX builds your resume section-by-section in real-time.
-4. **Instant Refinement**: Don't like a section? Use the **"Edit with AI"** wand to refine it with a simple instruction like *"Make this more technical"* or *"Add more metrics"*.
-
-**Why it's a Game Changer:**
-- **Zero Friction**: Filling out 20+ fields in a traditional builder is hectic and exhausting. Chatting is natural and low-effort.
-- **Expert Phrasing**: Most candidates struggle to highlight their achievements. TREX uses a **Senior Engineering Manager persona** to ensure your bullets sound authoritative and results-oriented.
-- **Staged Pipeline**: Our AI pipeline handles the heavy lifting of keyword alignment, summary synthesis, and skill grouping automatically.
 
 ###  Career Matchmaker (Experimental)
 A developmental module focused on long-term career trajectories and internship alignment. This module is currently in active development.
@@ -163,7 +149,7 @@ The AI is instructed to behave as a **Senior Technical Recruiter and Engineering
 *   **`app/services/scoring.py`**: The math engine for relocation.
 *   **`app/services/llm_feedback.py`**: LangChain orchestration.
 *   **`app/services/provider_router.py`**: Switch between Groq/OpenAI.
-*   **`app/data/cities.json`**: Dynamic dataset of 54+ tech hubs with advanced scoring metrics.
+*   **`app/data/cities.json`**: Static database of 12+ tech hubs.
 
 ### **Frontend (`/frontend`)**
 *   **`src/app/resume/page.tsx`**: Dynamic resume analyzer UI.
@@ -278,14 +264,13 @@ A: Ensure Safari version is 15+ for full support of `backdrop-filter: blur`.
 
 ### **Current: Beta 0.1**
 - [x] Basic AI Logic.
-- [x] Dynamic City Analysis (54+ Cities).
+- [x] Static Cities.
 - [x] PDF Extraction.
 
 ### **Next: Milestone 0.2**
 - [ ] Integration with External Career APIs.
 - [ ] OCR for scanned resumes.
 - [x] Client-side Authentication & Login Flow (Beta).
-- [ ] **OTP-based Secure Authentication System** (Future Implementation).
 
 ---
 

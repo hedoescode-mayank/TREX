@@ -1,46 +1,43 @@
-import os
-import sys
-from dotenv import load_dotenv
+import sys, os, json, re
+sys.path.insert(0, '.')
+sys.stdout.reconfigure(encoding='utf-8')
 
-# Add backend to path
-sys.path.append(os.path.join(os.getcwd(), "backend"))
+# Use environment variable for testing
+GROQ_KEY = os.environ.get("GROQ_API_KEY", "")
 
-load_dotenv(".env.development")
+from langchain_groq import ChatGroq
+from langchain_core.messages import HumanMessage, SystemMessage
 
-from app.services.llm_feedback import generate_ai_feedback
+llm = ChatGroq(
+    api_key=GROQ_KEY,
+    model='llama-3.3-70b-versatile',
+    temperature=0.15,
+    max_tokens=200,
+    request_timeout=30
+)
 
-test_resume = """
-John Doe
-Software Engineer
-john@example.com
+resp = llm.invoke([
+    SystemMessage(content='You are a JSON API. Reply ONLY with a valid JSON object. No markdown fences. No explanation text.'),
+    HumanMessage(content='Return exactly this JSON object: {"status": "ok", "city": "Bangalore"}')
+])
+print('RAW LLM response repr:')
+print(repr(resp.content[:500]))
+print()
 
-EXPERIENCE:
-Full Stack Developer at TechCorp (2020-2023)
-- Built several websites.
-
-PROJECTS:
-1. E-commerce Website: Developed a web app for selling clothes using React and Node.js. It had a cart and login.
-2. Blockchain App: Created a decentralized app for voting on Ethereum. It was very secure.
-
-SKILLS: Python, JavaScript, SQL.
-"""
-
-test_jd = """
-Senior Full Stack Engineer
-We need someone with 5+ years of experience in React, Node.js, and Cloud infrastructure.
-Must have experience scaling projects to 10k+ users and implementing robust security.
-"""
-
-def test():
-    print("Testing LLM Project Granularity...")
-    feedback = generate_ai_feedback(test_resume, test_jd)
-    if feedback:
-        import json
-        print(json.dumps(feedback["project_review"], indent=2))
-        print("\nSuggested Resume Changes:")
-        print(json.dumps(feedback["suggested_resume_changes"], indent=2))
-    else:
-        print("Failed to get feedback.")
-
-if __name__ == "__main__":
-    test()
+# Extraction test
+raw = resp.content.strip()
+raw_clean = re.sub(r'^```(?:json)?\s*', '', raw)
+raw_clean = re.sub(r'\s*```$', '', raw_clean).strip()
+try:
+    parsed = json.loads(raw_clean)
+    print('Direct parse OK:', parsed)
+except Exception as e:
+    print('Direct parse failed:', e)
+    m = re.search(r'\{[\s\S]+\}', raw_clean, re.DOTALL)
+    if m:
+        try:
+            parsed = json.loads(m.group())
+            print('Regex extracted:', parsed)
+        except Exception as e2:
+            print('Regex parse also failed:', e2)
+            print('Raw was:', raw_clean[:200])

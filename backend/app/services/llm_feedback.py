@@ -60,13 +60,11 @@ def generate_ai_feedback(resume_text: str, jd_text: str) -> Optional[dict]:
         try:
             llm = ChatGroq(
                 api_key=api_key,
-                model="llama-3.1-8b-instant", # Switched from 70b to 8b for higher rate limits
-                temperature=0.1,
-                max_tokens=2500,
-                model_kwargs={"response_format": {"type": "json_object"}},
+                model="llama-3.3-70b-versatile",
+                temperature=0.3,
+                max_tokens=2500,         # Increased for detailed cards
+                request_timeout=25,      # Network timeout
             )
-            
-            raw = "" # Initialize to avoid UnboundLocalError in except block
 
             # Extract entities and role context if possible (logic moved here for LLM visibility)
             from app.services.resume_parser import extract_entities
@@ -108,8 +106,8 @@ You must return a VALID JSON object with this EXACT structure:
   "project_review": {
     "title": "Technical Project Deep-Dive",
     "severity": "moderate",
-    "details": "For EACH project: \n- [Project Name]: [Brief critique]. \n- LACKS: [Surgical list of missing metrics/scale]. \n- AMBIGUOUS: [What technical part is unclear?]. \nBe extremely specific for each project individually.",
-    "action_items": [{"label": "Quantify users/latency for Project X", "impact": "High"}]
+    "details": "Analyze the complexity, architecture, and impact of mentioned projects.",
+    "action_items": []
   },
   "roadmap": {
     "title": "Candidate Growth Roadmap",
@@ -151,53 +149,25 @@ TONE: Professional, Senior, Direct, No fluff.
             response = llm.invoke(messages)
             raw = response.content.strip()
 
-            # Clean JSON and handle control characters
-            raw = raw.strip()
-            # Remove markdown code blocks if present
+            # Clean JSON
             raw = re.sub(r"^```(?:json)?\s*", "", raw)
             raw = re.sub(r"\s*```$", "", raw)
-            
-            # Handle potential control characters that break json.loads
-            # This replaces common control chars (like literal newlines inside strings)
-            # though we want to keep \n if it's meant to be a newline char.
-            # Actually, standard json.loads handles \n. It's usually literal tabs or 
-            # unescaped control chars that cause issues.
-            
-            try:
-                # 1. Direct parse
-                data = json.loads(raw)
-            except json.JSONDecodeError:
-                # 2. Extract JSON block more carefully
-                print("[LLM] Initial JSON parse failed. Attempting extraction...")
-                match = re.search(r'(\{[\s\S]+\})', raw)
-                if match:
-                    extracted = match.group(1)
-                    # Clean control characters (except common whitespace)
-                    extracted = "".join(c for c in extracted if c >= ' ' or c in '\n\r\t')
-                    try:
-                        data = json.loads(extracted)
-                    except json.JSONDecodeError as e:
-                        print(f"[LLM] Extraction failed: {e}")
-                        print(f"[LLM] Extracted segment: {extracted[:200]}...")
-                        raise ValueError("Final attempt to parse LLM response as JSON failed.")
-                else:
-                    print(f"[LLM] No JSON-like structure found in response: {raw[:200]}...")
-                    raise ValueError("No JSON object found in LLM response.")
 
-            # 3. Post-process to ensure Pydantic compatibility
-            # Specifically, ensuring 'details' is always a string
-            for key in ["overall_match", "resume_weaknesses", "section_review", "role_alignment", "project_review", "roadmap", "application_strategy", "final_verdict"]:
-                if key in data and isinstance(data[key], dict):
-                    if "details" in data[key] and not isinstance(data[key]["details"], str):
-                        # Convert dict/list to formatted string
-                        data[key]["details"] = json.dumps(data[key]["details"], indent=2)
-            
-            data["provider"] = "groq"
-            result_container[0] = data
+            try:
+                data = json.loads(raw)
+                data["provider"] = "groq"
+                result_container[0] = data
+            except json.JSONDecodeError:
+                match = re.search(r'\{[\s\S]+\}', raw)
+                if match:
+                    data = json.loads(match.group())
+                    data["provider"] = "groq"
+                    result_container[0] = data
+                else:
+                    raise ValueError("Failed to parse LLM response as JSON")
         except Exception as e:
             error_container[0] = str(e)
             print(f"[LLM] Error: {e}")
-            print(f"[LLM] Raw response was: {raw}")
 
     # ── Acquire semaphore (max 1 concurrent LLM call) ──
     acquired = _LLM_SEMAPHORE.acquire(timeout=5)  # Wait max 5 s for slot

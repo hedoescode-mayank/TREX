@@ -283,7 +283,7 @@ def generate_compare_analysis(
         try:
             llm = ChatGroq(
                 api_key=api_key,
-                model="llama-3.1-8b-instant",
+                model="llama-3.3-70b-versatile",
                 temperature=0.1,
                 max_tokens=2000,
                 request_timeout=55,
@@ -371,6 +371,10 @@ def generate_compare_analysis(
 
         except Exception as e:
             error_container[0] = str(e)
+            try:
+                print(f"[Compare LLM Error]: {e}")
+            except Exception:
+                pass
 
     acquired = _LLM_SEMAPHORE.acquire(timeout=5)
     if not acquired:
