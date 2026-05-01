@@ -15,3 +15,4 @@ httpx
 pypdf
 langchain-groq
 python-multipart
+fpdf2
