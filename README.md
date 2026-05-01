@@ -260,7 +260,7 @@ A: Ensure Safari version is 15+ for full support of `backdrop-filter: blur`.
 
 ---
 
-## 13. Roadmap
+## 13. Roadmap & Future Features
 
 ### **Current: Beta 0.1**
 - [x] Basic AI Logic.
@@ -271,7 +271,16 @@ A: Ensure Safari version is 15+ for full support of `backdrop-filter: blur`.
 - [ ] Integration with External Career APIs.
 - [ ] OCR for scanned resumes.
 - [x] Client-side Authentication & Login Flow (Beta).
+- [x] **Firebase Integration**: Secure cloud storage for generated PDF resumes and deep analysis reports.
+- [x] **Report Archive**: Dedicated "My Resumes" dashboard to access past reports with a premium minimal modal.
+- [x] **UI/UX Refinements**: Premium dark mode layouts and improved component scaling.
 - [ ] **OTP-based Secure Authentication System** (Future Implementation).
+
+### **Future: T.R.E.X Bot & Generative Contextual AI**
+In upcoming versions, the platform will introduce the **T.R.E.X Bot**, an advanced conversational AI designed to provide personalized, long-term career coaching.
+- **Generative Responses:** Instead of providing static, one-size-fits-all plain text outputs, the bot will use generative AI to dynamically tailor its responses. It will adapt its tone, detail level, and advice based on the user's specific conversational inputs.
+- **Persistent Data Storage:** To create a cohesive coaching experience, user interaction data will be securely stored. This means the bot will "remember" past sessions, previous resume scores, and stated career goals, allowing it to provide cumulative, evolving advice rather than starting from scratch every time.
+- **Adaptive Input Handling:** The bot's interface will dynamically prompt for different types of inputs depending on how the user responds to previous questions, creating a fluid, intelligent dialogue that mimics a real human mentor.
 
 ---
 
