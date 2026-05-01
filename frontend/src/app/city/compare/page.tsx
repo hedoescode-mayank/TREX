@@ -537,10 +537,10 @@ function ComparePage() {
                           { city: city2, pros: aiAnalysis.benefits.city2_pros, cons: aiAnalysis.benefits.city2_cons, color: "slate" },
                         ].map(({ city, pros, cons, color }) => (
                           <div key={city}>
-                            <p className={`font-black text-xl text-${color}-950 mb-8 tracking-tighter flex items-center gap-3`}>
+                            <div className={`font-black text-xl text-${color}-950 mb-8 tracking-tighter flex items-center gap-3`}>
                                <div className={`w-2 h-2 rounded-full bg-${color}-500 shadow-[0_0_8px_rgba(0,0,0,0.1)]`}></div>
                                {city}
-                            </p>
+                            </div>
                             <div className="space-y-4 mb-8">
                               {pros?.map((p, i) => (
                                 <div key={i} className="flex items-start gap-4 p-4 rounded-2xl bg-emerald-50/50 border border-emerald-100/50 group hover:bg-emerald-50 transition-colors">
@@ -669,9 +669,9 @@ function ComparePage() {
                           { city: city2, highlights: aiAnalysis.lifestyle_comparison.city2_highlights, color: "slate", icon: <Zap className="w-5 h-5 text-slate-500" /> },
                         ].map(({ city, highlights, color, icon }) => (
                           <div key={city}>
-                            <p className={`font-black text-2xl text-${color}-950 mb-8 tracking-tighter flex items-center gap-4`}>
+                            <div className={`font-black text-2xl text-${color}-950 mb-8 tracking-tighter flex items-center gap-4`}>
                                {icon} {city}
-                            </p>
+                            </div>
                             <div className="flex flex-wrap gap-3">
                               {highlights?.map((h, i) => (
                                 <span key={i} className={`bg-${color}-50 text-${color}-950 border border-${color}-200/50 text-[11px] font-black px-4 py-2 rounded-2xl uppercase tracking-widest flex items-center gap-3 shadow-sm hover:scale-105 transition-transform duration-300`}>
