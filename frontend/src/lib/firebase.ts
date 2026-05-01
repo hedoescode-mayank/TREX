@@ -1,24 +1,26 @@
 import { initializeApp, getApps, getApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getAnalytics, isSupported } from "firebase/analytics";
+import { getFirestore } from "firebase/firestore";
+import { getDatabase } from "firebase/database";
+import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAEtT0dbjTKRayKTYpvOuV6hFhjEAjIo-M",
-  authDomain: "trex-ai-8eb81.firebaseapp.com",
-  projectId: "trex-ai-8eb81",
-  storageBucket: "trex-ai-8eb81.firebasestorage.app",
-  messagingSenderId: "922123469227",
-  appId: "1:922123469227:web:247f3c35cf0315dce892ee",
-  measurementId: "G-VH3TQTT2XS"
+  apiKey: "AIzaSyCRI0Oie0FMoh2cHBY3z42JW8LUmCqbuJM",
+  authDomain: "trex-ddaab.firebaseapp.com",
+  databaseURL: "https://trex-ddaab-default-rtdb.firebaseio.com",
+  projectId: "trex-ddaab",
+  storageBucket: "trex-ddaab.firebasestorage.app",
+  messagingSenderId: "250665471560",
+  appId: "1:250665471560:web:683b15cb1763371a24527d",
+  measurementId: "G-LF1PRNC8JF"
 };
 
-// Initialize Firebase
-const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
+const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 const auth = getAuth(app);
 
-// Analytics is only supported in browser
-let analytics;
-if (typeof window !== 'undefined') {
+let analytics: any = null;
+if (typeof window !== "undefined") {
   isSupported().then((supported) => {
     if (supported) {
       analytics = getAnalytics(app);
@@ -26,4 +28,8 @@ if (typeof window !== 'undefined') {
   });
 }
 
-export { app, auth, analytics };
+const db = getFirestore(app);
+const rtdb = getDatabase(app);
+const storage = getStorage(app);
+
+export { app, auth, analytics, db, rtdb, storage };

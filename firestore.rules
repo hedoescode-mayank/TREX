@@ -1,0 +1,31 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper to check if user is authenticated
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    // Helper to check if user owns the document
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    // Rules for user-specific data
+    match /users/{userId} {
+      allow read, write: if isOwner(userId);
+      
+      match /resumes/{resumeId} {
+        allow read, write: if isOwner(userId);
+      }
+    }
+
+    // Legacy or global collection rules (if any)
+    match /resumes/{resumeId} {
+      // Disallow direct access to top-level resumes collection for better security
+      // Users should only use the users/{userId}/resumes subcollection
+      allow read, write: if false;
+    }
+  }
+}
