@@ -63,7 +63,7 @@ def generate_ai_feedback(resume_text: str, jd_text: str) -> Optional[dict]:
                 model="llama-3.3-70b-versatile",
                 temperature=0.3,
                 max_tokens=2500,         # Increased for detailed cards
-                request_timeout=25,      # Network timeout
+                request_timeout=30,      # Network timeout
             )
             
             raw = "" # Initialize to avoid UnboundLocalError in except block
