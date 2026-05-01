@@ -2,14 +2,17 @@
 
 import ProtectedRoute from "@/components/ProtectedRoute";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, AlertCircle, TrendingUp, Info, MoreVertical, UploadCloud, FileText, UserCheck, Sparkles, Search, Layers, Zap } from "lucide-react";
+import { CheckCircle2, AlertCircle, TrendingUp, Info, MoreVertical, UploadCloud, FileText, UserCheck, Sparkles, Search, Layers, Zap, History, Clock, Download, X, ChevronRight, ShieldCheck } from "lucide-react";
 import TrexBotIcon from "@/components/TrexBotIcon";
 import ResumeChatbot from "@/components/ResumeChatbot";
 import ResumeCanvas from "@/app/resume/builder/ResumeCanvas";
+import { useAuth } from "@/components/AuthContext";
+import { db } from "@/lib/firebase";
+import { doc, setDoc, serverTimestamp, collection, onSnapshot } from "firebase/firestore";
 
 interface ActionItem {
   label: string;
@@ -128,6 +131,41 @@ export default function ResumeOptimizer() {
   const [isChatOpen, setIsChatOpen] = useState(false);
   const [isCanvasOpen, setIsCanvasOpen] = useState(false);
   const [currentSessionId, setCurrentSessionId] = useState<string | null>(null);
+  const { user } = useAuth();
+
+  // Sidebar Panel States
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [sidebarTab, setSidebarTab] = useState<'history' | 'my-resumes'>('history');
+  const [historyItems, setHistoryItems] = useState<any[]>([]);
+  const [myResumes, setMyResumes] = useState<any[]>([]);
+  const [sidebarLoading, setSidebarLoading] = useState(true);
+  const [selectedHistoryItem, setSelectedHistoryItem] = useState<any | null>(null);
+
+  // Fetch all resumes from Firestore and split into history vs my-resumes
+  useEffect(() => {
+    if (!user) return;
+    setSidebarLoading(true);
+
+    const q = collection(db, "users", user.uid, "resumes");
+    const unsubscribe = onSnapshot(q, (snapshot) => {
+      const all = snapshot.docs.map(d => ({ ...d.data(), id: d.id }));
+      // Sort by date descending
+      all.sort((a: any, b: any) => (b.createdAt?.seconds || 0) - (a.createdAt?.seconds || 0));
+      setHistoryItems(all.filter((r: any) => r.type !== 'builder'));
+      setMyResumes(all.filter((r: any) => r.type === 'builder'));
+      setSidebarLoading(false);
+    }, () => setSidebarLoading(false));
+
+    return () => unsubscribe();
+  }, [user]);
+  
+  // Auto-open bot if 'start=true' is in query params
+  useEffect(() => {
+    const searchParams = new URLSearchParams(window.location.search);
+    if (searchParams.get('start') === 'true') {
+      setIsChatOpen(true);
+    }
+  }, []);
 
   const startBuildingJourney = async (data: any) => {
     setIsChatOpen(false);
@@ -178,6 +216,23 @@ export default function ResumeOptimizer() {
       const data: AnalysisResult = await res.json();
       setAnalysis(data);
 
+      // Save to Firebase if authenticated
+      if (user) {
+        try {
+          const analysisId = crypto.randomUUID();
+          await setDoc(doc(db, "users", user.uid, "resumes", analysisId), {
+            fileName: resumeFile.name,
+            createdAt: serverTimestamp(),
+            jobDescription: jobDescription,
+            analysisResult: data,
+            overallScore: data.overall_score
+          });
+          console.log("Analysis saved to Firestore");
+        } catch (fbErr) {
+          console.error("Failed to save to Firestore:", fbErr);
+        }
+      }
+
     } catch (e) {
       const errorMsg = e instanceof Error ? e.message : "An error occurred";
       setError(errorMsg);
@@ -221,6 +276,8 @@ export default function ResumeOptimizer() {
         </Link>
         <div className="hidden md:flex items-center gap-10 text-[11px] font-bold text-gray-500 tracking-[0.2em] uppercase">
           <Link href="/" className="hover:text-white transition">HOME</Link>
+          <button onClick={() => { setIsSidebarOpen(true); setSidebarTab('my-resumes'); }} className="hover:text-white transition cursor-pointer bg-transparent border-none uppercase text-[11px] font-bold tracking-[0.2em] text-gray-500">MY RESUMES</button>
+          <button onClick={() => { setIsSidebarOpen(true); setSidebarTab('history'); }} className="hover:text-white transition cursor-pointer bg-transparent border-none uppercase text-[11px] font-bold tracking-[0.2em] text-gray-500">HISTORY</button>
           <span className="text-white border-b-2 border-orange-500 pb-0.5">RESUME AI</span>
         </div>
         <Link href="/">
@@ -642,12 +699,235 @@ export default function ResumeOptimizer() {
       </main>
 
       {/* Builder Journey Components */}
-      <TrexBotIcon onClick={() => setIsChatOpen(true)} isOpen={isChatOpen} />
+      {!isSidebarOpen && <TrexBotIcon onClick={() => setIsChatOpen(true)} isOpen={isChatOpen} />}
       <ResumeChatbot
         isOpen={isChatOpen}
         onClose={() => setIsChatOpen(false)}
         onSubmit={startBuildingJourney}
       />
+
+      {/* ═══════════ History & My Resumes Slide-Out Panel ═══════════ */}
+      {isSidebarOpen && (
+        <div className="fixed inset-0 z-[110] flex">
+          {/* Backdrop */}
+          <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" onClick={() => { setIsSidebarOpen(false); setSelectedHistoryItem(null); }} />
+
+          {/* Panel */}
+          <div className="absolute right-0 top-0 h-full w-full max-w-[520px] bg-[#0f0e13] border-l border-white/10 shadow-[-20px_0_80px_rgba(0,0,0,0.8)] flex flex-col animate-in slide-in-from-right duration-500">
+            {/* Panel Header */}
+            <div className="px-8 pt-8 pb-6 border-b border-white/5 space-y-6 bg-[#1a191f]/30">
+              <div className="flex items-center justify-between">
+                <h2 className="text-2xl font-black tracking-tighter text-white uppercase">Archive</h2>
+                <button onClick={() => { setIsSidebarOpen(false); setSelectedHistoryItem(null); }} className="p-2 hover:bg-white/5 rounded-xl transition-all">
+                  <X className="w-5 h-5 text-gray-500" />
+                </button>
+              </div>
+              {/* Tabs */}
+              <div className="flex gap-2">
+                <button
+                  onClick={() => { setSidebarTab('history'); setSelectedHistoryItem(null); }}
+                  className={`flex-1 flex items-center justify-center gap-2 py-3.5 rounded-2xl text-[10px] font-black uppercase tracking-[0.2em] transition-all duration-300 ${
+                    sidebarTab === 'history'
+                      ? 'bg-orange-600 text-white shadow-lg shadow-orange-500/20'
+                      : 'bg-white/5 text-gray-500 hover:bg-white/10 hover:text-gray-300'
+                  }`}
+                >
+                  <History className="w-3.5 h-3.5" /> Reviews
+                </button>
+                <button
+                  onClick={() => { setSidebarTab('my-resumes'); setSelectedHistoryItem(null); }}
+                  className={`flex-1 flex items-center justify-center gap-2 py-3.5 rounded-2xl text-[10px] font-black uppercase tracking-[0.2em] transition-all duration-300 ${
+                    sidebarTab === 'my-resumes'
+                      ? 'bg-orange-600 text-white shadow-lg shadow-orange-500/20'
+                      : 'bg-white/5 text-gray-500 hover:bg-white/10 hover:text-gray-300'
+                  }`}
+                >
+                  <FileText className="w-3.5 h-3.5" /> My Resumes
+                </button>
+              </div>
+            </div>
+
+            {/* Panel Body */}
+            <div className="flex-1 overflow-y-auto custom-scrollbar px-6 py-6 space-y-4">
+              {sidebarLoading ? (
+                <div className="flex flex-col items-center justify-center py-20 gap-4">
+                  <div className="w-8 h-8 border-4 border-white/10 border-t-orange-500 rounded-full animate-spin" />
+                  <p className="text-[10px] font-black text-gray-600 uppercase tracking-widest">Loading...</p>
+                </div>
+              ) : selectedHistoryItem ? (
+                /* ───── Expanded History Detail View ───── */
+                <div className="space-y-6 animate-in fade-in slide-in-from-right-5 duration-300">
+                  <button onClick={() => setSelectedHistoryItem(null)} className="flex items-center gap-2 text-[10px] font-black text-gray-500 hover:text-orange-500 uppercase tracking-[0.2em] transition-colors">
+                    <ChevronRight className="w-3 h-3 rotate-180" /> Back to list
+                  </button>
+
+                  {/* Score Ring */}
+                  <div className="bg-[#1a191f] rounded-[2rem] p-8 border border-white/5 flex flex-col items-center gap-4">
+                    <div className="relative w-32 h-32">
+                      <svg className="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="42" fill="none" stroke="rgba(255,255,255,0.05)" strokeWidth="8" />
+                        <circle cx="50" cy="50" r="42" fill="none"
+                          stroke={selectedHistoryItem.overallScore >= 80 ? '#22c55e' : selectedHistoryItem.overallScore >= 60 ? '#f97316' : '#ef4444'}
+                          strokeWidth="8" strokeDasharray={`${(selectedHistoryItem.overallScore / 100) * 264} 264`} strokeLinecap="round"
+                          className="drop-shadow-[0_0_10px_rgba(249,115,22,0.4)]" />
+                      </svg>
+                      <div className="absolute inset-0 flex items-center justify-center flex-col">
+                        <span className="text-3xl font-black text-white">{selectedHistoryItem.overallScore}%</span>
+                        <span className="text-[8px] font-black text-gray-500 uppercase tracking-widest mt-1">Score</span>
+                      </div>
+                    </div>
+                    <p className="text-sm font-bold text-white truncate max-w-full">{selectedHistoryItem.fileName}</p>
+                    <p className="text-[9px] text-gray-600 font-black uppercase tracking-[0.2em]">
+                      {selectedHistoryItem.createdAt ? new Date(selectedHistoryItem.createdAt.toDate()).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : 'Recent'}
+                    </p>
+                  </div>
+
+                  {/* Section Scores */}
+                  {selectedHistoryItem.analysisResult?.section_scores && (
+                    <div className="bg-[#1a191f] rounded-[2rem] p-6 border border-white/5 space-y-4">
+                      <p className="text-[9px] font-black text-gray-500 uppercase tracking-[0.3em]">Metric Breakdown</p>
+                      <div className="grid grid-cols-2 gap-3">
+                        {Object.entries(selectedHistoryItem.analysisResult.section_scores).map(([key, val]) => (
+                          <div key={key} className="bg-[#0f0e13] p-4 rounded-xl border border-white/5 text-center">
+                            <p className="text-xl font-black text-white">{val as number}</p>
+                            <p className="text-[8px] font-black text-gray-600 uppercase tracking-widest mt-1">{key.replace('_', ' ')}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Matched Keywords */}
+                  {selectedHistoryItem.analysisResult?.matched_keywords?.length > 0 && (
+                    <div className="bg-[#1a191f] rounded-[2rem] p-6 border border-white/5 space-y-3">
+                      <p className="text-[9px] font-black text-emerald-500 uppercase tracking-[0.3em]">✓ Matched Keywords</p>
+                      <div className="flex flex-wrap gap-1.5">
+                        {selectedHistoryItem.analysisResult.matched_keywords.slice(0, 12).map((kw: string) => (
+                          <span key={kw} className="px-3 py-1.5 bg-emerald-500/5 border border-emerald-500/10 text-emerald-500 text-[9px] font-black rounded-lg uppercase tracking-wider">{kw}</span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Missing Keywords */}
+                  {selectedHistoryItem.analysisResult?.missing_keywords?.length > 0 && (
+                    <div className="bg-[#1a191f] rounded-[2rem] p-6 border border-white/5 space-y-3">
+                      <p className="text-[9px] font-black text-red-500 uppercase tracking-[0.3em]">✗ Missing Keywords</p>
+                      <div className="flex flex-wrap gap-1.5">
+                        {selectedHistoryItem.analysisResult.missing_keywords.slice(0, 10).map((kw: string) => (
+                          <span key={kw} className="px-3 py-1.5 bg-red-500/5 border border-red-500/10 text-red-500 text-[9px] font-black rounded-lg uppercase tracking-wider">{kw}</span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* AI Suggestions */}
+                  {(selectedHistoryItem.analysisResult?.ai_feedback?.suggested_resume_changes || selectedHistoryItem.analysisResult?.improvement_suggestions)?.length > 0 && (
+                    <div className="bg-gradient-to-br from-orange-950/20 to-transparent rounded-[2rem] p-6 border border-orange-500/10 space-y-4">
+                      <p className="text-[9px] font-black text-orange-500 uppercase tracking-[0.3em]">⚡ Action Items</p>
+                      <ul className="space-y-3">
+                        {(selectedHistoryItem.analysisResult.ai_feedback?.suggested_resume_changes || selectedHistoryItem.analysisResult.improvement_suggestions).slice(0, 5).map((item: string, idx: number) => (
+                          <li key={idx} className="flex gap-3 text-xs text-gray-400 font-medium group">
+                            <span className="flex-shrink-0 w-6 h-6 bg-orange-500/10 border border-orange-500/20 rounded-lg flex items-center justify-center text-[9px] font-black text-orange-500">{idx + 1}</span>
+                            <span className="pt-0.5 leading-relaxed">{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              ) : sidebarTab === 'history' ? (
+                /* ───── History List (Reviews) ───── */
+                historyItems.length === 0 ? (
+                  <div className="flex flex-col items-center justify-center py-20 space-y-4 text-center">
+                    <div className="w-16 h-16 bg-white/5 rounded-[1.5rem] flex items-center justify-center">
+                      <ShieldCheck className="w-8 h-8 text-gray-700" />
+                    </div>
+                    <p className="text-gray-500 text-sm font-bold">No review history yet</p>
+                    <p className="text-gray-600 text-[10px] font-black uppercase tracking-widest">Analyze a resume above to create your first review</p>
+                  </div>
+                ) : (
+                  historyItems.map((item: any) => (
+                    <button
+                      key={item.id}
+                      onClick={() => setSelectedHistoryItem(item)}
+                      className="w-full text-left group bg-[#1a191f] hover:bg-[#1f1e25] border border-white/5 hover:border-orange-500/30 rounded-2xl p-5 transition-all duration-300 hover:shadow-xl hover:shadow-orange-500/5 hover:-translate-y-0.5 flex items-center gap-5"
+                    >
+                      {/* Score Badge */}
+                      <div className={`flex-shrink-0 w-14 h-14 rounded-2xl flex items-center justify-center text-xl font-black text-white border ${
+                        item.overallScore >= 80 ? 'bg-emerald-500/10 border-emerald-500/20' :
+                        item.overallScore >= 60 ? 'bg-orange-500/10 border-orange-500/20' :
+                        'bg-red-500/10 border-red-500/20'
+                      }`}>
+                        {item.overallScore || '–'}
+                      </div>
+                      {/* Info */}
+                      <div className="flex-1 min-w-0 space-y-1.5">
+                        <p className="text-sm font-bold text-white truncate group-hover:text-orange-500 transition-colors">{item.fileName || 'Untitled'}</p>
+                        <div className="flex items-center gap-2 text-[9px] text-gray-600 font-black uppercase tracking-[0.15em]">
+                          <Clock className="w-3 h-3 text-orange-500/40" />
+                          {item.createdAt ? new Date(item.createdAt.toDate()).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : 'Recent'}
+                        </div>
+                      </div>
+                      <ChevronRight className="w-4 h-4 text-gray-600 group-hover:text-orange-500 transition-colors" />
+                    </button>
+                  ))
+                )
+              ) : (
+                /* ───── My Resumes List (AI-Built) ───── */
+                myResumes.length === 0 ? (
+                  <div className="flex flex-col items-center justify-center py-20 space-y-4 text-center">
+                    <div className="w-16 h-16 bg-white/5 rounded-[1.5rem] flex items-center justify-center">
+                      <FileText className="w-8 h-8 text-gray-700" />
+                    </div>
+                    <p className="text-gray-500 text-sm font-bold">No AI-built resumes yet</p>
+                    <p className="text-gray-600 text-[10px] font-black uppercase tracking-widest">Use the TREX chatbot to build your first resume</p>
+                    <button onClick={() => { setIsSidebarOpen(false); setIsChatOpen(true); }} className="mt-2 px-6 py-3 bg-orange-600 text-white text-[10px] font-black uppercase tracking-widest rounded-xl hover:bg-orange-500 transition-colors shadow-lg shadow-orange-500/20">
+                      Start Building
+                    </button>
+                  </div>
+                ) : (
+                  myResumes.map((item: any) => (
+                    <div key={item.id} className="group bg-[#1a191f] border border-white/5 hover:border-emerald-500/30 rounded-2xl p-5 transition-all duration-300 hover:shadow-xl hover:shadow-emerald-500/5">
+                      <div className="flex items-center gap-5">
+                        <div className="flex-shrink-0 w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center group-hover:bg-emerald-500 transition-colors">
+                          <FileText className="w-6 h-6 text-emerald-500 group-hover:text-white transition-colors" />
+                        </div>
+                        <div className="flex-1 min-w-0 space-y-1.5">
+                          <p className="text-sm font-bold text-white truncate">{item.fileName || 'Untitled Resume'}</p>
+                          <div className="flex items-center gap-2 text-[9px] text-gray-600 font-black uppercase tracking-[0.15em]">
+                            <Clock className="w-3 h-3 text-emerald-500/40" />
+                            {item.createdAt ? new Date(item.createdAt.toDate()).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : 'Recent'}
+                          </div>
+                        </div>
+                      </div>
+                      <div className="mt-4 flex gap-2">
+                        <a
+                          href={item.pdfData || item.url}
+                          download={item.fileName || 'resume.pdf'}
+                          className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-white text-[10px] font-black uppercase tracking-[0.2em] transition-colors shadow-lg shadow-emerald-500/20"
+                        >
+                          <Download className="w-3.5 h-3.5" /> Download PDF
+                        </a>
+                      </div>
+                    </div>
+                  ))
+                )
+              )}
+            </div>
+
+            {/* Panel Footer */}
+            <div className="px-8 py-5 border-t border-white/5 bg-[#1a191f]/30 flex items-center justify-between">
+              <p className="text-[9px] font-black text-gray-600 uppercase tracking-[0.2em]">
+                {sidebarTab === 'history' ? `${historyItems.length} Reviews` : `${myResumes.length} Resumes`}
+              </p>
+              <Link href="/my-resumes" onClick={() => setIsSidebarOpen(false)}>
+                <span className="text-[10px] font-black text-orange-500 hover:text-orange-400 uppercase tracking-[0.2em] transition-colors cursor-pointer">Full Dashboard →</span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
     )}
     </ProtectedRoute>

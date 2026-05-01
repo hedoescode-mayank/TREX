@@ -26,12 +26,16 @@ const ResumeCanvas: React.FC<ResumeCanvasProps> = ({ sessionId, onBack }) => {
   const [aiInstruction, setAiInstruction] = useState("");
   const [isRefining, setIsRefining] = useState(false);
 
+  // Keep a ref to resume data so the SSE callback always sees current state
+  const resumeRef = useRef(resume);
+  useEffect(() => { resumeRef.current = resume; }, [resume]);
+
   useEffect(() => {
     if (!sessionId) return;
 
     const eventSource = new EventSource(`http://localhost:8000/api/builder/stream/${sessionId}`);
 
-    eventSource.onmessage = (event) => {
+    eventSource.onmessage = async (event) => {
       const payload = JSON.parse(event.data);
       if (payload.section === 'heading') {
         setResume((prev: any) => ({ ...prev, personal_info: payload.data }));
@@ -51,17 +55,89 @@ const ResumeCanvas: React.FC<ResumeCanvasProps> = ({ sessionId, onBack }) => {
       } else if (payload.section === 'skills') {
         setResume((prev: any) => ({ ...prev, skills: payload.data }));
         setProgress(95);
+      } else if (payload.section === 'pdf_url') {
+        const backendUrl = payload.data;
+        setStatus("uploading");
+        setProgress(98);
+        
+        // Upload to Firebase if user is logged in
+        if (typeof window !== 'undefined') {
+            try {
+                const { auth, db } = await import('@/lib/firebase');
+                const { addDoc, collection, serverTimestamp } = await import('firebase/firestore');
+                
+                if (!auth.currentUser) {
+                    alert("⚠️ Not Logged In: Please login to save this to your history.");
+                    return;
+                }
+
+                const uid = auth.currentUser.uid;
+                const currentResume = resumeRef.current;
+                const resumeName = currentResume.personal_info?.name || "AI";
+
+                if (backendUrl && backendUrl.length > 0) {
+                    // Backend generated a PDF — fetch it and save as Base64
+                    console.log("[CANVAS] Fetching PDF from:", backendUrl);
+                    const response = await fetch(backendUrl);
+                    
+                    if (!response.ok) {
+                        throw new Error(`PDF fetch failed: ${response.status}`);
+                    }
+                    
+                    const blob = await response.blob();
+                    
+                    // Convert Blob to Base64
+                    const base64data = await new Promise<string>((resolve, reject) => {
+                        const reader = new FileReader();
+                        reader.readAsDataURL(blob);
+                        reader.onloadend = () => resolve(reader.result as string);
+                        reader.onerror = () => reject(new Error("FileReader failed"));
+                    });
+                    
+                    const resumesCollection = collection(db, "users", uid, "resumes");
+                    await addDoc(resumesCollection, {
+                        userId: uid,
+                        sessionId: sessionId,
+                        pdfData: base64data,
+                        fileName: `${resumeName}_Resume.pdf`,
+                        type: 'builder',
+                        createdAt: serverTimestamp()
+                    });
+                    console.log("[CANVAS] Resume PDF saved to Firestore!");
+                    alert("✅ Resume saved to Cloud History!");
+                } else {
+                    // PDF generation failed on backend — save resume data as JSON fallback
+                    console.warn("[CANVAS] No PDF URL received, saving resume data directly...");
+                    const resumesCollection = collection(db, "users", uid, "resumes");
+                    await addDoc(resumesCollection, {
+                        userId: uid,
+                        sessionId: sessionId,
+                        resumeData: JSON.stringify(currentResume),
+                        fileName: `${resumeName}_Resume.pdf`,
+                        type: 'builder',
+                        createdAt: serverTimestamp()
+                    });
+                    console.log("[CANVAS] Resume data saved to Firestore (no PDF)!");
+                    alert("✅ Resume saved! (PDF generation had an issue, but your data is safe in the cloud)");
+                }
+            } catch (err: any) {
+                console.error("[CANVAS] Firebase save failed:", err);
+                alert(`❌ Cloud Sync Failed: ${err.message}`);
+            }
+        }
       } else if (payload.section === 'status' && payload.data === 'complete') {
         setStatus("complete");
         setProgress(100);
         eventSource.close();
       } else if (payload.error) {
+        console.error("[CANVAS] Stream error:", payload.error);
         setStatus("error");
         eventSource.close();
       }
     };
 
     eventSource.onerror = (err) => {
+      console.error("[CANVAS] EventSource error:", err);
       eventSource.close();
     };
 
@@ -74,7 +150,7 @@ const ResumeCanvas: React.FC<ResumeCanvasProps> = ({ sessionId, onBack }) => {
     window.print();
   };
 
-  const handleAIEdit = async (sectionType: string, content: Any) => {
+  const handleAIEdit = async (sectionType: string, content: any) => {
     if (!aiInstruction.trim()) return;
     setIsRefining(true);
     try {
@@ -161,7 +237,8 @@ const ResumeCanvas: React.FC<ResumeCanvasProps> = ({ sessionId, onBack }) => {
             <div className="flex items-center gap-2">
               <div className={`w-2 h-2 rounded-full ${status === 'complete' ? 'bg-green-500' : 'bg-orange-500 animate-pulse'}`}></div>
               <span className="text-[10px] font-black uppercase tracking-widest text-gray-500">
-                {status === 'complete' ? 'Ready for export' : 'AI Polishing in progress...'}
+                {status === 'complete' ? 'Ready for export' : 
+                 status === 'uploading' ? 'Syncing with Cloud...' : 'AI Polishing in progress...'}
               </span>
             </div>
           </div>
@@ -205,6 +282,7 @@ const ResumeCanvas: React.FC<ResumeCanvasProps> = ({ sessionId, onBack }) => {
                         { label: "Academic Audit", active: progress >= 45 },
                         { label: "Career Extraction", active: progress >= 70 },
                         { label: "Technical Indexing", active: progress >= 95 },
+                        { label: "Cloud Synchronization", active: progress >= 98 },
                     ].map((step, idx) => (
                         <div key={idx} className="flex items-center gap-3">
                            <div className={`w-1.5 h-1.5 rounded-full ${step.active ? 'bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.6)]' : 'bg-gray-800'}`}></div>
@@ -226,16 +304,16 @@ const ResumeCanvas: React.FC<ResumeCanvasProps> = ({ sessionId, onBack }) => {
               {/* Header */}
               <div className="border-b-2 border-gray-900 pb-8 mb-8 text-center relative group">
                  <h1 
-                   contentEditable={isEditing}
+                   contentEditable={isEditing} suppressContentEditableWarning={true}
                    onBlur={(e) => setResume((p: any) => ({ ...p, personal_info: { ...p.personal_info, name: e.currentTarget.textContent }}))}
                    className="text-4xl font-bold mb-2 uppercase tracking-tight outline-none"
                  >
                    {resume.personal_info.name || "YOUR NAME"}
                  </h1>
                  <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-gray-600">
-                    <span contentEditable={isEditing} className="outline-none">{resume.personal_info.email}</span>
-                    <span contentEditable={isEditing} className="outline-none">{resume.personal_info.phone}</span>
-                    <span contentEditable={isEditing} className="outline-none">{resume.personal_info.location}</span>
+                    <span contentEditable={isEditing} suppressContentEditableWarning={true} className="outline-none">{resume.personal_info.email}</span>
+                    <span contentEditable={isEditing} suppressContentEditableWarning={true} className="outline-none">{resume.personal_info.phone}</span>
+                    <span contentEditable={isEditing} suppressContentEditableWarning={true} className="outline-none">{resume.personal_info.location}</span>
                  </div>
               </div>
 
@@ -244,7 +322,7 @@ const ResumeCanvas: React.FC<ResumeCanvasProps> = ({ sessionId, onBack }) => {
                 <section className="mb-8 relative">
                    <h2 className="text-lg font-bold border-b border-gray-300 mb-3 uppercase tracking-wider">Professional Summary</h2>
                    <p 
-                     contentEditable={isEditing}
+                     contentEditable={isEditing} suppressContentEditableWarning={true}
                      onBlur={(e) => setResume((p: any) => ({ ...p, summary: e.currentTarget.textContent }))}
                      className="text-sm leading-relaxed text-gray-800 outline-none"
                    >
@@ -262,16 +340,16 @@ const ResumeCanvas: React.FC<ResumeCanvasProps> = ({ sessionId, onBack }) => {
                       {resume.experience.map((exp: any, idx: number) => (
                         <div key={idx} className="relative">
                            <div className="flex justify-between items-baseline mb-1">
-                              <h3 contentEditable={isEditing} className="font-bold text-base outline-none">{exp.role}</h3>
-                              <span contentEditable={isEditing} className="text-xs font-bold text-gray-500 uppercase outline-none">{exp.start_date} - {exp.end_date || "Present"}</span>
+                              <h3 contentEditable={isEditing} suppressContentEditableWarning={true} className="font-bold text-base outline-none">{exp.role}</h3>
+                              <span contentEditable={isEditing} suppressContentEditableWarning={true} className="text-xs font-bold text-gray-500 uppercase outline-none">{exp.start_date} - {exp.end_date || "Present"}</span>
                            </div>
                            <div className="flex justify-between items-baseline mb-2">
-                              <span contentEditable={isEditing} className="font-bold text-sm text-gray-700 italic outline-none">{exp.company}</span>
-                              <span contentEditable={isEditing} className="text-xs font-medium text-gray-500 outline-none">{exp.location}</span>
+                              <span contentEditable={isEditing} suppressContentEditableWarning={true} className="font-bold text-sm text-gray-700 italic outline-none">{exp.company}</span>
+                              <span contentEditable={isEditing} suppressContentEditableWarning={true} className="text-xs font-medium text-gray-500 outline-none">{exp.location}</span>
                            </div>
                            <ul className="list-disc ml-4 space-y-1">
                               {exp.bullets.map((bullet: string, bidx: number) => (
-                                <li key={bidx} contentEditable={isEditing} className="text-sm text-gray-800 outline-none">{bullet}</li>
+                                <li key={bidx} contentEditable={isEditing} suppressContentEditableWarning={true} className="text-sm text-gray-800 outline-none">{bullet}</li>
                               ))}
                            </ul>
                         </div>
@@ -289,10 +367,10 @@ const ResumeCanvas: React.FC<ResumeCanvasProps> = ({ sessionId, onBack }) => {
                       {resume.projects.map((proj: any, idx: number) => (
                         <div key={idx} className="relative">
                            <div className="flex justify-between items-baseline mb-1">
-                              <h3 contentEditable={isEditing} className="font-bold text-sm outline-none">{proj.name}</h3>
-                              {proj.tech_stack && <span contentEditable={isEditing} className="text-[10px] font-bold text-gray-500 uppercase outline-none">{proj.tech_stack.join(' | ')}</span>}
+                              <h3 contentEditable={isEditing} suppressContentEditableWarning={true} className="font-bold text-sm outline-none">{proj.name}</h3>
+                              {proj.tech_stack && <span contentEditable={isEditing} suppressContentEditableWarning={true} className="text-[10px] font-bold text-gray-500 uppercase outline-none">{proj.tech_stack.join(' | ')}</span>}
                            </div>
-                           <p contentEditable={isEditing} className="text-sm text-gray-800 outline-none">{proj.description}</p>
+                           <p contentEditable={isEditing} suppressContentEditableWarning={true} className="text-sm text-gray-800 outline-none">{proj.description}</p>
                         </div>
                       ))}
                    </div>
@@ -307,8 +385,8 @@ const ResumeCanvas: React.FC<ResumeCanvasProps> = ({ sessionId, onBack }) => {
                    <div className="space-y-2">
                       {Object.entries(resume.skills).map(([category, items]: [string, any], idx) => (
                         <div key={idx} className="text-sm">
-                           <span contentEditable={isEditing} className="font-bold outline-none">{category}: </span>
-                           <span contentEditable={isEditing} className="outline-none">{items.join(', ')}</span>
+                           <span contentEditable={isEditing} suppressContentEditableWarning={true} className="font-bold outline-none">{category}: </span>
+                           <span contentEditable={isEditing} suppressContentEditableWarning={true} className="outline-none">{items.join(', ')}</span>
                         </div>
                       ))}
                    </div>
