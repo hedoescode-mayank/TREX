@@ -10,10 +10,12 @@ import {
   signInWithEmailAndPassword,
   updateProfile
 } from "firebase/auth";
-import { auth } from "@/lib/firebase";
+import { auth, db } from "@/lib/firebase";
+import { doc, getDoc } from "firebase/firestore";
 
 interface AuthContextType {
   user: User | null;
+  role: string | null;
   loading: boolean;
   loginWithGoogle: () => Promise<void>;
   signupWithEmail: (email: string, pass: string, name: string) => Promise<void>;
@@ -25,11 +27,28 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
+  const [role, setRole] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (user) => {
+    const unsubscribe = onAuthStateChanged(auth, async (user) => {
       setUser(user);
+      if (user) {
+        // Fetch role from Firestore
+        try {
+          const userDoc = await getDoc(doc(db, "users", user.uid));
+          if (userDoc.exists()) {
+            setRole(userDoc.data().role || "user");
+          } else {
+            setRole("user");
+          }
+        } catch (error) {
+          console.error("Error fetching user role:", error);
+          setRole("user");
+        }
+      } else {
+        setRole(null);
+      }
       setLoading(false);
     });
 
@@ -73,7 +92,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   };
 
   return (
-    <AuthContext.Provider value={{ user, loading, loginWithGoogle, signupWithEmail, loginWithEmail, logout }}>
+    <AuthContext.Provider value={{ user, role, loading, loginWithGoogle, signupWithEmail, loginWithEmail, logout }}>
       {children}
     </AuthContext.Provider>
   );
