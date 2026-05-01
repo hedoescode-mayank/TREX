@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import HexGridBackground from "@/components/HexGridBackground";
 import CursorRipple from "@/components/CursorRipple";
 import AmbientEffects from "@/components/AmbientEffects";
-import FloatingAnalytics from "@/components/FloatingAnalytics";
 import { useAuth } from "@/components/AuthContext";
 import AuthModal from "@/components/AuthModal";
 
@@ -32,7 +31,6 @@ export default function Home() {
       <HexGridBackground />
       <AmbientEffects />
       <CursorRipple />
-      <FloatingAnalytics />
       <AuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} />
 
       {/* Navigation Bar */}
@@ -43,6 +41,7 @@ export default function Home() {
         <div className="hidden md:flex items-center gap-12 text-[12px] font-bold text-gray-800 drop-shadow-sm tracking-[0.2em]">
           <a href="#why" className="hover:text-blue-600 transition-colors duration-300">WHY WE EXIST</a>
           <a href="#goal" className="hover:text-blue-600 transition-colors duration-300">GOAL</a>
+          {user && <Link href="/resume/my" className="hover:text-blue-600 transition-colors duration-300">MY RESUMES</Link>}
         </div>
         <div className="flex gap-4 items-center">
           {user ? (

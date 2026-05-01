@@ -283,7 +283,7 @@ def generate_compare_analysis(
         try:
             llm = ChatGroq(
                 api_key=api_key,
-                model="llama-3.1-8b-instant",
+                model="llama-3.3-70b-versatile",
                 temperature=0.1,
                 max_tokens=2000,
                 request_timeout=55,
