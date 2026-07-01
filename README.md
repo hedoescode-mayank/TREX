@@ -43,11 +43,11 @@ Moving beyond keyword stuffing, our Resume AI acts as a **Senior Technical Recru
 ![Resume AI Output](./resourcess/atsreusmeouput.png)
 *Figure 4: AI-generated senior-level report with multi-card structure and severity indicators.*
 
-###  Career Matchmaker (Experimental)
-A developmental module focused on long-term career trajectories and internship alignment. This module is currently in active development.
+### 🎯 Career Matchmaker (Fully Functional)
+A robust module focused on long-term career trajectories and internship alignment. It actively analyzes your profile to suggest high-impact career pivots and perfectly matching roles.
 
 ![Career Roadmap](./resourcess/careermatchmakerbuildphase.png)
-*Figure 5: Early prototype of the Career Roadmap generator showing future path possibilities.*
+*Figure 5: The Career Roadmap generator showing precise future path possibilities.*
 
 ---
 
@@ -122,7 +122,7 @@ final_score = capped_savings_score + comfort_weighted - stress_penalty
 
 ## 06. AI Integration & Prompt Engineering (The "Fine-Tuning")
 
-We utilize the **LangChain-Groq** framework for high-speed inference. Using the `llama-3.3-70b-versatile` model, we have "fine-tuned" the behavior through complex System Prompting and expanded context windows.
+We utilize the **LangChain** framework for high-speed inference, supporting multiple top-tier providers like **Groq** and **DeepSeek**. Using models like `llama-3.3-70b-versatile` and DeepSeek's advanced reasoning models, we have "fine-tuned" the behavior through complex System Prompting and expanded context windows.
 
 ### **The Senior Reviewer Persona**
 The AI is instructed to behave as a **Senior Technical Recruiter and Engineering Manager**.
@@ -203,14 +203,14 @@ The AI is instructed to behave as a **Senior Technical Recruiter and Engineering
 
 ## 09. Advanced Deployment & DevOps
 
+### **Cloud Deployment (Vercel Monorepo - Recommended)**
+T.R.E.X is optimized for a unified Vercel deployment where both the Next.js frontend and FastAPI backend are hosted together. 
+- A root `vercel.json` coordinates the dual-build process (`@vercel/next` and `@vercel/python`).
+- The frontend seamlessly communicates with the backend via the unified `/api` route.
+- This provides "Scale to Zero" capabilities and eliminates cross-origin complexities.
+
 ### **Docker Environment**
 T.R.E.X is container-ready. Use the following command to build the backend:
-```bash
-docker build -t trex-backend ./backend
-```
-
-### **Cloud Deployment (GCP Cloud Run)**
-We recommend Google Cloud Run for hosting the FastAPI backend due to its "Scale to Zero" capabilities, which saves costs when the platform is not in use.
 
 ### **Continuous Integration**
 Our `.github/workflows` (if configured) ensure that:
@@ -267,14 +267,13 @@ A: Ensure Safari version is 15+ for full support of `backdrop-filter: blur`.
 - [x] Dynamic City Analysis (54+ Cities).
 - [x] PDF Extraction.
 
-### **Next: Milestone 0.2**
-- [ ] Integration with External Career APIs.
-- [ ] OCR for scanned resumes.
-- [x] Client-side Authentication & Login Flow (Beta).
+### **Current: Release 1.0**
+- [x] Integration with External Career APIs.
+- [x] Client-side Authentication & Login Flow (Production).
 - [x] **Firebase Integration**: Secure cloud storage for generated PDF resumes and deep analysis reports.
 - [x] **Report Archive**: Dedicated "My Resumes" dashboard to access past reports with a premium minimal modal.
 - [x] **UI/UX Refinements**: Premium dark mode layouts and improved component scaling.
-- [ ] **OTP-based Secure Authentication System** (Future Implementation).
+- [x] **OTP-based Secure Authentication System** implemented via Firebase.
 
 ### **Future: T.R.E.X Bot & Generative Contextual AI**
 In upcoming versions, the platform will introduce the **T.R.E.X Bot**, an advanced conversational AI designed to provide personalized, long-term career coaching.
