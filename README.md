@@ -375,4 +375,4 @@ As T.R.E.X matures, we will implement the following versioning strategy:
 ### **Appendix J: Technical Credits**
 - **Icons**: Lucide-React.
 - **Fonts**: Google Fonts (Outfit, Inter).
-- **Inspiration**: The evolving needs of the modern Indian tech workforce.
+- **Inspiration**: The evolving needs of the modern Indian tech workforce. 
