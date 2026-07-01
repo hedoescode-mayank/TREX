@@ -122,7 +122,7 @@ final_score = capped_savings_score + comfort_weighted - stress_penalty
 
 ## 06. AI Integration & Prompt Engineering (The "Fine-Tuning")
 
-We utilize the **LangChain-Groq** framework for high-speed inference. Using the `llama-3.3-70b-versatile` model, we have "fine-tuned" the behavior through complex System Prompting and expanded context windows.
+We utilize the **LangChain** framework for high-speed inference, supporting multiple top-tier providers like **Groq** and **DeepSeek**. Using models like `llama-3.3-70b-versatile` and DeepSeek's advanced reasoning models, we have "fine-tuned" the behavior through complex System Prompting and expanded context windows.
 
 ### **The Senior Reviewer Persona**
 The AI is instructed to behave as a **Senior Technical Recruiter and Engineering Manager**.
