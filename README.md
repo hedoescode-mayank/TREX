@@ -203,14 +203,14 @@ The AI is instructed to behave as a **Senior Technical Recruiter and Engineering
 
 ## 09. Advanced Deployment & DevOps
 
+### **Cloud Deployment (Vercel Monorepo - Recommended)**
+T.R.E.X is optimized for a unified Vercel deployment where both the Next.js frontend and FastAPI backend are hosted together. 
+- A root `vercel.json` coordinates the dual-build process (`@vercel/next` and `@vercel/python`).
+- The frontend seamlessly communicates with the backend via the unified `/api` route.
+- This provides "Scale to Zero" capabilities and eliminates cross-origin complexities.
+
 ### **Docker Environment**
 T.R.E.X is container-ready. Use the following command to build the backend:
-```bash
-docker build -t trex-backend ./backend
-```
-
-### **Cloud Deployment (GCP Cloud Run)**
-We recommend Google Cloud Run for hosting the FastAPI backend due to its "Scale to Zero" capabilities, which saves costs when the platform is not in use.
 
 ### **Continuous Integration**
 Our `.github/workflows` (if configured) ensure that:
