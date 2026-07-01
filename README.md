@@ -267,14 +267,13 @@ A: Ensure Safari version is 15+ for full support of `backdrop-filter: blur`.
 - [x] Dynamic City Analysis (54+ Cities).
 - [x] PDF Extraction.
 
-### **Next: Milestone 0.2**
-- [ ] Integration with External Career APIs.
-- [ ] OCR for scanned resumes.
-- [x] Client-side Authentication & Login Flow (Beta).
+### **Current: Release 1.0**
+- [x] Integration with External Career APIs.
+- [x] Client-side Authentication & Login Flow (Production).
 - [x] **Firebase Integration**: Secure cloud storage for generated PDF resumes and deep analysis reports.
 - [x] **Report Archive**: Dedicated "My Resumes" dashboard to access past reports with a premium minimal modal.
 - [x] **UI/UX Refinements**: Premium dark mode layouts and improved component scaling.
-- [ ] **OTP-based Secure Authentication System** (Future Implementation).
+- [x] **OTP-based Secure Authentication System** implemented via Firebase.
 
 ### **Future: T.R.E.X Bot & Generative Contextual AI**
 In upcoming versions, the platform will introduce the **T.R.E.X Bot**, an advanced conversational AI designed to provide personalized, long-term career coaching.
