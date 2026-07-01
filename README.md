@@ -43,11 +43,11 @@ Moving beyond keyword stuffing, our Resume AI acts as a **Senior Technical Recru
 ![Resume AI Output](./resourcess/atsreusmeouput.png)
 *Figure 4: AI-generated senior-level report with multi-card structure and severity indicators.*
 
-###  Career Matchmaker (Experimental)
-A developmental module focused on long-term career trajectories and internship alignment. This module is currently in active development.
+### 🎯 Career Matchmaker (Fully Functional)
+A robust module focused on long-term career trajectories and internship alignment. It actively analyzes your profile to suggest high-impact career pivots and perfectly matching roles.
 
 ![Career Roadmap](./resourcess/careermatchmakerbuildphase.png)
-*Figure 5: Early prototype of the Career Roadmap generator showing future path possibilities.*
+*Figure 5: The Career Roadmap generator showing precise future path possibilities.*
 
 ---
 
